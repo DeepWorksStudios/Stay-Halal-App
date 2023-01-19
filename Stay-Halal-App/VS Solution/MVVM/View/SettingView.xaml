@@ -22,21 +22,19 @@
 
                 <VerticalStackLayout Spacing="15">
 
-
                     <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
 
                         <Label
                             Style="{StaticResource labelTitle_Info}"
-                            Text="Design"
+                            Text="{Binding Theme_Text}"
                             TextColor="{Binding Theme.MainTextColor}" />
 
-                        <Image Source="document.svg" Style="{StaticResource Image_Info}" />
+                        <Image Source="{Binding Theme_Icon}" Style="{StaticResource Image_Info}" />
 
                     </HorizontalStackLayout>
 
 
-
-                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Setting}">
+                    <Frame Style="{StaticResource frame_Setting}">
 
 
 
@@ -44,45 +42,54 @@
 
                             <VerticalStackLayout>
 
-                                <ImageButton Source="document.svg" Style="{StaticResource themeImage_Setting}" />
+                                <ImageButton
+                                    Command="{Binding DefaultThemeCommand}"
+                                    Source="{Binding DefaultTheme_Image}"
+                                    Style="{StaticResource themeImage_Setting}" />
 
-                                <Label Style="{StaticResource small_label_Setting}" Text="Standard" />
+                                <Label Style="{StaticResource small_label_Setting}" Text="{Binding DefaultTheme_Text}" />
 
                                 <BoxView
                                     Grid.Row="1"
                                     Grid.ColumnSpan="1"
                                     Style="{StaticResource underline_Setting}"
-                                    Color="Gray" />
+                                    Color="{Binding DefaultTheme_Color}" />
 
 
                             </VerticalStackLayout>
 
                             <VerticalStackLayout>
 
-                                <ImageButton Source="document.svg" Style="{StaticResource themeImage_Setting}" />
+                                <ImageButton
+                                    Command="{Binding LightThemeCommand}"
+                                    Source="{Binding LightTheme_Image}"
+                                    Style="{StaticResource themeImage_Setting}" />
 
-                                <Label Style="{StaticResource small_label_Setting}" Text="Hell" />
+                                <Label Style="{StaticResource small_label_Setting}" Text="{Binding LightTheme_Text}" />
 
                                 <BoxView
                                     Grid.Row="1"
                                     Grid.ColumnSpan="1"
                                     Style="{StaticResource underline_Setting}"
-                                    Color="Gray" />
+                                    Color="{Binding LightTheme_Color}" />
 
 
                             </VerticalStackLayout>
 
                             <VerticalStackLayout>
 
-                                <ImageButton Source="document.svg" Style="{StaticResource themeImage_Setting}" />
+                                <ImageButton
+                                    Command="{Binding DarkThemeCommand}"
+                                    Source="{Binding DarkTheme_Image}"
+                                    Style="{StaticResource themeImage_Setting}" />
 
-                                <Label Style="{StaticResource small_label_Setting}" Text="Dunkel" />
+                                <Label Style="{StaticResource small_label_Setting}" Text="{Binding DarkTheme_Text}" />
 
                                 <BoxView
                                     Grid.Row="1"
                                     Grid.ColumnSpan="1"
                                     Style="{StaticResource underline_Setting}"
-                                    Color="Gray" />
+                                    Color="{Binding DarkTheme_Color}" />
 
 
                             </VerticalStackLayout>
@@ -90,7 +97,10 @@
                         </HorizontalStackLayout>
                     </Frame>
 
-
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Setting}" />
 
                 </VerticalStackLayout>
 
@@ -99,10 +109,10 @@
 
                         <Label
                             Style="{StaticResource labelTitle_Info}"
-                            Text="Sonstiges"
+                            Text="{Binding Sonstiges_Text}"
                             TextColor="{Binding Theme.MainTextColor}" />
 
-                        <Image Source="document.svg" Style="{StaticResource Image_Info}" />
+                        <Image Source="{Binding Sonstiges_Icon}" Style="{StaticResource Image_Info}" />
 
                     </HorizontalStackLayout>
 
@@ -112,12 +122,12 @@
 
                         <HorizontalStackLayout HorizontalOptions="Center" Spacing="7">
 
-                            <Label Style="{StaticResource label_Setting}" Text="Data Caching" />
+                            <Label Style="{StaticResource label_Setting}" Text="{Binding DataCaching_Text}" />
 
-                            <Switch IsToggled="True" Style="{StaticResource switch_Setting}">
+                            <Switch IsToggled="{Binding DataCaching_Value}" Style="{StaticResource switch_Setting}">
 
                                 <Switch.Behaviors>
-                                    <toolkit:EventToCommandBehavior EventName="Toggled" />
+                                    <toolkit:EventToCommandBehavior Command="{Binding RoundingChangedCommand}" EventName="Toggled" />
                                 </Switch.Behaviors>
 
                             </Switch>

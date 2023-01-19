@@ -50,7 +50,7 @@
 
                         <Entry.Behaviors>
 
-                            <toolkit:EventToCommandBehavior Command="{Binding EntryTextChangedCommand}" EventName="Completed" />
+                            <toolkit:EventToCommandBehavior Command="{Binding EntryTextChangedCommand}" EventName="PropertyChanging" />
 
 
                         </Entry.Behaviors>

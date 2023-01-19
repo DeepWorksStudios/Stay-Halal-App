@@ -62,19 +62,19 @@ public partial class ContactViewModel : BaseViewModel
     [RelayCommand]
     private async void OnWebsite()
     {
-        await Browser.OpenAsync(Resources_Lib.WebsiteLink, BrowserLaunchMode.External);
+        await Browser.OpenAsync(Resources_Lib.WebsiteLink);
     }
 
     [RelayCommand]
     private async void OnFacebook()
     {
-        await Browser.OpenAsync(Resources_Lib.FacebookLink, BrowserLaunchMode.External);
+        await Browser.OpenAsync(Resources_Lib.FacebookLink);
     }
 
     [RelayCommand]
     private async void OnInstagram()
     {
-        await Browser.OpenAsync(Resources_Lib.InstagramLink, BrowserLaunchMode.External);
+        await Browser.OpenAsync(Resources_Lib.InstagramLink);
     }
     #endregion
 

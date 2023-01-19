@@ -22,16 +22,24 @@
 
 
             <VerticalStackLayout Spacing="15">
+                <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
+                    <Button
+                        Background="{Binding Theme.BackgroundButtonGradient}"
+                        Command="{Binding ProductCommand}"
+                        HeightRequest="60"
+                        Text="{Binding ProductButtonText}"
+                        TextColor="{Binding Theme.MainTextColor}" />
+                </Frame>
 
                 <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
 
                     <Label
                         Style="{StaticResource labelTitle_Info}"
-                        Text="FAQ"
+                        Text="{Binding FaqTitel}"
                         TextColor="{Binding Theme.MainTextColor}" />
 
-                    <Image Source="document.svg" Style="{StaticResource Image_Info}" />
+                    <Image Source="{Binding FaqIcon}" Style="{StaticResource Image_Info}" />
 
                 </HorizontalStackLayout>
 
@@ -39,14 +47,16 @@
 
                     <Label
                         Style="{StaticResource labelMessege_Info}"
-                        Text="test intro faq was faq warum faq"
+                        Text="{Binding FaqDesc}"
                         TextColor="{Binding Theme.MainTextColor}" />
 
                 </Frame>
+
                 <Frame Background="{Binding Theme.BackgroundGradientv2}" CornerRadius="25">
                     <ListView
-                        HeightRequest="275"
+                        HeightRequest="250"
                         HorizontalScrollBarVisibility="Always"
+                        ItemTapped="ListView_ItemTapped"
                         ItemsSource="{Binding Qestions}"
                         RowHeight="80"
                         SeparatorColor="{Binding Theme.SecondColor}"
@@ -70,10 +80,6 @@
                 </Frame>
 
 
-                <Button
-                    Background="{Binding Theme.BackgroundButtonGradient}"
-                    Text="Product Scanner"
-                    TextColor="{Binding Theme.MainTextColor}" />
 
             </VerticalStackLayout>
         </VerticalStackLayout>

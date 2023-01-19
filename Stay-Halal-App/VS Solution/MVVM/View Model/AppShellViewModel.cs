@@ -2,6 +2,7 @@
 using Stay_Halal.Scripts.Libraries.Static;
 using Stay_Halal.MVVM.ViewModel;
 using Stay_Halal.MVVM.Model;
+using Stay_Halal.Scripts.Helper;
 
 namespace Stay_Halal.MVVM.ViewModel;
 
@@ -60,15 +61,20 @@ public partial class AppShellViewModel : BaseViewModel
 
     [ObservableProperty]
     string infoMenu_Image;
- 
+
     #endregion
 
     #endregion
- 
+
+    #region Private Data
+    private readonly NavigationHelper navigationHelper;
+    #endregion
+
     #region Constructor/Destructor
-    public AppShellViewModel()
+    public AppShellViewModel(NavigationHelper _navigationHelper)
     {
-      
+        navigationHelper = _navigationHelper;
+
         mainMenu_Text = Localisation_Lib.FlyoutMenuItem_HauptMenü;
         productMenu_Text = Localisation_Lib.FlyoutMenuItem_ProductScanner;
         settingMenu_Text = Localisation_Lib.FlyoutMenuItem_Einstellung;

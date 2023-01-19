@@ -58,6 +58,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\opportunity_dark.svg" />
+	  <None Remove="Resources\Images\opportunity_light.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="3.1.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
@@ -65,7 +70,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Scripts\Libraries\Dynamic\" />
+	  <Folder Include="Resources\Images\Themes\" />
 	</ItemGroup>
 
 	<ItemGroup>

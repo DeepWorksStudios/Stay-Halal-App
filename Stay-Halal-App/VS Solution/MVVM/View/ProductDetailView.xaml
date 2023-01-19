@@ -3,17 +3,147 @@
     x:Class="Stay_Halal.MVVM.View.ProductDetailView"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-      xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:model="clr-namespace:Stay_Halal.MVVM.Model"
     xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
     Title="{Binding Title}"
-    x:DataType="viewmodel:ProductDetailViewModel">
+    x:DataType="viewmodel:ProductDetailViewModel"
+    Background="{Binding Theme.BackgroundGradient}">
     <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*,80', Default='100,*,80'}">
 
         <cells:TopBanner x:Name="Top_Bar" />
 
-        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}" >
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
+            <VerticalStackLayout
+                Padding="8.5"
+                Spacing="10"
+                VerticalOptions="Start">
 
+                <VerticalStackLayout Spacing="20">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding ProductTitel}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding ProductIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding ProductName}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding ProductBarcodeID}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding ProductHersteller}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Image Source="{Binding ProductRatingIcon}" Style="{StaticResource Image_Info}" />
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding ProductRatingText}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+
+
+                    </HorizontalStackLayout>
+
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Format}" />
+
+
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="20">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding InhaltsstoffeTitel}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding InhaltsstoffeIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding InhaltsstoffeDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+                    <Frame Background="{Binding Theme.BackgroundGradientv2}" CornerRadius="25">
+                        <ListView
+                            HeightRequest="250"
+                            HorizontalScrollBarVisibility="Always"
+                            ItemsSource="{Binding Inhaltstoffe}"
+                            RowHeight="80"
+                            SeparatorColor="{Binding Theme.SecondColor}"
+                            VerticalScrollBarVisibility="Always">
+
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="model:InhaltsstoffModel">
+
+
+
+                                    <TextCell
+                                        Detail="{Binding TypeText}"
+                                        DetailColor="{Binding Theme.SecondTextColor}"
+                                        Text="{Binding Name}"
+                                        TextColor="{Binding Theme.MainTextColor}" />
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+
+
+                        </ListView>
+                    </Frame>
+
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Format}" />
+
+
+
+
+
+                </VerticalStackLayout>
+
+
+            </VerticalStackLayout>
         </ScrollView>
+
+
 
     </Grid>
 

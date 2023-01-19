@@ -13,6 +13,7 @@ public static class Resources_Lib
     public const string AppLogo_ImageDark = "applogo_dark.svg";
     #endregion
 
+    #region Navigation
     #region Flyout
     public const string FlyoutMenuItem_HauptMenü_ImageDark = "home_dark.svg";
     public const string FlyoutMenuItem_ProductScanner_ImageDark = "barcode_dark.svg";
@@ -33,27 +34,64 @@ public static class Resources_Lib
     public const string MenuBarItem_BarCode_ImageDark = "barcode_dark.svg";
     public const string MenuBarItem_ManualInput_ImageDark = "shift_dark.svg";
     #endregion
+    #endregion
 
     #region Info View
-    public const string Info_AppTitleIcon_ImageDark = "document_dark.svg";
-    public const string Info_AppTitleIcon_ImageLight = "document_light.svg";
+    public const string Info_AppTitleIcon_ImageDark = "info_dark.svg";
+    public const string Info_AppTitleIcon_ImageLight = "info_light.svg";
 
-    public const string Info_TeamIcon_ImageDark = "document_dark.svg";
-    public const string Info_TeamIcon_ImageLight = "document_light.svg";
+    public const string Info_TeamIcon_ImageDark = "group_dark.svg";
+    public const string Info_TeamIcon_ImageLight = "group_light.svg";
     #endregion
 
     #region Contact View
-    public const string Contact_TitleIcon_ImageDark = "document_dark.svg";
-    public const string Contact_TitleIcon_ImageLight = "document_light.svg";
-    public const string Contact_WebsiteIcon_ImageLight = "document_light.svg";
-    public const string Contact_FacebookIcon_ImageLight = "document_light.svg";
-    public const string Contact_InstagramIcon_ImageLight = "document_light.svg";
-    public const string Contact_SocialIcon_ImageLight = "document_light.svg";
-    public const string Contact_WebsiteIcon_ImageDark = "document_dark.svg";
-    public const string Contact_FacebookIcon_ImageDark = "document_dark.svg";
-    public const string Contact_InstagramIcon_ImageDark = "document_dark.svg";
-    public const string Contact_SocialIcon_ImageDark = "document_dark.svg";
+    public const string Contact_TitleIcon_ImageDark = "email_dark.svg";
+    public const string Contact_TitleIcon_ImageLight = "email_light.svg";
+    public const string Contact_WebsiteIcon_ImageLight = "www_light.svg";
+    public const string Contact_FacebookIcon_ImageLight = "facebook_light.svg";
+    public const string Contact_InstagramIcon_ImageLight = "instagram_light.svg";
+    public const string Contact_SocialIcon_ImageLight = "network_light.svg";
+    public const string Contact_WebsiteIcon_ImageDark = "www_dark.svg";
+    public const string Contact_FacebookIcon_ImageDark = "facebook_dark.svg";
+    public const string Contact_InstagramIcon_ImageDark = "instagram_dark.svg";
+    public const string Contact_SocialIcon_ImageDark = "network_dark.svg";
 
+
+    #endregion
+
+    #region Manual Input View
+    public const string Manual_TitleIcon_ImageDark = "shift_dark.svg";
+    public const string Manual_TitleIcon_ImageLight = "shift_light.svg";
+    #endregion
+
+    #region Welcome View
+    public const string Welcome_TitleIcon_ImageDark = "opportunity_dark.svg";
+    public const string Welcome_TitleIcon_ImageLight = "opportunity_light.svg";
+    public const string Welcome_InfoIcon_ImageDark = "info_dark.svg";
+    public const string Welcome_InfoIcon_ImageLight = "info_light.svg";
+    #endregion
+
+    #region MainMenu View 
+    public const string MainMenu_FAQ_ImageLight = "faq_light.svg";
+    public const string MainMenu_FAQ_ImageDark = "faq_dark.svg";
+    #endregion
+
+
+
+    #region Setting View
+    public const string Setting_DesignIcon_ImageLight = "paint_light.svg";
+    public const string Setting_SonstigesIcon_ImageLight = "list_light.svg";
+
+    public const string Setting_DesignDefault_ImageLight = "system_light.png";
+    public const string Setting_DesignLight_ImageLight = "lightbulb_light.png";
+    public const string Setting_DesignDark_ImageLight = "darkbulb_light.png";
+
+    public const string Setting_DesignIcon_ImageDark = "paint_dark.svg";
+    public const string Setting_SonstigesIcon_ImageDark = "list_dark.svg";
+
+    public const string Setting_DesignDefault_ImageDark = "system_dark.png";
+    public const string Setting_DesignLight_ImageDark = "lightbulb_dark.png";
+    public const string Setting_DesignDark_ImageDark = "darkbulb_dark.png";
 
     #endregion
 
@@ -119,6 +157,10 @@ public static class Resources_Lib
         Pictrue = "leon.png",
 
     };
+    #endregion
+
+    #region FAQ 
+    public static QAModel Qestion_1a = new QAModel() { QestionTitle = "Frage Title", QestionDescription = "Volle frage max char muss bestimmt werden", AwnserTitle = "darum", AwnserDescription = "test" };
     #endregion
 
 }

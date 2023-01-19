@@ -11,5 +11,6 @@ public partial class AppShell : Shell
         BindingContext = vm;
 
         Routing.RegisterRoute(nameof(ProductDetailView), typeof(ProductDetailView));
+        Routing.RegisterRoute(nameof(MessagePage), typeof(MessagePage));
     }
 }

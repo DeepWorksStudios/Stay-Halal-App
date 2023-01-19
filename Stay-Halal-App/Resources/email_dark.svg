@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="svg2235" width="682.66669" height="682.66669" viewBox="0 0 682.66669 682.66669" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs2239">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2249">
+      <path d="M 0,512 H 512 V 0 H 0 Z" id="path2247"/>
+    </clipPath>
+  </defs>
+  <g id="g2241" transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)">
+    <g id="g2243">
+      <g id="g2245" clip-path="url(#clipPath2249)">
+        <g id="g2251" transform="translate(316,445)">
+          <path d="M 0,0 -60,52 -120,0 Z" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2253"/>
+        </g>
+        <g id="g2255" transform="translate(96,361.667)">
+          <path d="m 0,0 -80,-66.667 v -280 h 480 v 280 L 320,0" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2257"/>
+        </g>
+        <g id="g2259" transform="translate(196,155)">
+          <path d="M 0,0 -180,140 V -140 Z" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2261"/>
+        </g>
+        <g id="g2263" transform="translate(316,155)">
+          <path d="M 0,0 180,140 V -140 Z" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2265"/>
+        </g>
+        <g id="g2267" transform="translate(316,155)">
+          <path d="M 0,0 H -120 L -300,-140 H 180 Z" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2269"/>
+        </g>
+        <g id="g2271" transform="translate(288.9424,301.3008)">
+          <path d="m 0,0 c 0,-27.981 -17.173,-48.937 -37.732,-48.937 -20.56,0 -38.743,20.665 -38.743,48.646 0,27.982 19.193,46.626 39.752,46.626 C -16.162,46.335 0,27.981 0,0 Z" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2273"/>
+        </g>
+        <g id="g2275" transform="translate(254.0166,205)">
+          <path d="m 0,0 c -40.894,1.131 -78.18,28.809 -89.252,70.907 -12.779,48.591 15.171,99.342 63.047,114.582 C 24.432,201.608 78.283,173.121 93.582,122.43 98.996,102.146 95.836,84.5 88.662,66.462 85.817,59.31 76.437,42.565 55.569,42.565 44.177,42.565 34.68,53.484 34.741,66.059 l 0.413,83.335" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2277"/>
+        </g>
+        <g id="g2279" transform="translate(416,232.7773)">
+          <path d="M 0,0 V 212.223 H -320 V 0" style="fill: none; stroke-width: 30; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255);" id="path2281"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

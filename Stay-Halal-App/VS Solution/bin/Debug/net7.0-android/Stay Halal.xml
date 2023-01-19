@@ -148,6 +148,48 @@
         <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.AppLogo">
             <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.appLogo"/>
         </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.FaqTitel">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.faqTitel"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.FaqDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.faqDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.FaqIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.faqIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.ProductButtonText">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.productButtonText"/>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.productCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.ProductCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.ProductCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.MainMenuViewModel.OnProduct"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ManualInputTitel">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.manualInputTitel"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ManualInputIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.manualInputIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ManualInputDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.manualInputDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ManualInputValue">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.manualInputValue"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ManualInputPlaceHolder">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.manualInputPlaceHolder"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ManualInputComfirmButton">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.manualInputComfirmButton"/>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.confirmInputCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ConfirmInputCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.ConfirmInputCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.ManualInputViewModel.OnConfirmInput"/>.</summary>
+        </member>
         <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.Title">
             <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.title"/>
         </member>
@@ -166,6 +208,9 @@
         <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.ButtonEnabled">
             <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.buttonEnabled"/>
         </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.GoBackEnabled">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.goBackEnabled"/>
+        </member>
         <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.ButtonText">
             <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.buttonText"/>
         </member>
@@ -181,8 +226,140 @@
         <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.EntryTextChangedCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.MessageViewModel.OnEntryTextChanged"/>.</summary>
         </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.ProductTitel">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.productTitel"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.ProductIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.productIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.ProductName">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.productName"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.ProductBarcodeID">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.productBarcodeID"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.ProductHersteller">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.productHersteller"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.ProductRatingText">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.productRatingText"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.ProductRatingIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.productRatingIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.InhaltsstoffeTitel">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.inhaltsstoffeTitel"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.InhaltsstoffeIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.inhaltsstoffeIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.InhaltsstoffeDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ProductDetailViewModel.inhaltsstoffeDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.Sonstiges_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.sonstiges_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.Sonstiges_Icon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.sonstiges_Icon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DataCaching_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.dataCaching_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.Theme_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.theme_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.Theme_Icon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.theme_Icon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DefaultTheme_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.defaultTheme_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.LightTheme_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.lightTheme_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DarkTheme_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.darkTheme_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DefaultTheme_Color">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.defaultTheme_Color"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.LightTheme_Color">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.lightTheme_Color"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DarkTheme_Color">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.darkTheme_Color"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DataCaching_Value">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.dataCaching_Value"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DefaultTheme_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.defaultTheme_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.LightTheme_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.lightTheme_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DarkTheme_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.darkTheme_Image"/>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.defaultThemeCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DefaultThemeCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DefaultThemeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.SettingViewModel.OnDefaultTheme"/>.</summary>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.lightThemeCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.LightThemeCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.LightThemeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.SettingViewModel.OnLightTheme"/>.</summary>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.darkThemeCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DarkThemeCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.DarkThemeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.SettingViewModel.OnDarkTheme"/>.</summary>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.SettingViewModel.roundingChangedCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.RoundingChangedCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.SettingViewModel.RoundingChangedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.SettingViewModel.OnRoundingChanged"/>.</summary>
+        </member>
         <member name="P:Stay_Halal.MVVM.ViewModel.TopBannerViewModel.Image">
             <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.TopBannerViewModel.image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.WelcomeTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.welcomeTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.WelcomeDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.welcomeDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.WelcomeIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.welcomeIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.InfoTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.infoTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.InfoDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.infoDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.InfoIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.infoIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.ConfirmButtonTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.confirmButtonTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.AppLogo">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.appLogo"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.TeamLogo">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.teamLogo"/>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.confirmCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.ConfirmCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.ConfirmCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.WelcomeViewModel.OnConfirm"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>

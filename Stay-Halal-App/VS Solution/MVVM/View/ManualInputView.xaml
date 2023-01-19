@@ -26,10 +26,10 @@
 
                     <Label
                         Style="{StaticResource labelTitle_Info}"
-                        Text="Manuelle Eingabe"
+                        Text="{Binding ManualInputTitel}"
                         TextColor="{Binding Theme.MainTextColor}" />
 
-                    <Image Source="shift.svg" Style="{StaticResource Image_Info}" />
+                    <Image Source="{Binding ManualInputIcon}" Style="{StaticResource Image_Info}" />
 
                 </HorizontalStackLayout>
 
@@ -42,14 +42,16 @@
                 <Frame Background="{Binding Theme.BackgroundGradientv2}">
                     <Label
                         HorizontalOptions="Center"
-                        Text="Bitte geben sie die nummer ein die auf dem barcode aufgedruckt ist!"
+                        Text="{Binding ManualInputDesc}"
                         TextColor="{Binding Theme.MainTextColor}"
                         VerticalOptions="Center" />
                 </Frame>
                 <Frame Background="{Binding Theme.BackgroundGradientv2}">
                     <Entry
+                        Keyboard="Numeric"
                         HeightRequest="60"
-                        Placeholder="Barcode Nummer Eingeben"
+                        Text="{Binding ManualInputValue,Mode=TwoWay}"
+                        Placeholder="{Binding ManualInputPlaceHolder}"
                         PlaceholderColor="{Binding Theme.MainTextColor}"
                         TextColor="{Binding Theme.MainTextColor}" />
                 </Frame>
@@ -57,7 +59,8 @@
 
                 <Button
                     Background="{Binding Theme.BackgroundButtonGradient}"
-                    Text="Bestätigen"
+                    Command="{Binding ConfirmInputCommand}"
+                    Text="{Binding ManualInputComfirmButton}"
                     TextColor="{Binding Theme.MainTextColor}" />
 
             </VerticalStackLayout>

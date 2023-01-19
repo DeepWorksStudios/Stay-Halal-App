@@ -44,7 +44,7 @@
     <FlyoutItem
         Title="{Binding MainMenu_Text}"
         Icon="{Binding MainMenu_Image}"
-        Route="MainPage">
+        Route="MainMenu">
 
         <ShellContent
             Title="{Binding MainMenu_Text}"
@@ -57,7 +57,7 @@
     <FlyoutItem
         Title="{Binding ProductMenu_Text}"
         Icon="{Binding BarScannerMenu_Image}"
-        Route="ProductMenuView">
+        Route="ProductMenu">
 
         <Tab Title="{Binding BarScannerMenu_Text}" Icon="{Binding BarScannerMenu_Image}">
 
@@ -80,25 +80,52 @@
     </FlyoutItem>
 
 
-
-    <ShellContent
+    <FlyoutItem
         Title="{Binding SettingMenu_Text}"
-        ContentTemplate="{DataTemplate local:SettingView}"
         Icon="{Binding SettingMenu_Image}"
-        Route="SettingView" />
+        Route="Setting">
 
+        <ShellContent
+            Title="{Binding SettingMenu_Text}"
+            ContentTemplate="{DataTemplate local:SettingView}"
+            Icon="{Binding SettingMenu_Image}"
+            Route="SettingView" />
+    </FlyoutItem>
 
-    <ShellContent
+    <FlyoutItem
         Title="{Binding ContactMenu_Text}"
-        ContentTemplate="{DataTemplate local:ContactView}"
         Icon="{Binding ContactMenu_Image}"
-        Route="ContactView" />
+        Route="Contact">
 
-    <ShellContent
+        <ShellContent
+            Title="{Binding ContactMenu_Text}"
+            ContentTemplate="{DataTemplate local:ContactView}"
+            Icon="{Binding ContactMenu_Image}"
+            Route="ContactView" />
+    </FlyoutItem>
+    <FlyoutItem
         Title="{Binding InfoMenu_Text}"
-        ContentTemplate="{DataTemplate local:InfoView}"
         Icon="{Binding InfoMenu_Image}"
-        Route="InfoView" />
+        Route="Info">
+
+        <ShellContent
+            Title="{Binding InfoMenu_Text}"
+            ContentTemplate="{DataTemplate local:InfoView}"
+            Icon="{Binding InfoMenu_Image}"
+            Route="InfoView" />
+    </FlyoutItem>
+
+    <FlyoutItem FlyoutItemIsVisible="False" Route="WelcomeFlyout">
+
+        <ShellContent
+            Title="Willkommen"
+            ContentTemplate="{DataTemplate local:WelcomeView}"
+            Route="WelcomeView" />
+
+    </FlyoutItem>
+
+
+
 
     <Shell.FlyoutFooter>
 
@@ -110,8 +137,12 @@
 
             <Grid>
 
-                <Grid Padding="15"  Background="{Binding Theme.BackgroundIconGradient}">
-                    <Image HeightRequest="60" Margin="0,10,50,0" Aspect="AspectFill" Source="{Binding FooterMenu_Image}" />
+                <Grid Padding="15" Background="{Binding Theme.BackgroundIconGradient}">
+                    <Image
+                        Margin="0,10,50,0"
+                        Aspect="AspectFill"
+                        HeightRequest="60"
+                        Source="{Binding FooterMenu_Image}" />
                 </Grid>
 
                 <BoxView

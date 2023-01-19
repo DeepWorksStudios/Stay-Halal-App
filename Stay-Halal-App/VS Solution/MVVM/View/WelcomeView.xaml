@@ -3,18 +3,110 @@
     x:Class="Stay_Halal.MVVM.View.WelcomeView"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-      xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
-   xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
     Title="{Binding Title}"
-    x:DataType="viewmodel:WelcomeViewModel">
+    x:DataType="viewmodel:WelcomeViewModel"
+    Background="{Binding Theme.BackgroundGradient}">
     <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*,80', Default='100,*,80'}">
 
         <cells:TopBanner x:Name="Top_Bar" />
 
-        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}" >
+
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
+
+
+
+            <VerticalStackLayout
+                Padding="8.5"
+                Spacing="10"
+                VerticalOptions="Start">
+
+                <VerticalStackLayout Spacing="20">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding WelcomeTitle}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding WelcomeIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding WelcomeDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+
+
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Format}" />
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="20">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding InfoTitle}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding InfoIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding InfoDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+
+
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Format}" />
+                    <VerticalStackLayout>
+
+                        <Image
+                            Margin="0,10,20,0"
+                            Aspect="AspectFill"
+                            HeightRequest="60"
+                            Source="{Binding TeamLogo}" />
+
+                        <Image Source="{Binding AppLogo}" />
+
+                    </VerticalStackLayout>
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Button
+                            Background="{Binding Theme.BackgroundButtonGradient}"
+                            Command="{Binding ConfirmCommand}"
+                            Text="{Binding ConfirmButtonTitle}" />
+                    </Frame>
+
+                </VerticalStackLayout>
+
+
+            </VerticalStackLayout>
 
         </ScrollView>
 
     </Grid>
-    
+
 </ContentPage>

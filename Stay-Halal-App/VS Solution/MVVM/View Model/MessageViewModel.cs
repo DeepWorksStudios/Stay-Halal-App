@@ -1,12 +1,13 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Stay_Halal.MVVM.Model;
+using Stay_Halal.Scripts.Libraries.Dynamic;
 using System.Diagnostics;
 
 namespace Stay_Halal.MVVM.ViewModel;
 
 [QueryProperty(nameof(Model), nameof(Model))]
-public partial class MessageViewModel : ObservableObject
+public partial class MessageViewModel : BaseViewModel
 {
     #region Private Data
     private MessageModel model;
@@ -30,6 +31,8 @@ public partial class MessageViewModel : ObservableObject
     [ObservableProperty]
     bool buttonEnabled;
     [ObservableProperty]
+    bool goBackEnabled;
+    [ObservableProperty]
     string buttonText;
     #endregion
 
@@ -37,6 +40,7 @@ public partial class MessageViewModel : ObservableObject
     [RelayCommand]
     async void OnComfirm()
     {
+        if (!Model.Unlook) MauiProgram.navigationHelper.Continue(1); else MauiProgram.navigationHelper.Unlook();
         await Shell.Current.GoToAsync(Model.TargetRoute);
     }
 
@@ -54,21 +58,23 @@ public partial class MessageViewModel : ObservableObject
         Title = Model.Title;
         Message = Model.Message;
 
-        if(!string.IsNullOrEmpty(Model.CustomeMessage))
+        if (!string.IsNullOrEmpty(Model.CustomeMessage))
         {
             Error = true;
             ErrorMessage = Model.CustomeMessage;
         }
 
         ButtonEnabled = Model.ButtonEnabled;
-       
+        GoBackEnabled = !Model.ButtonEnabled;
         ButtonText = Model.ButtonText;
 
 
         string path = Shell.Current.CurrentState.Location.ToString() + "/MessagePage";
         Debug.WriteLine(path);
 
-        switch (Application.Current.RequestedTheme)
+        if (ButtonEnabled) MauiProgram.navigationHelper.Look(path);
+
+        switch (Theme_Lib.CurrentTheme)
         {
             case AppTheme.Unspecified:
                 Image = Model.Image_Light;
@@ -85,37 +91,42 @@ public partial class MessageViewModel : ObservableObject
         }
 
     }
-    private void UpdateTheme(object s, AppThemeChangedEventArgs e)
-    {
-     
-        switch (e.RequestedTheme)
-        {
-            case AppTheme.Unspecified:
-                Image = Model.Image_Light;
-                break;
-            case AppTheme.Light:
-                Image = Model.Image_Light;
-                break;
-            case AppTheme.Dark:
-                Image = Model.Image_Dark;
-                break;
-
-            default:
-                Image = Model.Image_Light;
-                break;
-        }
-    }
+ 
     #endregion
 
     #region Constructor/Destructor
     public MessageViewModel()
     {
-        Application.Current.RequestedThemeChanged += UpdateTheme;
+      
     }
     ~MessageViewModel()
     {
-        Application.Current.RequestedThemeChanged -= UpdateTheme;
+       
     }
+    #endregion
+
+    #region Protected Calls
+    
+    protected override void ThemeChanged(ThemeModel _theme)
+    {
+        base.ThemeChanged(_theme);
+
+        if (Model == null) return;
+
+        switch (_theme.ThemeTyp)
+        {
+            case AppTheme.Unspecified:
+                Image = Model.Image_Light;
+                break;
+            case AppTheme.Light:
+                Image = Model.Image_Light;
+                break;
+            case AppTheme.Dark:
+                Image = Model.Image_Dark;
+                break;
+        }
+    }
+    
     #endregion
 }
 

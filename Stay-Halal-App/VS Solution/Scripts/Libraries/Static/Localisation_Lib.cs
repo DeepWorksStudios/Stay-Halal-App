@@ -1,4 +1,6 @@
-﻿namespace Stay_Halal.Scripts.Libraries.Static;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+
+namespace Stay_Halal.Scripts.Libraries.Static;
 
 public static class Localisation_Lib
 {
@@ -58,7 +60,41 @@ public static class Localisation_Lib
     public const string ContactWebsite = "Website";
     public const string ContactFacebook = "Facebook";
     public const string ContactInstagram = "Instagram";
-    
+
+    #endregion
+
+    #region Manual Input View
+    public const string ManualInputTitle = "Manuelle Eingabe";
+    public const string ManualInputDesc= "Bitte geben sie die nummer ein die auf dem barcode aufgedruckt ist!";
+    public const string ManualInputPlaceHolder= "Barcode Nummer Eingeben";
+    public const string ManualInputComfirmButton="Bestätigen";
+    #endregion
+
+    #region Welcome View
+    public const string WelcomeTitle = "Willkommen";
+    public const string WelcomeDesc = "willkommen text beschreibung";
+    public const string WelcomeInfoTitle = "Info";
+    public const string WelcomeInfoDesc = "info text beschreibung";
+    public const string WelcomeButtonTitle = "Bestätigen";
+    #endregion
+
+    #region Setting View
+    public const string SettingSonstigeTitle="Sonstiges";
+    public const string SettingThemeTitle="Design";
+    public const string SettingCachingTitle = "Data Caching";
+    public const string SettingDefaultThemeTitle="Standart";
+    public const string SettingDarkThemeTitle="Dunkel";
+    public const string SettingLightThemeTitle="Hell";
+    #endregion
+
+    #region MainMenu View
+    public const string MainMenuFaqTitle = "FAQ";
+    public const string MainMenuFaqDesc = "faq text beschreibung";
+    public const string MainMenuProductButton = "Product Scanner";
+    #endregion
+
+    #region Product View
+    public const string ViewTitle_Product = "Product Auswertung";
     #endregion
 
     #region Team Member

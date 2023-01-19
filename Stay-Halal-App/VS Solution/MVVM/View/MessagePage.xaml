@@ -6,8 +6,8 @@
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
     Title="{Binding Title}"
-    x:DataType="viewmodel:MessageViewModel"
-  >
+    Background="{Binding Theme.BackgroundGradient}"
+    x:DataType="viewmodel:MessageViewModel">
 
 
 
@@ -25,20 +25,19 @@
                 <VerticalStackLayout Spacing="20">
 
                     <Grid Padding="2" ColumnDefinitions="8,*,75,8">
-                        <Label Grid.Column="1" Text="{Binding Title}" />
+                        <Label Grid.Column="1" Text="{Binding Title}"     Style="{StaticResource labelTitle_Message}"  TextColor="{Binding Theme.MainTextColor}" />
 
                         <Image
                             Grid.Column="2"
-                            MaximumHeightRequest="100"
-                            MaximumWidthRequest="100"
-                            Source="{Binding Image}" />
+                     
+                            Source="{Binding Image}"    Style="{StaticResource Image_Message}" />
                     </Grid>
 
                     <VerticalStackLayout Spacing="10">
 
-                        <Frame>
+                        <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
-                            <Label Text="{Binding Message}" />
+                            <Label  Style="{StaticResource label_Message}" Text="{Binding Message}"  TextColor="{Binding Theme.MainTextColor}"/>
 
                         </Frame>
 
@@ -46,7 +45,8 @@
                             IsEnabled="{Binding Error}"
                             IsVisible="{Binding Error}"
                             Style="{StaticResource errorEntry_Message}"
-                            Text="{Binding ErrorMessage}">
+                            Text="{Binding ErrorMessage}"
+                             TextColor="{Binding Theme.MainTextColor}">
 
                             <Editor.Behaviors>
                                 <toolkit:EventToCommandBehavior Command="{Binding EntryTextChangedCommand}" EventName="Completed" />
@@ -61,6 +61,8 @@
                 <Frame IsEnabled="{Binding ButtonEnabled}" IsVisible="{Binding ButtonEnabled}">
 
                     <Button
+                        Background="{Binding Theme.BackgroundButtonGradient}"
+                        TextColor="{Binding Theme.MainTextColor}"
                         Command="{Binding ComfirmCommand}"
                         IsEnabled="{Binding ButtonEnabled}"
                         IsVisible="{Binding ButtonEnabled}"
