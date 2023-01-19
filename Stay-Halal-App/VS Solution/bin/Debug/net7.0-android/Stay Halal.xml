@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stay Halal</name>
+    </assembly>
+    <members>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.MainMenu_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.mainMenu_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.ProductMenu_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.productMenu_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.BarScannerMenu_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.barScannerMenu_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.ManualInputMenu_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.manualInputMenu_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.SettingMenu_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.settingMenu_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.ContactMenu_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.contactMenu_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.InfoMenu_Text">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.infoMenu_Text"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.HeaderMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.headerMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.FooterMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.footerMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.MainMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.mainMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.ProductMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.productMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.BarScannerMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.barScannerMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.ManualInputMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.manualInputMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.SettingMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.settingMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.ContactMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.contactMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.AppShellViewModel.InfoMenu_Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.AppShellViewModel.infoMenu_Image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.BarcodeScannerViewModel.FrameColor">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.BarcodeScannerViewModel.frameColor"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.BaseViewModel.title"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.BaseViewModel.Theme">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.BaseViewModel.theme"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.ContactTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.contactTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.ContactDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.contactDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.ContactIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.contactIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.ContactEmail">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.contactEmail"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.SocailMediaTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.socailMediaTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.SocailMediaDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.socailMediaDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.SocailMediaIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.socailMediaIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.WebsiteTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.websiteTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.WebsiteIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.websiteIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.FacebookTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.facebookTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.FacebookIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.facebookIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.InstagramTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.instagramTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.InstagramIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.instagramIcon"/>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.entryTextChangedCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.EntryTextChangedCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.EntryTextChangedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.ContactViewModel.OnEntryTextChanged"/>.</summary>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.websiteCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.WebsiteCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.WebsiteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.ContactViewModel.OnWebsite"/>.</summary>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.facebookCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.FacebookCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.FacebookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.ContactViewModel.OnFacebook"/>.</summary>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.ContactViewModel.instagramCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.InstagramCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.ContactViewModel.InstagramCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.ContactViewModel.OnInstagram"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.AppTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.appTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.AppDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.appDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.AppIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.appIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.TeamTitle">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.teamTitle"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.TeamDesc">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.teamDesc"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.TeamIcon">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.teamIcon"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.InfoViewModel.AppLogo">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.InfoViewModel.appLogo"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.Title">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.title"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.Message">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.message"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.Error">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.error"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.ErrorMessage">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.errorMessage"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.image"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.ButtonEnabled">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.buttonEnabled"/>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.ButtonText">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.buttonText"/>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.comfirmCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.ComfirmCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.ComfirmCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.MessageViewModel.OnComfirm"/>.</summary>
+        </member>
+        <member name="F:Stay_Halal.MVVM.ViewModel.MessageViewModel.entryTextChangedCommand">
+            <summary>The backing field for <see cref="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.EntryTextChangedCommand"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.MessageViewModel.EntryTextChangedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Stay_Halal.MVVM.ViewModel.MessageViewModel.OnEntryTextChanged"/>.</summary>
+        </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.TopBannerViewModel.Image">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.TopBannerViewModel.image"/>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+    </members>
+</doc>

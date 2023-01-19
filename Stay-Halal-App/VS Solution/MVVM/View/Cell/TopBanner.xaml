@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Grid
+    x:Class="Stay_Halal.Cells.Common.TopBanner"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    Grid.Row="0"
+    ZIndex="2"
+    x:DataType="viewmodel:TopBannerViewModel"
+    Background="{Binding Theme.BackgroundGradientv2}"
+    Grid.ColumnDefinitions="20,95,30,*,20">
+
+    <Frame
+        Grid.Column="1"
+        Background="{Binding Theme.BackgroundIconGradient}"
+        BorderColor="Transparent"
+        CornerRadius="50"
+        HasShadow="True"
+        HeightRequest="95"
+        WidthRequest="95"
+        ZIndex="1">
+
+        <Image
+            HeightRequest="100"
+            Source="{Binding Image, Mode=OneWay}"
+            Style="{StaticResource logo_TopBanner}">
+            <Image.Clip>
+                <EllipseGeometry
+                    Center="36,36"
+                    RadiusX="36"
+                    RadiusY="36" />
+            </Image.Clip>
+        </Image>
+
+    </Frame>
+
+
+
+    <Label
+        Grid.Column="3"
+        Style="{StaticResource label_TopBanner}"
+        Text="{Binding Title}"
+        HorizontalOptions="Start"
+        TextColor="{Binding Theme.MainTextColor}" />
+
+
+
+    <BoxView Grid.ColumnSpan="6" Style="{StaticResource boxView_TopBanner}" />
+
+</Grid>

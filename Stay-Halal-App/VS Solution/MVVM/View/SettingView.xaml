@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Stay_Halal.MVVM.View.SettingView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    Title="{Binding Title}"
+    x:DataType="viewmodel:SettingViewModel"
+    Background="{Binding Theme.BackgroundGradient}">
+
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*', Default='100,*'}">
+
+        <cells:TopBanner x:Name="Top_Bar" />
+
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
+
+            <VerticalStackLayout Padding="8.5" Spacing="30">
+
+
+
+                <VerticalStackLayout Spacing="15">
+
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="Design"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="document.svg" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Setting}">
+
+
+
+                        <HorizontalStackLayout HorizontalOptions="Center" Spacing="35">
+
+                            <VerticalStackLayout>
+
+                                <ImageButton Source="document.svg" Style="{StaticResource themeImage_Setting}" />
+
+                                <Label Style="{StaticResource small_label_Setting}" Text="Standard" />
+
+                                <BoxView
+                                    Grid.Row="1"
+                                    Grid.ColumnSpan="1"
+                                    Style="{StaticResource underline_Setting}"
+                                    Color="Gray" />
+
+
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout>
+
+                                <ImageButton Source="document.svg" Style="{StaticResource themeImage_Setting}" />
+
+                                <Label Style="{StaticResource small_label_Setting}" Text="Hell" />
+
+                                <BoxView
+                                    Grid.Row="1"
+                                    Grid.ColumnSpan="1"
+                                    Style="{StaticResource underline_Setting}"
+                                    Color="Gray" />
+
+
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout>
+
+                                <ImageButton Source="document.svg" Style="{StaticResource themeImage_Setting}" />
+
+                                <Label Style="{StaticResource small_label_Setting}" Text="Dunkel" />
+
+                                <BoxView
+                                    Grid.Row="1"
+                                    Grid.ColumnSpan="1"
+                                    Style="{StaticResource underline_Setting}"
+                                    Color="Gray" />
+
+
+                            </VerticalStackLayout>
+
+                        </HorizontalStackLayout>
+                    </Frame>
+
+
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="15">
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="Sonstiges"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="document.svg" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Setting}">
+
+                        <HorizontalStackLayout HorizontalOptions="Center" Spacing="7">
+
+                            <Label Style="{StaticResource label_Setting}" Text="Data Caching" />
+
+                            <Switch IsToggled="True" Style="{StaticResource switch_Setting}">
+
+                                <Switch.Behaviors>
+                                    <toolkit:EventToCommandBehavior EventName="Toggled" />
+                                </Switch.Behaviors>
+
+                            </Switch>
+
+
+
+                        </HorizontalStackLayout>
+
+
+
+
+
+
+
+
+
+
+                    </Frame>
+
+
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </Grid>
+
+</ContentPage>

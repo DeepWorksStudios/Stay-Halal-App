@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Stay_Halal.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Stay_Halal.MVVM.View"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    x:DataType="viewmodel:AppShellViewModel"
+    Shell.BackgroundColor="{Binding Theme.SecondColor, Mode=OneWay}"
+    Shell.DisabledColor="{Binding Theme.DisabledColor, Mode=OneWay}"
+    Shell.FlyoutBackground="{Binding Theme.BackgroundGradient, Mode=OneWay}"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.ForegroundColor="{Binding Theme.MainColor, Mode=OneWay}"
+    Shell.TabBarBackgroundColor="{Binding Theme.SecondColor, Mode=OneWay}"
+    Shell.TabBarTitleColor="{Binding Theme.MainColor, Mode=OneWay}"
+    Shell.TitleColor="{Binding Theme.MainTextColor, Mode=OneWay}"
+    Shell.UnselectedColor="{Binding Theme.UnselectedColor, Mode=OneWay}">
+
+
+    <Shell.FlyoutHeader>
+
+        <ContentView
+            xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            HeightRequest="200">
+            <Grid>
+
+                <Grid Padding="10" Background="{Binding Theme.BackgroundIconGradient}">
+                    <Image Aspect="AspectFit" Source="{Binding HeaderMenu_Image}" />
+
+                </Grid>
+
+                <BoxView
+                    Grid.ColumnSpan="6"
+                    HeightRequest="1"
+                    VerticalOptions="End"
+                    Color="{StaticResource NeutralDarker}" />
+            </Grid>
+
+        </ContentView>
+
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem
+        Title="{Binding MainMenu_Text}"
+        Icon="{Binding MainMenu_Image}"
+        Route="MainPage">
+
+        <ShellContent
+            Title="{Binding MainMenu_Text}"
+            ContentTemplate="{DataTemplate local:MainMenuView}"
+            Icon="{Binding MainMenu_Image}"
+            Route="MainMenuView" />
+
+    </FlyoutItem>
+
+    <FlyoutItem
+        Title="{Binding ProductMenu_Text}"
+        Icon="{Binding BarScannerMenu_Image}"
+        Route="ProductMenuView">
+
+        <Tab Title="{Binding BarScannerMenu_Text}" Icon="{Binding BarScannerMenu_Image}">
+
+            <ShellContent
+                Title="{Binding BarScannerMenu_Text}"
+                ContentTemplate="{DataTemplate local:BarcodeScannerView}"
+                Route="BarcodeScannerView" />
+
+        </Tab>
+
+        <Tab Title="{Binding ManualInputMenu_Text}" Icon="{Binding ManualInputMenu_Image}">
+
+            <ShellContent
+                Title="{Binding ManualInputMenu_Text}"
+                ContentTemplate="{DataTemplate local:ManualInputView}"
+                Route="ManualInputView" />
+
+        </Tab>
+
+    </FlyoutItem>
+
+
+
+    <ShellContent
+        Title="{Binding SettingMenu_Text}"
+        ContentTemplate="{DataTemplate local:SettingView}"
+        Icon="{Binding SettingMenu_Image}"
+        Route="SettingView" />
+
+
+    <ShellContent
+        Title="{Binding ContactMenu_Text}"
+        ContentTemplate="{DataTemplate local:ContactView}"
+        Icon="{Binding ContactMenu_Image}"
+        Route="ContactView" />
+
+    <ShellContent
+        Title="{Binding InfoMenu_Text}"
+        ContentTemplate="{DataTemplate local:InfoView}"
+        Icon="{Binding InfoMenu_Image}"
+        Route="InfoView" />
+
+    <Shell.FlyoutFooter>
+
+        <ContentView
+            xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:sys="clr-namespace:System;assembly=netstandard"
+            HeightRequest="80">
+
+            <Grid>
+
+                <Grid Padding="15"  Background="{Binding Theme.BackgroundIconGradient}">
+                    <Image HeightRequest="60" Margin="0,10,50,0" Aspect="AspectFill" Source="{Binding FooterMenu_Image}" />
+                </Grid>
+
+                <BoxView
+                    Grid.ColumnSpan="6"
+                    HeightRequest="1"
+                    VerticalOptions="Start"
+                    Color="{StaticResource NeutralDarker}" />
+
+
+            </Grid>
+
+        </ContentView>
+
+    </Shell.FlyoutFooter>
+
+</Shell>

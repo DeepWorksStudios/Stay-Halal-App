@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Stay_Halal.MVVM.View.ManualInputView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    Title="{Binding Title}"
+    x:DataType="viewmodel:ManualInputViewModel"
+    Background="{Binding Theme.BackgroundGradient}">
+
+
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*,80', Default='100,*,80'}">
+
+        <cells:TopBanner x:Name="Top_Bar" />
+
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
+
+
+            <VerticalStackLayout
+                Padding="1"
+                Spacing="15"
+                VerticalOptions="StartAndExpand">
+
+                <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                    <Label
+                        Style="{StaticResource labelTitle_Info}"
+                        Text="Manuelle Eingabe"
+                        TextColor="{Binding Theme.MainTextColor}" />
+
+                    <Image Source="shift.svg" Style="{StaticResource Image_Info}" />
+
+                </HorizontalStackLayout>
+
+
+                <BoxView
+                    Grid.Row="1"
+                    Grid.ColumnSpan="10"
+                    Style="{StaticResource boxView_Format}" />
+
+                <Frame Background="{Binding Theme.BackgroundGradientv2}">
+                    <Label
+                        HorizontalOptions="Center"
+                        Text="Bitte geben sie die nummer ein die auf dem barcode aufgedruckt ist!"
+                        TextColor="{Binding Theme.MainTextColor}"
+                        VerticalOptions="Center" />
+                </Frame>
+                <Frame Background="{Binding Theme.BackgroundGradientv2}">
+                    <Entry
+                        HeightRequest="60"
+                        Placeholder="Barcode Nummer Eingeben"
+                        PlaceholderColor="{Binding Theme.MainTextColor}"
+                        TextColor="{Binding Theme.MainTextColor}" />
+                </Frame>
+
+
+                <Button
+                    Background="{Binding Theme.BackgroundButtonGradient}"
+                    Text="Bestätigen"
+                    TextColor="{Binding Theme.MainTextColor}" />
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </Grid>
+
+
+
+</ContentPage>

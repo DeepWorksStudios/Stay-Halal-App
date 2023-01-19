@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Application
+    x:Class="Stay_Halal.App"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Stay_Halal">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/WelcomeStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/GenericStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/BannerStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/PaperStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/SettingStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/MenuStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/MessageStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/InfoStyles.xaml" />
+                <ResourceDictionary Source="Resources/Styles/HelpStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

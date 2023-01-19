@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Stay_Halal.MVVM.View.ContactView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    Title="{Binding Title}"
+    x:DataType="viewmodel:ContactViewModel"
+    Background="{Binding Theme.BackgroundGradient}">
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*', Default='100,*'}">
+
+        <cells:TopBanner x:Name="Top_Bar" />
+
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
+
+            <VerticalStackLayout
+                Padding="8.5"
+                Spacing="20"
+                VerticalOptions="Start">
+
+                <VerticalStackLayout Spacing="20">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding ContactTitle}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding ContactIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding ContactDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+                    <Entry
+                        Background="{Binding Theme.BackgroundGradientv2}"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding ContactEmail}"
+                        TextColor="{Binding Theme.MainTextColor}">
+
+                        <Entry.Behaviors>
+
+                            <toolkit:EventToCommandBehavior Command="{Binding EntryTextChangedCommand}" EventName="Completed" />
+
+
+                        </Entry.Behaviors>
+
+                    </Entry>
+
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Format}" />
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="15">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding SocailMediaTitle}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding SocailMediaIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding SocailMediaDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+
+                    <Frame Style="{StaticResource frame_Setting}">
+
+
+
+                        <HorizontalStackLayout HorizontalOptions="Center" Spacing="35">
+
+                            <VerticalStackLayout Padding="10">
+
+                                <ImageButton
+                                    Command="{Binding WebsiteCommand}"
+                                    Source="{Binding WebsiteIcon}"
+                                    Style="{StaticResource themeImage_Setting}" />
+
+                                <Label Style="{StaticResource small_label_Setting}" Text="{Binding WebsiteTitle}" />
+
+
+
+
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout Padding="10">
+
+                                <ImageButton
+                                    Command="{Binding FacebookCommand}"
+                                    Source="{Binding FacebookIcon}"
+                                    Style="{StaticResource themeImage_Setting}" />
+
+                                <Label Style="{StaticResource small_label_Setting}" Text="{Binding FacebookTitle}" />
+
+
+
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout Padding="10">
+
+                                <ImageButton
+                                    Command="{Binding InstagramCommand}"
+                                    Source="{Binding InstagramIcon}"
+                                    Style="{StaticResource themeImage_Setting}" />
+
+                                <Label Style="{StaticResource small_label_Setting}" Text="{Binding InstagramTitle}" />
+
+
+
+
+                            </VerticalStackLayout>
+
+                        </HorizontalStackLayout>
+                    </Frame>
+
+
+
+                </VerticalStackLayout>
+
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </Grid>
+</ContentPage>

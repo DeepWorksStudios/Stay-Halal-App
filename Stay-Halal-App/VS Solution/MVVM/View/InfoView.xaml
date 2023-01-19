@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Stay_Halal.MVVM.View.InfoView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:model="clr-namespace:Stay_Halal.MVVM.Model"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    Title="{Binding Title}"
+    x:DataType="viewmodel:InfoViewModel"
+    Background="{Binding Theme.BackgroundGradient}">
+
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*', Default='100,*'}">
+
+        <cells:TopBanner x:Name="Top_Bar" />
+
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
+
+
+
+            <VerticalStackLayout
+                Padding="8.5"
+                Spacing="10"
+                VerticalOptions="Start">
+
+                <VerticalStackLayout Spacing="20">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding AppTitle}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding AppIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding AppDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+
+
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Format}" />
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="20">
+
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding TeamTitle}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                        <Image Source="{Binding TeamIcon}" Style="{StaticResource Image_Info}" />
+
+                    </HorizontalStackLayout>
+
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding TeamDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+
+                    </Frame>
+
+                    <ListView
+                        HeightRequest="500"
+                        HorizontalScrollBarVisibility="Always"
+                        ItemsSource="{Binding TeamMembers}"
+                        RowHeight="80"
+                        SelectionMode="None"
+                        SeparatorColor="{Binding Theme.SecondColor}"
+                        VerticalScrollBarVisibility="Always">
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="model:TeamMemberModel">
+                                <ViewCell>
+
+                                    <Grid
+                                        Padding="10"
+                                        Background="{Binding Theme.BackgroundIconGradient}"
+                                        ColumnSpacing="10">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Image
+                                            Grid.RowSpan="2"
+                                            Aspect="AspectFill"
+                                            HeightRequest="60"
+                                            Source="{Binding Pictrue, Mode=OneWay}"
+                                            WidthRequest="60" />
+
+                                        <Label
+                                            Grid.Row="1"
+                                            Grid.Column="1"
+                                            FontAttributes="Italic"
+                                            Text="{Binding Description}"
+                                            TextColor="{Binding Theme.SecondTextColor}" />
+                                        <Label
+                                            Grid.Row="0"
+                                            Grid.Column="1"
+                                            FontAttributes="Bold"
+                                            Text="{Binding Name}"
+                                            TextColor="{Binding Theme.MainTextColor}"
+                                            VerticalOptions="End" />
+
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+
+
+                    </ListView>
+
+                    <BoxView
+                        Grid.Row="1"
+                        Grid.ColumnSpan="10"
+                        Style="{StaticResource boxView_Format}" />
+
+                    <Image Source="{Binding AppLogo}" />
+
+
+
+                </VerticalStackLayout>
+
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </Grid>
+
+
+
+
+</ContentPage>

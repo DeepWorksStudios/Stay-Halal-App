@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Stay_Halal.MVVM.View.MessagePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
+    Title="{Binding Title}"
+    x:DataType="viewmodel:MessageViewModel"
+  >
+
+
+
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='100,*,80', Default='100,*,80'}">
+
+
+
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
+
+            <VerticalStackLayout
+                Padding="8.5"
+                Spacing="15"
+                VerticalOptions="Start">
+
+                <VerticalStackLayout Spacing="20">
+
+                    <Grid Padding="2" ColumnDefinitions="8,*,75,8">
+                        <Label Grid.Column="1" Text="{Binding Title}" />
+
+                        <Image
+                            Grid.Column="2"
+                            MaximumHeightRequest="100"
+                            MaximumWidthRequest="100"
+                            Source="{Binding Image}" />
+                    </Grid>
+
+                    <VerticalStackLayout Spacing="10">
+
+                        <Frame>
+
+                            <Label Text="{Binding Message}" />
+
+                        </Frame>
+
+                        <Editor
+                            IsEnabled="{Binding Error}"
+                            IsVisible="{Binding Error}"
+                            Style="{StaticResource errorEntry_Message}"
+                            Text="{Binding ErrorMessage}">
+
+                            <Editor.Behaviors>
+                                <toolkit:EventToCommandBehavior Command="{Binding EntryTextChangedCommand}" EventName="Completed" />
+                            </Editor.Behaviors>
+
+                        </Editor>
+
+                    </VerticalStackLayout>
+
+                </VerticalStackLayout>
+
+                <Frame IsEnabled="{Binding ButtonEnabled}" IsVisible="{Binding ButtonEnabled}">
+
+                    <Button
+                        Command="{Binding ComfirmCommand}"
+                        IsEnabled="{Binding ButtonEnabled}"
+                        IsVisible="{Binding ButtonEnabled}"
+                        Text="{Binding ButtonText}" />
+                </Frame>
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+
+
+    </Grid>
+
+</ContentPage>
