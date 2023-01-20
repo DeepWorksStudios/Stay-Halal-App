@@ -3385,3 +3385,4 @@ D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\ob
 D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\unkown_dark.png
 D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\unkown_light.png
 D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-android\android\assets\ZXing.Net.MAUI.Controls.dll
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-android\android\assets\System.Data.SqlClient.dll

@@ -1,15 +1,22 @@
-﻿using Stay_Halal.MVVM.Model;
+﻿
+using Stay_Halal.MVVM.Model;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace Stay_Halal.Scripts.Libraries.Dynamic
 {
     public class DB_Lib
     {
         private List<ProductModel> producte= new List<ProductModel>();
+
+      
         public DB_Lib() 
         {
             CreateTestData();
@@ -21,6 +28,7 @@ namespace Stay_Halal.Scripts.Libraries.Dynamic
             ProductModel tabak = new ProductModel() { Barcode = "42425304",Hersteller="Pueblo" ,Title="Pueblo Dreh Tabak",Inhaltsstoffe=inhaltsstoffeTabak };
 
             producte.Add(tabak);
+
         }
 
 

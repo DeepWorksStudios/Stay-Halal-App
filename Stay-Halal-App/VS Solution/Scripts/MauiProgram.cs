@@ -53,8 +53,8 @@ public static class MauiProgram
         builder.Services.AddSingleton<ManualInputView>();
         builder.Services.AddSingleton<ManualInputViewModel>();
 
-        builder.Services.AddTransient<BarcodeScannerView>();
-        builder.Services.AddTransient<BarcodeScannerViewModel>();
+        builder.Services.AddSingleton<BarcodeScannerView>();
+        builder.Services.AddSingleton<BarcodeScannerViewModel>();
 
         builder.Services.AddTransient<ProductDetailView>();
         builder.Services.AddTransient<ProductDetailViewModel>();

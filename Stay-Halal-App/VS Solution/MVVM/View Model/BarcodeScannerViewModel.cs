@@ -20,15 +20,9 @@ public partial class BarcodeScannerViewModel : BaseViewModel
     private string id;
 
 
-    public async void OnConfirmInput(string input)
+    public void OnConfirmInput(string input)
     {
-
         scanner.ScanProduct(input);
-
-
-
-
-
     }
     
 

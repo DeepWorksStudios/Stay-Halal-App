@@ -9,7 +9,7 @@ namespace Stay_Halal.MVVM.View;
 public partial class BarcodeScannerView : ContentPage
 {
     private BarcodeScannerViewModel ViewModel { get; set; }
-
+    bool canScan = true;
 
     public BarcodeScannerView(BarcodeScannerViewModel vm)
 	{
@@ -30,8 +30,30 @@ public partial class BarcodeScannerView : ContentPage
         };
     }
 
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        cameraBarcodeReaderView.CameraLocation = CameraLocation.Front;
+        cameraBarcodeReaderView.CameraLocation = CameraLocation.Rear;
+        cameraBarcodeReaderView.CameraLocation = CameraLocation.Front;
+        cameraBarcodeReaderView.CameraLocation = CameraLocation.Rear;
+        canScan = true;
+
+        ViewModel.FrameColor = Color.Parse("#FF0000");
+    }
+
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+
+
+    }
     private void cameraBarcodeReaderView_BarcodesDetected(object sender, ZXing.Net.Maui.BarcodeDetectionEventArgs e)
     {
+        if (!canScan) return;
+        canScan = false;
+
         ViewModel.FrameColor = Color.Parse("#00FF00");
 
         string value = e.Results[0].Value;

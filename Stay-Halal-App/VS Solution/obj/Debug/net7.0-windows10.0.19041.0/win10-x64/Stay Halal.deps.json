@@ -16,16 +16,18 @@
           "Microsoft.Extensions.Logging": "7.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Logging.Debug": "7.0.0",
-          "Microsoft.Maui.Graphics": "7.0.52",
-          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.52",
+          "Microsoft.Maui.Graphics": "7.0.58",
+          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.58",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
-          "Microsoft.WindowsAppSDK": "1.2.221109.1",
-          "ZXing.Net.Maui": "0.1.0-preview.7",
+          "Microsoft.WindowsAppSDK": "1.2.221116.1",
+          "System.Data.SqlClient": "4.8.5",
+          "ZXing.Net.Maui": "0.3.0-preview.1",
+          "ZXing.Net.Maui.Controls": "0.3.0-preview.1",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.0",
-          "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.52",
-          "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.52",
-          "runtimepack.Microsoft.Maui.Essentials.Runtime.win": "7.0.52",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.27"
+          "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.58",
+          "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.58",
+          "runtimepack.Microsoft.Maui.Essentials.Runtime.win": "7.0.58",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.28"
         },
         "runtime": {
           "Stay Halal.dll": {}
@@ -751,47 +753,47 @@
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Core.Runtime.win/7.0.52": {
+      "runtimepack.Microsoft.Maui.Core.Runtime.win/7.0.58": {
         "runtime": {
           "Microsoft.Maui.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.51.1"
+            "fileVersion": "7.0.54.4"
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Controls.Runtime.win/7.0.52": {
+      "runtimepack.Microsoft.Maui.Controls.Runtime.win/7.0.58": {
         "runtime": {
           "Microsoft.Maui.Controls.Compatibility.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.51.1"
+            "fileVersion": "7.0.54.4"
           },
           "Microsoft.Maui.Controls.Xaml.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.51.1"
+            "fileVersion": "7.0.54.4"
           },
           "Microsoft.Maui.Controls.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.51.1"
+            "fileVersion": "7.0.54.4"
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Essentials.Runtime.win/7.0.52": {
+      "runtimepack.Microsoft.Maui.Essentials.Runtime.win/7.0.58": {
         "runtime": {
           "Microsoft.Maui.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.51.1"
+            "fileVersion": "7.0.54.4"
           }
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.27": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.28": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
             "assemblyVersion": "10.0.19041.24",
-            "fileVersion": "10.0.19041.27"
+            "fileVersion": "10.0.19041.28"
           },
           "WinRT.Runtime.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.39961"
+            "fileVersion": "2.0.1.40881"
           }
         }
       },
@@ -921,7 +923,7 @@
       },
       "Microsoft.Graphics.Win2D/1.0.4": {
         "dependencies": {
-          "Microsoft.WindowsAppSDK": "1.2.221109.1"
+          "Microsoft.WindowsAppSDK": "1.2.221116.1"
         },
         "runtime": {
           "lib/net5.0-windows10.0.17763.0/Microsoft.Graphics.Canvas.Interop.dll": {
@@ -935,29 +937,36 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/7.0.52": {
+      "Microsoft.Maui.Graphics/7.0.58": {
         "runtime": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.51.1"
+            "fileVersion": "7.0.54.4"
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.52": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.58": {
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.4",
-          "Microsoft.Maui.Graphics": "7.0.52",
-          "Microsoft.WindowsAppSDK": "1.2.221109.1"
+          "Microsoft.Maui.Graphics": "7.0.58",
+          "Microsoft.WindowsAppSDK": "1.2.221116.1"
         },
         "runtime": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.51.1"
+            "fileVersion": "7.0.54.4"
           }
         }
       },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {},
-      "Microsoft.WindowsAppSDK/1.2.221109.1": {
+      "Microsoft.WindowsAppSDK/1.2.221116.1": {
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755"
         },
@@ -1025,6 +1034,42 @@
           }
         }
       },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "native": {
+          "runtimes/win-x64/native/sni.dll": {
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "System.Data.SqlClient/4.8.5": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.5",
+            "fileVersion": "4.700.22.51706"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
       "ZXing.Net/0.16.8": {
         "runtime": {
           "lib/net6.0/zxing.dll": {
@@ -1033,12 +1078,24 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1057,22 +1114,22 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Core.Runtime.win/7.0.52": {
+    "runtimepack.Microsoft.Maui.Core.Runtime.win/7.0.58": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Controls.Runtime.win/7.0.52": {
+    "runtimepack.Microsoft.Maui.Controls.Runtime.win/7.0.58": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Essentials.Runtime.win/7.0.52": {
+    "runtimepack.Microsoft.Maui.Essentials.Runtime.win/7.0.58": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.27": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.28": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -1168,19 +1225,33 @@
       "path": "microsoft.graphics.win2d/1.0.4",
       "hashPath": "microsoft.graphics.win2d.1.0.4.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics/7.0.52": {
+    "Microsoft.Maui.Graphics/7.0.58": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MSV8tGhjgPuzxvU97enZgZeUejHqkhQaAy7yBY0sqmJpsWvbw5qcWgwLsXEob0AmTLCY08yK/PnMdV34hCuTAQ==",
-      "path": "microsoft.maui.graphics/7.0.52",
-      "hashPath": "microsoft.maui.graphics.7.0.52.nupkg.sha512"
+      "sha512": "sha512-xKmRWs1oflG4dv2u28wNtP9scXDzvm8k0wSIJtEeQUxZeGF3dZPb6hyU0gjsRoGkrg7yPM3DZBrSqiR9RNXNeQ==",
+      "path": "microsoft.maui.graphics/7.0.58",
+      "hashPath": "microsoft.maui.graphics.7.0.58.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.52": {
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/7.0.58": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vMSto97Vdvr5ln5gStZJv127G0iEFb2GX8aAzElHzLbS3E+Ey7SwI10fYoo1Z4ZH5tXKdOYI4xW32GmDCcN1sQ==",
-      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.52",
-      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512"
+      "sha512": "sha512-ts251i8YrOKImpRiKfiuYsF/nWs8fGoqasppJP0R62nXW2M7QqcPS5LtcuPkl5prFSsT72YRqdtvvFl+3XFC0Q==",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.58",
+      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.7.0.58.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
       "type": "package",
@@ -1189,12 +1260,61 @@
       "path": "microsoft.windows.sdk.buildtools/10.0.22621.755",
       "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512"
     },
-    "Microsoft.WindowsAppSDK/1.2.221109.1": {
+    "Microsoft.WindowsAppSDK/1.2.221116.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5My+tXeFoC2+jPdLD91KDuEvssEEvrQOONrKmdFE7Upws22ASwyCbF5JglJPnCvrLGhIRqwPsV/zlyX/q5LNgQ==",
-      "path": "microsoft.windowsappsdk/1.2.221109.1",
-      "hashPath": "microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512"
+      "sha512": "sha512-FaNcHP6lm79jvNmce7zpEy1SEjA74COwf/gcgRTQ+2pzGP4jf03aBdrajZCpzmGuywMYR7pPQRw7ogVLUDYv9g==",
+      "path": "microsoft.windowsappsdk/1.2.221116.1",
+      "hashPath": "microsoft.windowsappsdk.1.2.221116.1.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.8.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
+      "path": "system.data.sqlclient/4.8.5",
+      "hashPath": "system.data.sqlclient.4.8.5.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
     "ZXing.Net/0.16.8": {
       "type": "package",
@@ -1203,12 +1323,19 @@
       "path": "zxing.net/0.16.8",
       "hashPath": "zxing.net.0.16.8.nupkg.sha512"
     },
-    "ZXing.Net.Maui/0.1.0-preview.7": {
+    "ZXing.Net.Maui/0.3.0-preview.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-s5NlUFSaHvxS9RghM49KmtHG5eBa0MafizG95/11rVdaOgycn2Z/Yo6JJuOfyqqx7OAT+vp/aFpJWoKiIA7xfw==",
-      "path": "zxing.net.maui/0.1.0-preview.7",
-      "hashPath": "zxing.net.maui.0.1.0-preview.7.nupkg.sha512"
+      "sha512": "sha512-Y+iBtFpOrjKny5DoHwKigy5jmXqm/YtwDu3rMhezfIIMMwVA9C/I06zLKWPb1yPRaM5QWvVtbbQ7lW0wMehthw==",
+      "path": "zxing.net.maui/0.3.0-preview.1",
+      "hashPath": "zxing.net.maui.0.3.0-preview.1.nupkg.sha512"
+    },
+    "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RBOKeaNq2JAbwthBoh3RTCUiul40Eg92isqyvjcjw3ywa2v+OA4jil93rDWw1hiaO2Q4mvg7SFYj5bUrIgCoug==",
+      "path": "zxing.net.maui.controls/0.3.0-preview.1",
+      "hashPath": "zxing.net.maui.controls.0.3.0-preview.1.nupkg.sha512"
     }
   },
   "runtimes": {
