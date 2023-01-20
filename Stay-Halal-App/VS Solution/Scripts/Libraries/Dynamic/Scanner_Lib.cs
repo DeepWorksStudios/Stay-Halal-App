@@ -19,6 +19,8 @@ public class Scanner_Lib
 
     public void ScanProduct(string input)
     {
+        Debug.WriteLine(input);
+
         Device.BeginInvokeOnMainThread(async () =>
         {
 

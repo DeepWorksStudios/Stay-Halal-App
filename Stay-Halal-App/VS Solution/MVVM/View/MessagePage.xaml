@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+        xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
     xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
     Title="{Binding Title}"
     Background="{Binding Theme.BackgroundGradient}"
@@ -14,7 +15,8 @@
     <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='100,*', Default='100,*'}">
 
 
-
+        <cells:TopBanner x:Name="Top_Bar" />
+        
         <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
 
             <VerticalStackLayout

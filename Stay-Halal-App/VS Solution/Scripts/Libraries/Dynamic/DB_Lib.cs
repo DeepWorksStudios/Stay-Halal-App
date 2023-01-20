@@ -77,7 +77,7 @@ namespace Stay_Halal.Scripts.Libraries.Dynamic
          
             ProductModel haribo = new ProductModel()
             {
-                Barcode = "4001686315613",
+                Barcode = "4001686315101",
                 Hersteller = "Haribo",
                 Title = "Happy Cola",
                 Inhaltsstoffe = inhaltsstoffeHaribo

@@ -61,7 +61,7 @@ public static class Resources_Lib
     };
     #endregion
     #region Scanner
-    public static MessageModel ScannerFail = new MessageModel("Product Unbekannt", "das product kennt die db nicht", "document_light.svg", "document_dark.svg", false, "", "../..");
+    public static MessageModel ScannerFail = new MessageModel("Product Unbekannt", "das product kennt die db nicht", "unkown_light.svg", "unkown_dark.svg", false, "", "../..");
     #endregion
     #region FAQ
     public static QAModel Qestion_1a = new QAModel() { QestionTitle = "Ich lebe in Europa, aber nicht in Deutschland. Kann ich von der App profitieren?", QestionDescription = "Ja, der Standort des Nutzers spielt überhaupt keine Rolle.", AwnserTitle = "Ich lebe in Europa, aber nicht in Deutschland. Kann ich von der App profitieren?", AwnserDescription = "Ja, der Standort des Nutzers spielt überhaupt keine Rolle. Sie können unabhängig ihres Standortes von unserer App profitieren, und jederzeit Produkte mit unserer App nach islamischen Prinzipien überprüfen lassen." };

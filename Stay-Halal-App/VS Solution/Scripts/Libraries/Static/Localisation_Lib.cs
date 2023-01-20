@@ -13,7 +13,7 @@ public static class Localisation_Lib
     #endregion
     #region Flyout
     public const string FlyoutMenuItem_HauptMenü = "Hauptmenü";
-    public const string FlyoutMenuItem_ProductScanner = "Product Scanner";
+    public const string FlyoutMenuItem_ProductScanner = "Produkt Scanner";
     public const string FlyoutMenuItem_Einstellung = "Einstellungen";
     public const string FlyoutMenuItem_Kontakt = "Kontakt";
     public const string FlyoutMenuItem_Info = "Informationen";
@@ -29,28 +29,28 @@ public static class Localisation_Lib
     public const string ViewTitle_Info = "Information";
     public const string ViewTitle_ManuelInput = "Manuelle Eingabe";
     public const string ViewTitle_BarcodeScanner = "Barcode Scanner";
-    public const string ViewTitle_Product = "Product Auswertung";
+    public const string ViewTitle_Product = "Produktanalyse";
     public const string ViewTitle_Welcome = "Willkommen";
     #endregion
     #region Info View
     public const string InfoAppTitle = "App Info";
-    public const string InfoAppDesc = "Die App wurde mit net.7 Maui entwickelt. Diese nutzt c# und xaml";
+    public const string InfoAppDesc = "Die App wurde mit .NET MAUI entwickelt, diese nutzt C# und XAML";
     public const string InfoTeamTitle = "Über das Team";
-    public const string InfoTeamDesc = "Diese App wurde im Zusammenhang mit der Projektwoche entwickelt";
+    public const string InfoTeamDesc = "Wir sind eine kleine Gruppe bestehend aus sechs Mitglieder welche an dem Emschertal Berufskolleg ihr Fachabitur in Richtung Informatik anstreben. Diese App wurde im Zeitraum der Projektwoche entwicklelt. Folgende Schüler waren involviert:";
     #endregion
     #region Contact View
     public const string ContactTitle = "Kontakt";
-    public const string ContactDesc = "Sollte es zu Fehlern innerhalb der App kommen oder Produkte geben die sich nicht in unserer Datenbank befinden, können sie uns gerne über die folgenden Wege kontaktieren.";
+    public const string ContactDesc = "Sollte es zu Fehlern innerhalb der App kommen oder Produkte geben die sich nicht in unserer Datenbank befinden, können Sie uns gerne über die folgenden Wege kontaktieren:";
     public const string ContactEmail = "kontakt@stayhalal.de";
-    public const string ContactSocialMedia = "Socail Media";
-    public const string ContactSocialMediaDesc = "Socail Media Inhalt";
+    public const string ContactSocialMedia = "Social Media";
+    public const string ContactSocialMediaDesc = "Social Media Inhalt";
     public const string ContactWebsite = "Website";
     public const string ContactFacebook = "Facebook";
     public const string ContactInstagram = "Instagram";
     #endregion
     #region Manual Input View
     public const string ManualInputTitle = "Manuelle Eingabe";
-    public const string ManualInputDesc = "Bitte geben Sie hier die gewünschte Artikelnummer ein";
+    public const string ManualInputDesc = "Bitte geben Sie hier die gewünschte Artikelnummer ein:";
     public const string ManualInputPlaceHolder = "Artikelnummer eingeben";
     public const string ManualInputComfirmButton = "Bestätigen";
     #endregion
@@ -64,22 +64,22 @@ public static class Localisation_Lib
     #region Setting View
     public const string SettingSonstigeTitle = "Sonstiges";
     public const string SettingThemeTitle = "Design";
-    public const string SettingCachingTitle = "Data Caching";
-    public const string SettingDefaultThemeTitle = "Standart";
+    public const string SettingCachingTitle = "Data-Caching";
+    public const string SettingDefaultThemeTitle = "Standard";
     public const string SettingDarkThemeTitle = "Dunkel";
     public const string SettingLightThemeTitle = "Hell";
     #endregion
     #region MainMenu View
     public const string MainMenuFaqTitle = "FAQ";
     public const string MainMenuFaqDesc = "Hier erhälst du Antworten auf häufig gestellte Fragen";
-    public const string MainMenuProductButton = "Product Scanner";
+    public const string MainMenuProductButton = "Produkt Scanner";
     #endregion
     #region Product View
-    public const string ProductTitle = "Product Details";
+    public const string ProductTitle = "Produkt Details";
     public const string ProductInhaltstoffeTitel = "Inhaltsstoffe";
-    public const string ProductInhaltstoffeDesc = "inhaltsstoffe intro text";
+    public const string ProductInhaltstoffeDesc = "Das Produkt beinhaltet folgende Inhaltsstoffe:";
     public const string ProductNameDesc = "Name: ";
-    public const string ProductBarcodeIDDesc = "Barcode ID: ";
+    public const string ProductBarcodeIDDesc = "Arikelnummer: ";
     public const string ProductHerstellerDec = "Hersteller: ";
     public const string ProductErgebnissUnbekannt = "Es liegen keine genaueren Informationen vom Hersteller vor, oder das Produkt wurde noch nicht in unserer Datenbank aufgelistet";
     public const string ProductErgebnissHalal = "Das Produkt ist durch ein Halal-Zertifizierungsinstitut als Halal ausgezeichnet";
@@ -89,14 +89,14 @@ public static class Localisation_Lib
     public const string Sliem_Name = "Sliem Beji";
     public const string Sliem_Desc = "Project Lead, Programmer";
     public const string Justin_Name = "Justin Szymikowski";
-    public const string Justin_Desc = "Not Filled";
+    public const string Justin_Desc = "Data Scientist, Product Specialist";
     public const string Shoaib_Name = "Shoaib Banai";
-    public const string Shoaib_Desc = "Not Filled";
+    public const string Shoaib_Desc = "UI Designer, Programmer Assistent, Text Writer";
     public const string Amjad_Name = "Amjad Morad";
-    public const string Amjad_Desc = "Not Filled";
+    public const string Amjad_Desc = "UI Concept Designer, Programmer Assistent";
     public const string David_Name = "David Rudnik";
-    public const string David_Desc = "Not Filled";
+    public const string David_Desc = "Documention, Data Scientist, UI Concept Designer";
     public const string Leon_Name = "Leon Schmitz";
-    public const string Leon_Desc = "Not Filled";
+    public const string Leon_Desc = "Text Writer, UI Concept Designer";
     #endregion
 }

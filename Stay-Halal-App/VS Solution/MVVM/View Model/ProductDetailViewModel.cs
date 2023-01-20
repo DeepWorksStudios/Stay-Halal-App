@@ -76,7 +76,7 @@ public partial class ProductDetailViewModel : BaseViewModel
         {
             Inhaltstoffe.Add(Model.Inhaltsstoffe[i]);
 
-            if (result) return;
+            if (result) continue;
 
             if (Model.Inhaltsstoffe[i].Type == Inhalt_Type.Unknown) resultValue = Inhalt_Type.Unknown;
             if (Model.Inhaltsstoffe[i].Type == Inhalt_Type.Haram)
