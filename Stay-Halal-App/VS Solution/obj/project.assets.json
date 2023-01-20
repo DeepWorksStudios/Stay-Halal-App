@@ -2100,7 +2100,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -2109,13 +2109,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -4219,7 +4236,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -4228,13 +4245,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -6338,7 +6372,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -6347,13 +6381,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -8457,7 +8508,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -8466,13 +8517,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -10576,7 +10644,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -10585,13 +10653,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -12695,7 +12780,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -12704,13 +12789,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -14814,7 +14916,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -14823,13 +14925,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -16933,7 +17052,7 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Camera.Camera2": "1.1.0",
@@ -16942,13 +17061,30 @@
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-android31.0/ZXing.Net.MAUI.dll": {
-            "related": ".xml"
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll": {
+            "related": ".aar;.xml"
           }
         }
       }
@@ -17181,14 +17317,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -17202,17 +17330,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -17444,14 +17584,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -17465,17 +17597,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -17707,14 +17851,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -17728,17 +17864,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -17970,14 +18118,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -17991,17 +18131,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -18233,14 +18385,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -18254,17 +18398,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -18496,14 +18652,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -18517,17 +18665,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -18759,14 +18919,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -18780,17 +18932,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -19022,14 +19186,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -19043,17 +19199,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -19285,14 +19453,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -19306,17 +19466,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -19548,14 +19720,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -19569,17 +19733,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -19811,14 +19987,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -19832,17 +20000,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -20074,14 +20254,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -20095,17 +20267,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -20337,14 +20521,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -20358,17 +20534,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -20600,14 +20788,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -20621,17 +20801,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -20863,14 +21055,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -20884,17 +21068,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -21126,14 +21322,6 @@
           }
         }
       },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ZXing.Net/0.16.8": {
         "type": "package",
         "compile": {
@@ -21147,17 +21335,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -21540,16 +21740,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -21904,16 +22117,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -22268,16 +22494,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -22632,16 +22871,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -22996,16 +23248,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -23360,16 +23625,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -23724,16 +24002,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     },
@@ -24094,16 +24385,29 @@
           }
         }
       },
-      "ZXing.Net.Maui/0.1.0-preview.7": {
+      "ZXing.Net.Maui/0.3.0-preview.1": {
         "type": "package",
         "dependencies": {
           "ZXing.Net": "0.16.8"
         },
         "compile": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll": {}
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.8",
+          "ZXing.Net.Maui": "0.3.0-preview.1"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {}
         }
       }
     }
@@ -25419,23 +25723,6 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
-      ]
-    },
-    "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-      "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
-      "type": "package",
-      "path": "system.runtime.interopservices.nfloat.internal/6.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "ref/net6.0/System.Runtime.InteropServices.dll",
-        "ref/net6.0/System.Runtime.InteropServices.xml",
-        "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
-        "system.runtime.interopservices.nfloat.internal.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -27637,20 +27924,38 @@
         "zxing.net.nuspec"
       ]
     },
-    "ZXing.Net.Maui/0.1.0-preview.7": {
-      "sha512": "s5NlUFSaHvxS9RghM49KmtHG5eBa0MafizG95/11rVdaOgycn2Z/Yo6JJuOfyqqx7OAT+vp/aFpJWoKiIA7xfw==",
+    "ZXing.Net.Maui/0.3.0-preview.1": {
+      "sha512": "Y+iBtFpOrjKny5DoHwKigy5jmXqm/YtwDu3rMhezfIIMMwVA9C/I06zLKWPb1yPRaM5QWvVtbbQ7lW0wMehthw==",
       "type": "package",
-      "path": "zxing.net.maui/0.1.0-preview.7",
+      "path": "zxing.net.maui/0.3.0-preview.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net6.0-android31.0/ZXing.Net.MAUI.dll",
-        "lib/net6.0-android31.0/ZXing.Net.MAUI.xml",
-        "lib/net6.0-ios15.4/ZXing.Net.MAUI.dll",
-        "lib/net6.0-maccatalyst15.4/ZXing.Net.MAUI.dll",
-        "lib/net6.0-windows10.0.19041/ZXing.Net.MAUI.dll",
-        "zxing.net.maui.0.1.0-preview.7.nupkg.sha512",
+        "lib/net7.0-android33.0/ZXing.Net.MAUI.aar",
+        "lib/net7.0-android33.0/ZXing.Net.MAUI.dll",
+        "lib/net7.0-android33.0/ZXing.Net.MAUI.xml",
+        "lib/net7.0-ios16.0/ZXing.Net.MAUI.dll",
+        "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.dll",
+        "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.dll",
+        "zxing.net.maui.0.3.0-preview.1.nupkg.sha512",
         "zxing.net.maui.nuspec"
+      ]
+    },
+    "ZXing.Net.Maui.Controls/0.3.0-preview.1": {
+      "sha512": "RBOKeaNq2JAbwthBoh3RTCUiul40Eg92isqyvjcjw3ywa2v+OA4jil93rDWw1hiaO2Q4mvg7SFYj5bUrIgCoug==",
+      "type": "package",
+      "path": "zxing.net.maui.controls/0.3.0-preview.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.aar",
+        "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.dll",
+        "lib/net7.0-android33.0/ZXing.Net.MAUI.Controls.xml",
+        "lib/net7.0-ios16.0/ZXing.Net.MAUI.Controls.dll",
+        "lib/net7.0-maccatalyst15.4/ZXing.Net.MAUI.Controls.dll",
+        "lib/net7.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll",
+        "zxing.net.maui.controls.0.3.0-preview.1.nupkg.sha512",
+        "zxing.net.maui.controls.nuspec"
       ]
     }
   },
@@ -27675,7 +27980,8 @@
       "Xamarin.AndroidX.Security.SecurityCrypto >= 1.1.0-alpha03",
       "Xamarin.Google.Android.Material >= 1.7.0",
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1",
-      "ZXing.Net.Maui >= 0.1.0-preview.7"
+      "ZXing.Net.Maui >= 0.3.0-preview.1",
+      "ZXing.Net.Maui.Controls >= 0.3.0-preview.1"
     ],
     "net7.0-ios16.1": [
       "CommunityToolkit.Maui >= 3.1.0",
@@ -27686,7 +27992,8 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.58",
-      "ZXing.Net.Maui >= 0.1.0-preview.7"
+      "ZXing.Net.Maui >= 0.3.0-preview.1",
+      "ZXing.Net.Maui.Controls >= 0.3.0-preview.1"
     ],
     "net7.0-maccatalyst16.1": [
       "CommunityToolkit.Maui >= 3.1.0",
@@ -27697,7 +28004,8 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.58",
-      "ZXing.Net.Maui >= 0.1.0-preview.7"
+      "ZXing.Net.Maui >= 0.3.0-preview.1",
+      "ZXing.Net.Maui.Controls >= 0.3.0-preview.1"
     ],
     "net7.0-windows10.0.19041": [
       "CommunityToolkit.Maui >= 3.1.0",
@@ -27711,7 +28019,8 @@
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.58",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
       "Microsoft.WindowsAppSDK >= 1.2.221116.1",
-      "ZXing.Net.Maui >= 0.1.0-preview.7"
+      "ZXing.Net.Maui >= 0.3.0-preview.1",
+      "ZXing.Net.Maui.Controls >= 0.3.0-preview.1"
     ]
   },
   "packageFolders": {
@@ -27870,7 +28179,11 @@
           },
           "ZXing.Net.Maui": {
             "target": "Package",
-            "version": "[0.1.0-preview.7, )"
+            "version": "[0.3.0-preview.1, )"
+          },
+          "ZXing.Net.Maui.Controls": {
+            "target": "Package",
+            "version": "[0.3.0-preview.1, )"
           }
         },
         "imports": [
@@ -27945,7 +28258,11 @@
           },
           "ZXing.Net.Maui": {
             "target": "Package",
-            "version": "[0.1.0-preview.7, )"
+            "version": "[0.3.0-preview.1, )"
+          },
+          "ZXing.Net.Maui.Controls": {
+            "target": "Package",
+            "version": "[0.3.0-preview.1, )"
           }
         },
         "imports": [
@@ -28020,7 +28337,11 @@
           },
           "ZXing.Net.Maui": {
             "target": "Package",
-            "version": "[0.1.0-preview.7, )"
+            "version": "[0.3.0-preview.1, )"
+          },
+          "ZXing.Net.Maui.Controls": {
+            "target": "Package",
+            "version": "[0.3.0-preview.1, )"
           }
         },
         "imports": [
@@ -28112,7 +28433,11 @@
           },
           "ZXing.Net.Maui": {
             "target": "Package",
-            "version": "[0.1.0-preview.7, )"
+            "version": "[0.3.0-preview.1, )"
+          },
+          "ZXing.Net.Maui.Controls": {
+            "target": "Package",
+            "version": "[0.3.0-preview.1, )"
           }
         },
         "imports": [

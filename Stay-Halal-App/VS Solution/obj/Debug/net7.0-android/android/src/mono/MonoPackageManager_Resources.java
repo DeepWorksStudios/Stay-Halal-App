@@ -110,6 +110,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
 		"zxing.dll",
 		"ZXing.Net.MAUI.dll",
+		"ZXing.Net.MAUI.Controls.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

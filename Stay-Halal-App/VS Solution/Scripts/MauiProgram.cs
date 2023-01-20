@@ -5,6 +5,7 @@ using Stay_Halal.MVVM.ViewModel;
 using Stay_Halal.Scripts.Helper;
 using Stay_Halal.Scripts.Libraries.Dynamic;
 using ZXing.Net.Maui;
+using ZXing.Net.Maui.Controls;
 
 namespace Stay_Halal;
 
@@ -52,11 +53,13 @@ public static class MauiProgram
         builder.Services.AddSingleton<ManualInputView>();
         builder.Services.AddSingleton<ManualInputViewModel>();
 
+        builder.Services.AddTransient<BarcodeScannerView>();
+        builder.Services.AddTransient<BarcodeScannerViewModel>();
+
         builder.Services.AddTransient<ProductDetailView>();
         builder.Services.AddTransient<ProductDetailViewModel>();
 
-        builder.Services.AddTransient<BarcodeScannerView>();
-        builder.Services.AddTransient<BarcodeScannerViewModel>();
+     
 
         builder.Services.AddTransient<MessagePage>();
         builder.Services.AddTransient<MessageViewModel>();
@@ -67,6 +70,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<Theme_Lib>();
         builder.Services.AddSingleton<Setting_Lib>();
         builder.Services.AddSingleton<DB_Lib>();
+        builder.Services.AddSingleton<Scanner_Lib>();
         #endregion
 
 

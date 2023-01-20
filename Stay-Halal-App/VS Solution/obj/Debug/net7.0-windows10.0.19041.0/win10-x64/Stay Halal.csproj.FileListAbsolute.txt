@@ -385,3 +385,18 @@ D:\Work Files\DeepWorks Studios\Projects\Stay-Halal-App\VS Solution\obj\Debug\ne
 D:\Work Files\DeepWorks Studios\Projects\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\justin.scale-100.png
 D:\Work Files\DeepWorks Studios\Projects\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\leon.scale-100.png
 D:\Work Files\DeepWorks Studios\Projects\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shoiab.scale-100.png
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Stay Halal.csproj.AssemblyReference.cache
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Stay Halal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Stay Halal.dll
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\refint\Stay Halal.dll
+D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Stay Halal.pdb

@@ -35,43 +35,19 @@ public partial class ManualInputViewModel : BaseViewModel
 
     #region Relay Commands
     [RelayCommand]
-    private async void OnConfirmInput()
+    private void OnConfirmInput()
     {
-        Debug.WriteLine(ManualInputValue);
-
-        ProductModel detail = _dB_Lib.GetProduct(ManualInputValue);
-
-        Debug.WriteLine(detail);
-        string route;
-        Dictionary<string, object> parameters;
-        if (detail==null)
-        {
-
-            MessageModel customMsg = new MessageModel("Regestrierung Verweigert", "Sie sind bereits angemeldet auf diesem gerät", "document_light.svg", "document_dark.svg", false, "Bestätigen", "../..");
-
-            route = $"{nameof(MessagePage)}";
-            parameters = new() { ["Model"] = customMsg };
-
-        }
-       
-        else
-        {
-          
-            route = $"//MainMenu/MainMenuView/{nameof(ProductDetailView)}";
-            parameters = new() { ["Model"] = detail };
-        }
-
-        await Shell.Current.GoToAsync(route, parameters);
+        scanner.ScanProduct(ManualInputValue);
     }
     #endregion
 
-    DB_Lib _dB_Lib;
+    Scanner_Lib scanner;
 
     #region Constructor/Destructor
-    public ManualInputViewModel(DB_Lib dB_Lib) : base()
+    public ManualInputViewModel(Scanner_Lib _scanner) : base()
     {
         Title = Localisation_Lib.ViewTitle_ManuelInput;
-        _dB_Lib= dB_Lib;
+        scanner = _scanner;
         ManualInputPlaceHolder = Localisation_Lib.ManualInputPlaceHolder;
         ManualInputTitel = Localisation_Lib.ManualInputTitle;
         ManualInputDesc = Localisation_Lib.ManualInputDesc;

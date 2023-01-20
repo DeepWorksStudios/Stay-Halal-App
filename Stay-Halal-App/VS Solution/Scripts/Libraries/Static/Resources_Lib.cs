@@ -6,6 +6,8 @@ namespace Stay_Halal.Scripts.Libraries.Static;
 public static class Resources_Lib
 {
     #region App
+
+    #region Logo
     public const string CompanyLogo_ImageLight = "footer_light.png";
     public const string CompanyLogo_ImageDark = "footer_dark.png";
 
@@ -13,7 +15,82 @@ public static class Resources_Lib
     public const string AppLogo_ImageDark = "applogo_dark.svg";
     #endregion
 
+    #region Links
+    public const string WebsiteLink = "http://www.emschertal-berufskolleg.de/index.php/unsere-schule/standort-steinstrasse";
+    public const string FacebookLink = "https://de-de.facebook.com/ebk.herne/";
+    public const string InstagramLink = "https://www.instagram.com/ebk_steinstrasse/?hl=de";
+    #endregion
+
+    #region Models
+    public static readonly TopBannerModel HeaderTheme = new TopBannerModel(Localisation_Lib.HeaderTitel,
+                                                                           AppLogo_ImageDark,
+                                                                           AppLogo_ImageLight);
+
+
+    #endregion
+
+    #region Team Members
+
+    public static TeamMemberModel Sliem = new TeamMemberModel()
+    {
+        Name = Localisation_Lib.Sliem_Name,
+        Description = Localisation_Lib.Sliem_Desc,
+        Pictrue = "sliem.png",
+
+    };
+
+    public static TeamMemberModel Shoaib = new TeamMemberModel()
+    {
+        Name = Localisation_Lib.Shoaib_Name,
+        Description = Localisation_Lib.Shoaib_Desc,
+        Pictrue = "shoiab.png",
+
+    };
+
+    public static TeamMemberModel Amjad = new TeamMemberModel()
+    {
+        Name = Localisation_Lib.Amjad_Name,
+        Description = Localisation_Lib.Amjad_Desc,
+        Pictrue = "amjad.png",
+    };
+
+    public static TeamMemberModel Justin = new TeamMemberModel()
+    {
+        Name = Localisation_Lib.Justin_Name,
+        Description = Localisation_Lib.Justin_Desc,
+        Pictrue = "justin.png",
+
+    };
+
+    public static TeamMemberModel David = new TeamMemberModel()
+    {
+        Name = Localisation_Lib.David_Name,
+        Description = Localisation_Lib.David_Desc,
+        Pictrue = "david.png",
+
+    };
+
+    public static TeamMemberModel Leon = new TeamMemberModel()
+    {
+        Name = Localisation_Lib.Leon_Name,
+        Description = Localisation_Lib.Leon_Desc,
+        Pictrue = "leon.png",
+
+    };
+    #endregion
+
+    #region Scanner
+     public static  MessageModel ScannerFail = new MessageModel("Product Unbekannt", "das product kennt die db nicht", "document_light.svg", "document_dark.svg", false, "", "../..");
+    #endregion
+
+    #region FAQ 
+    public static QAModel Qestion_1a = new QAModel() { QestionTitle = "Frage Title", QestionDescription = "Volle frage max char muss bestimmt werden", AwnserTitle = "darum", AwnserDescription = "test" };
+    #endregion
+
+    #endregion
+
     #region Navigation
+
     #region Flyout
     public const string FlyoutMenuItem_HauptMenü_ImageDark = "home_dark.svg";
     public const string FlyoutMenuItem_ProductScanner_ImageDark = "barcode_dark.svg";
@@ -34,34 +111,7 @@ public static class Resources_Lib
     public const string MenuBarItem_BarCode_ImageDark = "barcode_dark.svg";
     public const string MenuBarItem_ManualInput_ImageDark = "shift_dark.svg";
     #endregion
-    #endregion
 
-    #region Info View
-    public const string Info_AppTitleIcon_ImageDark = "info_dark.svg";
-    public const string Info_AppTitleIcon_ImageLight = "info_light.svg";
-
-    public const string Info_TeamIcon_ImageDark = "group_dark.svg";
-    public const string Info_TeamIcon_ImageLight = "group_light.svg";
-    #endregion
-
-    #region Contact View
-    public const string Contact_TitleIcon_ImageDark = "email_dark.svg";
-    public const string Contact_TitleIcon_ImageLight = "email_light.svg";
-    public const string Contact_WebsiteIcon_ImageLight = "www_light.svg";
-    public const string Contact_FacebookIcon_ImageLight = "facebook_light.svg";
-    public const string Contact_InstagramIcon_ImageLight = "instagram_light.svg";
-    public const string Contact_SocialIcon_ImageLight = "network_light.svg";
-    public const string Contact_WebsiteIcon_ImageDark = "www_dark.svg";
-    public const string Contact_FacebookIcon_ImageDark = "facebook_dark.svg";
-    public const string Contact_InstagramIcon_ImageDark = "instagram_dark.svg";
-    public const string Contact_SocialIcon_ImageDark = "network_dark.svg";
-
-
-    #endregion
-
-    #region Manual Input View
-    public const string Manual_TitleIcon_ImageDark = "shift_dark.svg";
-    public const string Manual_TitleIcon_ImageLight = "shift_light.svg";
     #endregion
 
     #region Welcome View
@@ -76,7 +126,27 @@ public static class Resources_Lib
     public const string MainMenu_FAQ_ImageDark = "faq_dark.svg";
     #endregion
 
+    #region Manual Input View
+    public const string Manual_TitleIcon_ImageDark = "shift_dark.svg";
+    public const string Manual_TitleIcon_ImageLight = "shift_light.svg";
+    #endregion
 
+    #region Product Detail View
+    public const string Product_DetailIcon_ImageLight = "inhalt_light.svg";
+    public const string Product_InhaltIcon_ImageLight = "information_light.svg";
+
+    public const string Product_DetailIcon_ImageDark = "inhalt_dark.svg";
+    public const string Product_InhaltIcon_ImageDark = "information_dark.svg";
+
+    public const string Product_RataingHalalIcon_ImageLight = "check_light.svg";
+    public const string Product_RataingHaramIcon_ImageLight = "cross_light.svg";
+    public const string Product_RataingUnkownIcon_ImageLight = "unkown_light.svg";
+
+    public const string Product_RataingHalalIcon_ImageDark = "check_dark.svg";
+    public const string Product_RataingHaramIcon_ImageDark = "cross_dark.svg";
+    public const string Product_RataingUnkownIcon_ImageDark = "unkown_dark.svg";
+
+    #endregion
 
     #region Setting View
     public const string Setting_DesignIcon_ImageLight = "paint_light.svg";
@@ -95,73 +165,27 @@ public static class Resources_Lib
 
     #endregion
 
-    #region Links
-    public const string WebsiteLink = "http://www.emschertal-berufskolleg.de/index.php/unsere-schule/standort-steinstrasse";
-    public const string FacebookLink = "https://de-de.facebook.com/ebk.herne/";
-    public const string InstagramLink = "https://www.instagram.com/ebk_steinstrasse/?hl=de";
+    #region Contact View
+    public const string Contact_TitleIcon_ImageDark = "email_dark.svg";
+    public const string Contact_TitleIcon_ImageLight = "email_light.svg";
+    public const string Contact_WebsiteIcon_ImageLight = "www_light.svg";
+    public const string Contact_FacebookIcon_ImageLight = "facebook_light.svg";
+    public const string Contact_InstagramIcon_ImageLight = "instagram_light.svg";
+    public const string Contact_SocialIcon_ImageLight = "network_light.svg";
+    public const string Contact_WebsiteIcon_ImageDark = "www_dark.svg";
+    public const string Contact_FacebookIcon_ImageDark = "facebook_dark.svg";
+    public const string Contact_InstagramIcon_ImageDark = "instagram_dark.svg";
+    public const string Contact_SocialIcon_ImageDark = "network_dark.svg";
+
+
     #endregion
 
-    #region Models
-    public static readonly TopBannerModel HeaderTheme = new TopBannerModel(Localisation_Lib.HeaderTitel,
-                                                                           AppLogo_ImageDark,
-                                                                           AppLogo_ImageLight);
+    #region Info View
+    public const string Info_AppTitleIcon_ImageDark = "info_dark.svg";
+    public const string Info_AppTitleIcon_ImageLight = "info_light.svg";
 
-
+    public const string Info_TeamIcon_ImageDark = "group_dark.svg";
+    public const string Info_TeamIcon_ImageLight = "group_light.svg";
     #endregion
-
-    #region Team Members
-
-    public static  TeamMemberModel Sliem = new TeamMemberModel()
-    {
-        Name = Localisation_Lib.Sliem_Name,
-        Description = Localisation_Lib.Sliem_Desc,
-        Pictrue = "sliem.png",
-
-    };
-
-    public static  TeamMemberModel Shoaib = new TeamMemberModel()
-    {
-        Name = Localisation_Lib.Shoaib_Name,
-        Description = Localisation_Lib.Shoaib_Desc,
-        Pictrue = "shoiab.png",
-
-    };
-
-    public static  TeamMemberModel Amjad = new TeamMemberModel()
-    {
-        Name = Localisation_Lib.Amjad_Name,
-        Description = Localisation_Lib.Amjad_Desc,
-        Pictrue = "amjad.png",
-    };
-
-    public static  TeamMemberModel Justin = new TeamMemberModel()
-    {
-        Name = Localisation_Lib.Justin_Name,
-        Description = Localisation_Lib.Justin_Desc,
-        Pictrue = "justin.png",
-
-    };
-
-    public static  TeamMemberModel David = new TeamMemberModel()
-    {
-        Name = Localisation_Lib.David_Name,
-        Description = Localisation_Lib.David_Desc,
-        Pictrue = "david.png",
-
-    };
-
-    public static  TeamMemberModel Leon = new TeamMemberModel()
-    {
-        Name = Localisation_Lib.Leon_Name,
-        Description = Localisation_Lib.Leon_Desc,
-        Pictrue = "leon.png",
-
-    };
-    #endregion
-
-    #region FAQ 
-    public static QAModel Qestion_1a = new QAModel() { QestionTitle = "Frage Title", QestionDescription = "Volle frage max char muss bestimmt werden", AwnserTitle = "darum", AwnserDescription = "test" };
-    #endregion
-
 }
 

@@ -9,7 +9,7 @@
     Title="{Binding Title}"
     x:DataType="viewmodel:ProductDetailViewModel"
     Background="{Binding Theme.BackgroundGradient}">
-    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*,80', Default='100,*,80'}">
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*', Default='100,*'}">
 
         <cells:TopBanner x:Name="Top_Bar" />
 
@@ -32,44 +32,113 @@
 
                     </HorizontalStackLayout>
 
-                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+
+                    <Grid ColumnDefinitions="100,270">
 
                         <Label
-                            Style="{StaticResource labelMessege_Info}"
-                            Text="{Binding ProductName}"
+                            Grid.Column="0"
+                            FontSize="Body"
+                            HorizontalOptions="Start"
+                            HorizontalTextAlignment="Start"
+                            Style="{StaticResource labelTitle_Help}"
+                            Text="Name:"
                             TextColor="{Binding Theme.MainTextColor}" />
 
-                    </Frame>
+                        <Frame
+                            Grid.Column="1"
+                            BorderColor="{Binding Theme.FourthColor}"
+                            Style="{StaticResource frame_Info}">
 
-                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+                            <Label
+                                Style="{StaticResource labelMessege_Info}"
+                                Text="{Binding ProductName}"
+                                TextColor="{Binding Theme.MainTextColor}" />
+
+                        </Frame>
+
+                    </Grid>
+
+                    <Grid ColumnDefinitions="100,270">
 
                         <Label
-                            Style="{StaticResource labelMessege_Info}"
-                            Text="{Binding ProductBarcodeID}"
+                            Grid.Column="0"
+                            FontSize="Body"
+                            HorizontalOptions="Start"
+                            HorizontalTextAlignment="Start"
+                            Style="{StaticResource labelTitle_Help}"
+                            Text="Barcode ID:"
                             TextColor="{Binding Theme.MainTextColor}" />
 
-                    </Frame>
-                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+                        <Frame
+                            Grid.Column="1"
+                            BorderColor="{Binding Theme.FourthColor}"
+                            Style="{StaticResource frame_Info}">
+
+                            <Label
+                                Style="{StaticResource labelMessege_Info}"
+                                Text="{Binding ProductBarcodeID}"
+                                TextColor="{Binding Theme.MainTextColor}" />
+
+                        </Frame>
+
+                    </Grid>
+
+
+                    <Grid ColumnDefinitions="100,270">
 
                         <Label
-                            Style="{StaticResource labelMessege_Info}"
-                            Text="{Binding ProductHersteller}"
+                            Grid.Column="0"
+                            FontSize="Body"
+                            HorizontalOptions="Start"
+                            HorizontalTextAlignment="Start"
+                            Style="{StaticResource labelTitle_Help}"
+                            Text="Hersteller:"
                             TextColor="{Binding Theme.MainTextColor}" />
+                        <Frame
+                            Grid.Column="1"
+                            BorderColor="{Binding Theme.FourthColor}"
+                            Style="{StaticResource frame_Info}">
 
-                    </Frame>
+                            <Label
+                                Style="{StaticResource labelMessege_Info}"
+                                Text="{Binding ProductHersteller}"
+                                TextColor="{Binding Theme.MainTextColor}" />
 
-                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+                        </Frame>
 
-                        <Image Source="{Binding ProductRatingIcon}" Style="{StaticResource Image_Info}" />
-
-                        <Label
-                            Style="{StaticResource labelTitle_Info}"
-                            Text="{Binding ProductRatingText}"
-                            TextColor="{Binding Theme.MainTextColor}" />
+                    </Grid>
 
 
 
-                    </HorizontalStackLayout>
+
+
+
+                    <VerticalStackLayout Style="{StaticResource horizontStack_Info}">
+
+                        <Frame
+                    Background="{Binding Theme.BackgroundIconGradient}"
+                    BorderColor="Transparent"
+                    CornerRadius="35"
+                    HasShadow="True"
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    ZIndex="1">
+
+                            <Image Source="{Binding ProductRatingIcon}" Style="{StaticResource Image_Info}" />
+
+                        </Frame>
+
+                        
+
+
+
+
+                        <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}" >
+                            <Label Text="{Binding ProductRatingText}" TextColor="{Binding Theme.MainTextColor}" />
+
+                        </Frame>
+
+                    </VerticalStackLayout>
 
                     <BoxView
                         Grid.Row="1"

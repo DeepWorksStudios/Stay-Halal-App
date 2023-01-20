@@ -55,6 +55,9 @@
         <member name="P:Stay_Halal.MVVM.ViewModel.BarcodeScannerViewModel.FrameColor">
             <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.BarcodeScannerViewModel.frameColor"/>
         </member>
+        <member name="P:Stay_Halal.MVVM.ViewModel.BarcodeScannerViewModel.Id">
+            <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.BarcodeScannerViewModel.id"/>
+        </member>
         <member name="P:Stay_Halal.MVVM.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:Stay_Halal.MVVM.ViewModel.BaseViewModel.isBusy"/>
         </member>

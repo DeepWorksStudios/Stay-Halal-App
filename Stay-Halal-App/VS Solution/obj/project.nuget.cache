@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TqltUjQT/u5v29qlEMzQUBk1mDldQJ4/lb0kzMsg2873T8IBdMgCi4tbEVmWfBfvAZMmiItkaKVA7w8Se+s9Qw==",
+  "dgSpecHash": "CNtMbgkVD1qhz8YIjFIX87InPLEfME4Yh2fjKUcvpWjllLvjYb31d0EaxAhRxSvlQXLyjnIHLUlJFT9aUyqZSA==",
   "success": true,
   "projectFilePath": "D:\\Work Files\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,6 @@
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.58\\microsoft.maui.graphics.win2d.winui.desktop.7.0.58.nupkg.sha512",
     "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221116.1\\microsoft.windowsappsdk.1.2.221116.1.nupkg.sha512",
-    "C:\\Users\\deepw\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
@@ -110,7 +109,8 @@
     "C:\\Users\\deepw\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512",
-    "C:\\Users\\deepw\\.nuget\\packages\\zxing.net.maui\\0.1.0-preview.7\\zxing.net.maui.0.1.0-preview.7.nupkg.sha512",
+    "C:\\Users\\deepw\\.nuget\\packages\\zxing.net.maui\\0.3.0-preview.1\\zxing.net.maui.0.3.0-preview.1.nupkg.sha512",
+    "C:\\Users\\deepw\\.nuget\\packages\\zxing.net.maui.controls\\0.3.0-preview.1\\zxing.net.maui.controls.0.3.0-preview.1.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.0\\microsoft.aspnetcore.app.runtime.win-x64.7.0.0.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.0.nupkg.sha512",

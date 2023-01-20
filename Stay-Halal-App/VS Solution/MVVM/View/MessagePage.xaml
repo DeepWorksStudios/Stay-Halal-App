@@ -11,7 +11,7 @@
 
 
 
-    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='100,*,80', Default='100,*,80'}">
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='100,*', Default='100,*'}">
 
 
 

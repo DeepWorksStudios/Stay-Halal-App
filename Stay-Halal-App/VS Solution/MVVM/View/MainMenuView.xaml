@@ -9,12 +9,12 @@
     Title="{Binding Title}"
     x:DataType="viewmodel:MainMenuViewModel"
     Background="{Binding Theme.BackgroundGradient}">
-    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*,80', Default='100,*,80'}">
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*', Default='100,*'}">
 
         <cells:TopBanner x:Name="Top_Bar" />
+        <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
 
-
-        <VerticalStackLayout
+            <VerticalStackLayout
             Grid.Row="1"
             Padding="8.5"
             Spacing="30">
@@ -83,7 +83,7 @@
 
             </VerticalStackLayout>
         </VerticalStackLayout>
-
+        </ScrollView>
 
     </Grid>
 </ContentPage>

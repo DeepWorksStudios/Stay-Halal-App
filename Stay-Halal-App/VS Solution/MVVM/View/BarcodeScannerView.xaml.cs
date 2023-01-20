@@ -2,6 +2,7 @@
 using Stay_Halal.MVVM.ViewModel;
 using Stay_Halal.Scripts.Libraries.Static;
 using ZXing.Net.Maui;
+using ZXing.QrCode.Internal;
 
 namespace Stay_Halal.MVVM.View;
 
@@ -19,6 +20,8 @@ public partial class BarcodeScannerView : ContentPage
 
         Top_Bar.ViewModel.SetupTheme(Resources_Lib.HeaderTheme);
 
+        
+
         cameraBarcodeReaderView.Options = new BarcodeReaderOptions
         {
             Formats = BarcodeFormats.All,
@@ -31,11 +34,10 @@ public partial class BarcodeScannerView : ContentPage
     {
         ViewModel.FrameColor = Color.Parse("#00FF00");
 
-        foreach (var barcode in e.Results)
-        {
-            System.Diagnostics.Debug.WriteLine($"Barcodes: {barcode.Format} -> {barcode.Value}");
-            
-        }
+        string value = e.Results[0].Value;
+        ViewModel.OnConfirmInput(value);
+
+       
            
     }
 }

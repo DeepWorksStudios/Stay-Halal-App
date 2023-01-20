@@ -36,6 +36,7 @@ public static class Localisation_Lib
 
     public const string ViewTitle_ManuelInput = "Manuelle Eingabe";
     public const string ViewTitle_BarcodeScanner = "Barcode Scanner";
+    public const string ViewTitle_Product = "Product Auswertung";
 
     public const string ViewTitle_Welcome = "Willkommen";
     #endregion
@@ -94,7 +95,17 @@ public static class Localisation_Lib
     #endregion
 
     #region Product View
-    public const string ViewTitle_Product = "Product Auswertung";
+    public const string ProductTitle = "Product Details";
+    public const string ProductInhaltstoffeTitel = "Inhaltsstoffe";
+    public const string ProductInhaltstoffeDesc = "inhaltsstoffe intro text";
+    public const string ProductNameDesc = "Name: ";
+    public const string ProductBarcodeIDDesc = "Barcode ID: ";
+    public const string ProductHerstellerDec = "Hersteller: ";
+
+
+    public const string ProductErgebnissUnbekannt = "Durch ein oder mehrer inhatssoffe ist die einstufung nicht möglich";
+    public const string ProductErgebnissHalal = "Dies product ist halal";
+    public const string ProductErgebnissHaram = "Dies product beinhaltet ministens ein inhaltsoff das haram ist";
     #endregion
 
     #region Team Member

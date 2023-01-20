@@ -170,3 +170,6 @@ Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.AutoValue.Annotations.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+ZXing.Net.MAUI.aar
+ZXing.Net.MAUI.Controls.dll
+ZXing.Net.MAUI.Controls.aar
