@@ -33,8 +33,7 @@
 
                     </HorizontalStackLayout>
 
-
-                    <Frame Style="{StaticResource frame_Setting}">
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
 
 

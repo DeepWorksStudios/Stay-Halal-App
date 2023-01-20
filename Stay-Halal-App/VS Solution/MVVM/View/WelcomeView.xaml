@@ -95,6 +95,7 @@
                     <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
                         <Button
+                            TextColor="{Binding Theme.MainTextColor}"
                             Background="{Binding Theme.BackgroundButtonGradient}"
                             Command="{Binding ConfirmCommand}"
                             Text="{Binding ConfirmButtonTitle}" />

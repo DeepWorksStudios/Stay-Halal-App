@@ -56,13 +56,13 @@
                         TextColor="{Binding Theme.MainTextColor}" />
                 </Frame>
 
-
-                <Button
+                <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+                    <Button
                     Background="{Binding Theme.BackgroundButtonGradient}"
                     Command="{Binding ConfirmInputCommand}"
                     Text="{Binding ManualInputComfirmButton}"
                     TextColor="{Binding Theme.MainTextColor}" />
-
+                </Frame>
             </VerticalStackLayout>
 
         </ScrollView>

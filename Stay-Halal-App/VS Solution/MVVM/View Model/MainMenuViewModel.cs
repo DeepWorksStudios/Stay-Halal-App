@@ -54,16 +54,11 @@ public partial class MainMenuViewModel : BaseViewModel
         ProductButtonText = Localisation_Lib.MainMenuProductButton;
 
 
-        qestiondata.Add(new QAModel { QestionTitle = "Frage Title", QestionDescription = "Volle frage max char muss bestimmt werden", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
-        qestiondata.Add(new QAModel { QestionTitle = "warum hier", QestionDescription = "test", AwnserTitle = "darum", AwnserDescription = "test" });
+        qestiondata.Add(Resources_Lib.Qestion_1a);
+        qestiondata.Add(Resources_Lib.Qestion_1b);
+        qestiondata.Add(Resources_Lib.Qestion_1c);
+        qestiondata.Add(Resources_Lib.Qestion_1d);
+
 
         LoadQestion();
     }
