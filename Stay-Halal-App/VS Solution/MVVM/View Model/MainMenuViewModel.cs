@@ -99,7 +99,7 @@ public partial class MainMenuViewModel : BaseViewModel
     #region Public Calls
     public async void OnOpenFAQ(int i)
     {
-        MessageModel customMsg = new MessageModel(Qestions[i].QestionTitle, Qestions[i].QestionDescription + "\n"+ Qestions[i].AwnserTitle+"\n"+ Qestions[i].AwnserDescription, Resources_Lib.MainMenu_FAQ_ImageLight, Resources_Lib.MainMenu_FAQ_ImageDark, false, Localisation_Lib.empty, "../..");
+        MessageModel customMsg = new MessageModel(Qestions[i].QestionTitle, Qestions[i].QestionDescription + "\n" + Qestions[i].AwnserDescription, Resources_Lib.MainMenu_FAQ_ImageLight, Resources_Lib.MainMenu_FAQ_ImageDark, false, Localisation_Lib.empty, "../..");
 
         string route = $"{nameof(MessagePage)}";
         Dictionary<string, object> parameters = new() { ["Model"] = customMsg };

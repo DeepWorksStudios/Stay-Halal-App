@@ -58,6 +58,9 @@ public partial class ProductDetailViewModel : BaseViewModel
     public ObservableCollection<InhaltsstoffModel> Inhaltstoffe { get; set; } = new ObservableCollection<InhaltsstoffModel>();
 
 
+    [ObservableProperty]
+    Color productRatingColor;
+
     #endregion
 
 
@@ -71,9 +74,15 @@ public partial class ProductDetailViewModel : BaseViewModel
 
         bool result = false;
         resultValue = Inhalt_Type.Halal;
-
+      
         for(int i=0;i < Model.Inhaltsstoffe.Length;i++)
         {
+            
+         
+
+            
+              
+
             Inhaltstoffe.Add(Model.Inhaltsstoffe[i]);
 
             if (result) continue;
@@ -91,12 +100,15 @@ public partial class ProductDetailViewModel : BaseViewModel
         {
             case Inhalt_Type.Halal:
                 ProductRatingText = Localisation_Lib.ProductErgebnissHalal;
+                ProductRatingColor = Color.Parse("#009B54");
                 break;
             case Inhalt_Type.Haram:
                 ProductRatingText=Localisation_Lib.ProductErgebnissHaram;
+                ProductRatingColor = Color.Parse("#CE0C1F");
                 break;
             case Inhalt_Type.Unknown:
                 ProductRatingText = Localisation_Lib.ProductErgebnissUnbekannt;
+                ProductRatingColor = Color.Parse("#FF9B54");
                 break;
         }
 

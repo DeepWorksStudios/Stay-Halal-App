@@ -24,10 +24,10 @@ public class Theme_Lib
 };
 
     private static ThemeModel lightTheme = new ThemeModel(AppTheme.Light,
-                                                          "#305559",
-                                                          "#7FB77E", 
-                                                          "#ADCC94",
-                                                          "#555555",
+                                                       "#878034",
+                                                         "#306653",
+                                                         "#62A388",
+                                                         "#7793D1",
                                                           "#000000",
                                                           "#000001",
                                                           "#606060",
@@ -36,17 +36,17 @@ public class Theme_Lib
 
 
     private static ThemeModel darkTheme = new ThemeModel(AppTheme.Dark,
-                                                         "#878034",
-                                                         "#306653",
-                                                         "#62A388",
-                                                         "#7793D1",
+                                                          "#305559",
+                                                          "#7FB77E",
+                                                          "#ADCC94",
+                                                          "#555555",
                                                          "#FFFFFF",
                                                          "#FFFFF1",
                                                          "#606060",
                                                          "#A2ACAD",
                                                          "#535F60");
 
-
+      
 
 
 

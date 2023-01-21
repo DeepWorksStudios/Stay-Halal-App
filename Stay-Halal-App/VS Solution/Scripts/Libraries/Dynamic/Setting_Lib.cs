@@ -35,7 +35,7 @@ public class Setting_Lib
     public void Comfirm_Key()
     {
         hasKey = true;
-        Preferences.Default.Set("fp_first", true);
+        Preferences.Default.Set("sh_first", true);
     }
     public void Change_Settings(SettingModel _data)
     {

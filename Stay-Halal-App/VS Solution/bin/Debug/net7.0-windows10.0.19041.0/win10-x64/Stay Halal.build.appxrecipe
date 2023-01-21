@@ -727,6 +727,897 @@
     <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\amjad.scale-100.png">
+      <PackagePath>amjad.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_dark.scale-100.png">
+      <PackagePath>applogo_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_dark.scale-125.png">
+      <PackagePath>applogo_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_dark.scale-150.png">
+      <PackagePath>applogo_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_dark.scale-200.png">
+      <PackagePath>applogo_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_dark.scale-400.png">
+      <PackagePath>applogo_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_light.scale-100.png">
+      <PackagePath>applogo_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_light.scale-125.png">
+      <PackagePath>applogo_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_light.scale-150.png">
+      <PackagePath>applogo_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_light.scale-200.png">
+      <PackagePath>applogo_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo_light.scale-400.png">
+      <PackagePath>applogo_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_dark.scale-100.png">
+      <PackagePath>barcode_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_dark.scale-125.png">
+      <PackagePath>barcode_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_dark.scale-150.png">
+      <PackagePath>barcode_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_dark.scale-200.png">
+      <PackagePath>barcode_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_dark.scale-400.png">
+      <PackagePath>barcode_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_light.scale-100.png">
+      <PackagePath>barcode_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_light.scale-125.png">
+      <PackagePath>barcode_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_light.scale-150.png">
+      <PackagePath>barcode_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_light.scale-200.png">
+      <PackagePath>barcode_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barcode_light.scale-400.png">
+      <PackagePath>barcode_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_dark.scale-100.png">
+      <PackagePath>brief_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_dark.scale-125.png">
+      <PackagePath>brief_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_dark.scale-150.png">
+      <PackagePath>brief_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_dark.scale-200.png">
+      <PackagePath>brief_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_dark.scale-400.png">
+      <PackagePath>brief_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_light.scale-100.png">
+      <PackagePath>brief_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_light.scale-125.png">
+      <PackagePath>brief_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_light.scale-150.png">
+      <PackagePath>brief_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_light.scale-200.png">
+      <PackagePath>brief_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\brief_light.scale-400.png">
+      <PackagePath>brief_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_dark.scale-100.png">
+      <PackagePath>check_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_dark.scale-125.png">
+      <PackagePath>check_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_dark.scale-150.png">
+      <PackagePath>check_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_dark.scale-200.png">
+      <PackagePath>check_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_dark.scale-400.png">
+      <PackagePath>check_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_light.scale-100.png">
+      <PackagePath>check_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_light.scale-125.png">
+      <PackagePath>check_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_light.scale-150.png">
+      <PackagePath>check_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_light.scale-200.png">
+      <PackagePath>check_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_light.scale-400.png">
+      <PackagePath>check_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_dark.scale-100.png">
+      <PackagePath>cross_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_dark.scale-125.png">
+      <PackagePath>cross_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_dark.scale-150.png">
+      <PackagePath>cross_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_dark.scale-200.png">
+      <PackagePath>cross_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_dark.scale-400.png">
+      <PackagePath>cross_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_light.scale-100.png">
+      <PackagePath>cross_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_light.scale-125.png">
+      <PackagePath>cross_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_light.scale-150.png">
+      <PackagePath>cross_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_light.scale-200.png">
+      <PackagePath>cross_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cross_light.scale-400.png">
+      <PackagePath>cross_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\darkbulb_dark.scale-100.png">
+      <PackagePath>darkbulb_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\darkbulb_light.scale-100.png">
+      <PackagePath>darkbulb_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\david.scale-100.png">
+      <PackagePath>david.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_dark.scale-100.png">
+      <PackagePath>document_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_dark.scale-125.png">
+      <PackagePath>document_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_dark.scale-150.png">
+      <PackagePath>document_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_dark.scale-200.png">
+      <PackagePath>document_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_dark.scale-400.png">
+      <PackagePath>document_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_light.scale-100.png">
+      <PackagePath>document_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_light.scale-125.png">
+      <PackagePath>document_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_light.scale-150.png">
+      <PackagePath>document_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_light.scale-200.png">
+      <PackagePath>document_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\document_light.scale-400.png">
+      <PackagePath>document_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_dark.scale-100.png">
+      <PackagePath>email_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_dark.scale-125.png">
+      <PackagePath>email_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_dark.scale-150.png">
+      <PackagePath>email_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_dark.scale-200.png">
+      <PackagePath>email_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_dark.scale-400.png">
+      <PackagePath>email_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_light.scale-100.png">
+      <PackagePath>email_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_light.scale-125.png">
+      <PackagePath>email_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_light.scale-150.png">
+      <PackagePath>email_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_light.scale-200.png">
+      <PackagePath>email_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\email_light.scale-400.png">
+      <PackagePath>email_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_dark.scale-100.png">
+      <PackagePath>facebook_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_dark.scale-125.png">
+      <PackagePath>facebook_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_dark.scale-150.png">
+      <PackagePath>facebook_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_dark.scale-200.png">
+      <PackagePath>facebook_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_dark.scale-400.png">
+      <PackagePath>facebook_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_light.scale-100.png">
+      <PackagePath>facebook_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_light.scale-125.png">
+      <PackagePath>facebook_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_light.scale-150.png">
+      <PackagePath>facebook_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_light.scale-200.png">
+      <PackagePath>facebook_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook_light.scale-400.png">
+      <PackagePath>facebook_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_dark.scale-100.png">
+      <PackagePath>faq_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_dark.scale-125.png">
+      <PackagePath>faq_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_dark.scale-150.png">
+      <PackagePath>faq_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_dark.scale-200.png">
+      <PackagePath>faq_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_dark.scale-400.png">
+      <PackagePath>faq_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_light.scale-100.png">
+      <PackagePath>faq_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_light.scale-125.png">
+      <PackagePath>faq_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_light.scale-150.png">
+      <PackagePath>faq_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_light.scale-200.png">
+      <PackagePath>faq_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\faq_light.scale-400.png">
+      <PackagePath>faq_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\footer_dark.scale-100.png">
+      <PackagePath>footer_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\footer_light.scale-100.png">
+      <PackagePath>footer_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_dark.scale-100.png">
+      <PackagePath>group_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_dark.scale-125.png">
+      <PackagePath>group_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_dark.scale-150.png">
+      <PackagePath>group_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_dark.scale-200.png">
+      <PackagePath>group_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_dark.scale-400.png">
+      <PackagePath>group_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_light.scale-100.png">
+      <PackagePath>group_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_light.scale-125.png">
+      <PackagePath>group_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_light.scale-150.png">
+      <PackagePath>group_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_light.scale-200.png">
+      <PackagePath>group_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\group_light.scale-400.png">
+      <PackagePath>group_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_dark.scale-100.png">
+      <PackagePath>home_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_dark.scale-125.png">
+      <PackagePath>home_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_dark.scale-150.png">
+      <PackagePath>home_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_dark.scale-200.png">
+      <PackagePath>home_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_dark.scale-400.png">
+      <PackagePath>home_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_light.scale-100.png">
+      <PackagePath>home_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_light.scale-125.png">
+      <PackagePath>home_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_light.scale-150.png">
+      <PackagePath>home_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_light.scale-200.png">
+      <PackagePath>home_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_light.scale-400.png">
+      <PackagePath>home_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_dark.scale-100.png">
+      <PackagePath>information_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_dark.scale-125.png">
+      <PackagePath>information_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_dark.scale-150.png">
+      <PackagePath>information_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_dark.scale-200.png">
+      <PackagePath>information_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_dark.scale-400.png">
+      <PackagePath>information_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_light.scale-100.png">
+      <PackagePath>information_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_light.scale-125.png">
+      <PackagePath>information_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_light.scale-150.png">
+      <PackagePath>information_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_light.scale-200.png">
+      <PackagePath>information_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\information_light.scale-400.png">
+      <PackagePath>information_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_dark.scale-100.png">
+      <PackagePath>info_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_dark.scale-125.png">
+      <PackagePath>info_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_dark.scale-150.png">
+      <PackagePath>info_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_dark.scale-200.png">
+      <PackagePath>info_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_dark.scale-400.png">
+      <PackagePath>info_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_light.scale-100.png">
+      <PackagePath>info_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_light.scale-125.png">
+      <PackagePath>info_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_light.scale-150.png">
+      <PackagePath>info_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_light.scale-200.png">
+      <PackagePath>info_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\info_light.scale-400.png">
+      <PackagePath>info_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_dark.scale-100.png">
+      <PackagePath>inhalt_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_dark.scale-125.png">
+      <PackagePath>inhalt_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_dark.scale-150.png">
+      <PackagePath>inhalt_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_dark.scale-200.png">
+      <PackagePath>inhalt_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_dark.scale-400.png">
+      <PackagePath>inhalt_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_light.scale-100.png">
+      <PackagePath>inhalt_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_light.scale-125.png">
+      <PackagePath>inhalt_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_light.scale-150.png">
+      <PackagePath>inhalt_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_light.scale-200.png">
+      <PackagePath>inhalt_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inhalt_light.scale-400.png">
+      <PackagePath>inhalt_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_dark.scale-100.png">
+      <PackagePath>instagram_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_dark.scale-125.png">
+      <PackagePath>instagram_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_dark.scale-150.png">
+      <PackagePath>instagram_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_dark.scale-200.png">
+      <PackagePath>instagram_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_dark.scale-400.png">
+      <PackagePath>instagram_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_light.scale-100.png">
+      <PackagePath>instagram_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_light.scale-125.png">
+      <PackagePath>instagram_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_light.scale-150.png">
+      <PackagePath>instagram_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_light.scale-200.png">
+      <PackagePath>instagram_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\instagram_light.scale-400.png">
+      <PackagePath>instagram_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\justin.scale-100.png">
+      <PackagePath>justin.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\leon.scale-100.png">
+      <PackagePath>leon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lightbulb_dark.scale-100.png">
+      <PackagePath>lightbulb_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lightbulb_light.scale-100.png">
+      <PackagePath>lightbulb_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_dark.scale-100.png">
+      <PackagePath>list_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_dark.scale-125.png">
+      <PackagePath>list_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_dark.scale-150.png">
+      <PackagePath>list_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_dark.scale-200.png">
+      <PackagePath>list_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_dark.scale-400.png">
+      <PackagePath>list_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_light.scale-100.png">
+      <PackagePath>list_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_light.scale-125.png">
+      <PackagePath>list_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_light.scale-150.png">
+      <PackagePath>list_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_light.scale-200.png">
+      <PackagePath>list_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\list_light.scale-400.png">
+      <PackagePath>list_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_dark.scale-100.png">
+      <PackagePath>network_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_dark.scale-125.png">
+      <PackagePath>network_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_dark.scale-150.png">
+      <PackagePath>network_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_dark.scale-200.png">
+      <PackagePath>network_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_dark.scale-400.png">
+      <PackagePath>network_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_light.scale-100.png">
+      <PackagePath>network_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_light.scale-125.png">
+      <PackagePath>network_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_light.scale-150.png">
+      <PackagePath>network_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_light.scale-200.png">
+      <PackagePath>network_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\network_light.scale-400.png">
+      <PackagePath>network_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_dark.scale-100.png">
+      <PackagePath>opportunity_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_dark.scale-125.png">
+      <PackagePath>opportunity_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_dark.scale-150.png">
+      <PackagePath>opportunity_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_dark.scale-200.png">
+      <PackagePath>opportunity_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_dark.scale-400.png">
+      <PackagePath>opportunity_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_light.scale-100.png">
+      <PackagePath>opportunity_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_light.scale-125.png">
+      <PackagePath>opportunity_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_light.scale-150.png">
+      <PackagePath>opportunity_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_light.scale-200.png">
+      <PackagePath>opportunity_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\opportunity_light.scale-400.png">
+      <PackagePath>opportunity_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_dark.scale-100.png">
+      <PackagePath>paint_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_dark.scale-125.png">
+      <PackagePath>paint_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_dark.scale-150.png">
+      <PackagePath>paint_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_dark.scale-200.png">
+      <PackagePath>paint_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_dark.scale-400.png">
+      <PackagePath>paint_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_light.scale-100.png">
+      <PackagePath>paint_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_light.scale-125.png">
+      <PackagePath>paint_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_light.scale-150.png">
+      <PackagePath>paint_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_light.scale-200.png">
+      <PackagePath>paint_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paint_light.scale-400.png">
+      <PackagePath>paint_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_dark.scale-100.png">
+      <PackagePath>settings_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_dark.scale-125.png">
+      <PackagePath>settings_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_dark.scale-150.png">
+      <PackagePath>settings_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_dark.scale-200.png">
+      <PackagePath>settings_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_dark.scale-400.png">
+      <PackagePath>settings_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_light.scale-100.png">
+      <PackagePath>settings_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_light.scale-125.png">
+      <PackagePath>settings_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_light.scale-150.png">
+      <PackagePath>settings_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_light.scale-200.png">
+      <PackagePath>settings_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings_light.scale-400.png">
+      <PackagePath>settings_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_dark.scale-100.png">
+      <PackagePath>shift_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_dark.scale-125.png">
+      <PackagePath>shift_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_dark.scale-150.png">
+      <PackagePath>shift_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_dark.scale-200.png">
+      <PackagePath>shift_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_dark.scale-400.png">
+      <PackagePath>shift_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_light.scale-100.png">
+      <PackagePath>shift_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_light.scale-125.png">
+      <PackagePath>shift_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_light.scale-150.png">
+      <PackagePath>shift_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_light.scale-200.png">
+      <PackagePath>shift_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shift_light.scale-400.png">
+      <PackagePath>shift_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shoiab.scale-100.png">
+      <PackagePath>shoiab.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sliem.scale-100.png">
+      <PackagePath>sliem.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\system_dark.scale-100.png">
+      <PackagePath>system_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\system_light.scale-100.png">
+      <PackagePath>system_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_dark.scale-100.png">
+      <PackagePath>unkown_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_dark.scale-125.png">
+      <PackagePath>unkown_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_dark.scale-150.png">
+      <PackagePath>unkown_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_dark.scale-200.png">
+      <PackagePath>unkown_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_dark.scale-400.png">
+      <PackagePath>unkown_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_light.scale-100.png">
+      <PackagePath>unkown_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_light.scale-125.png">
+      <PackagePath>unkown_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_light.scale-150.png">
+      <PackagePath>unkown_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_light.scale-200.png">
+      <PackagePath>unkown_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\unkown_light.scale-400.png">
+      <PackagePath>unkown_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_dark.scale-100.png">
+      <PackagePath>www_dark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_dark.scale-125.png">
+      <PackagePath>www_dark.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_dark.scale-150.png">
+      <PackagePath>www_dark.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_dark.scale-200.png">
+      <PackagePath>www_dark.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_dark.scale-400.png">
+      <PackagePath>www_dark.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_light.scale-100.png">
+      <PackagePath>www_light.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_light.scale-125.png">
+      <PackagePath>www_light.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_light.scale-150.png">
+      <PackagePath>www_light.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_light.scale-200.png">
+      <PackagePath>www_light.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\www_light.scale-400.png">
+      <PackagePath>www_light.scale-400.png</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\deepw\.nuget\packages\microsoft.windowsappsdk\1.2.221116.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">

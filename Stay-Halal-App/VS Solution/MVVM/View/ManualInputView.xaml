@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
     Title="{Binding Title}"
     x:DataType="viewmodel:ManualInputViewModel"
@@ -48,20 +49,27 @@
                 </Frame>
                 <Frame Background="{Binding Theme.BackgroundGradientv2}">
                     <Entry
-                        Keyboard="Numeric"
+                        toolkit:SetFocusOnEntryCompletedBehavior.NextElement="{x:Reference Execute_Button}"
                         HeightRequest="60"
-                        Text="{Binding ManualInputValue,Mode=TwoWay}"
+                        Keyboard="Numeric"
+                       
                         Placeholder="{Binding ManualInputPlaceHolder}"
                         PlaceholderColor="{Binding Theme.MainTextColor}"
-                        TextColor="{Binding Theme.MainTextColor}" />
+                        Text="{Binding ManualInputValue, Mode=TwoWay}"
+                        TextColor="{Binding Theme.MainTextColor}">
+                        <Entry.Behaviors>
+                            <toolkit:EventToCommandBehavior Command="{Binding ConfirmInputCommand}" EventName="Completed" />
+                        </Entry.Behaviors>
+                    </Entry>
                 </Frame>
 
                 <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
                     <Button
-                    Background="{Binding Theme.BackgroundButtonGradient}"
-                    Command="{Binding ConfirmInputCommand}"
-                    Text="{Binding ManualInputComfirmButton}"
-                    TextColor="{Binding Theme.MainTextColor}" />
+                        x:Name="Execute_Button"
+                        Background="{Binding Theme.BackgroundButtonGradient}"
+                        Command="{Binding ConfirmInputCommand}"
+                        Text="{Binding ManualInputComfirmButton}"
+                        TextColor="{Binding Theme.MainTextColor}" />
                 </Frame>
             </VerticalStackLayout>
 

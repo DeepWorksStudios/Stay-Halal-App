@@ -37,11 +37,16 @@ public partial class ManualInputViewModel : BaseViewModel
     [RelayCommand]
     private void OnConfirmInput()
     {
+        if (!canScan) return;
         scanner.ScanProduct(ManualInputValue);
     }
     #endregion
 
     Scanner_Lib scanner;
+    public bool canScan = true;
+
+    public void OnAppearing()
+    { ManualInputValue = Localisation_Lib.empty; canScan = true; }
 
     #region Constructor/Destructor
     public ManualInputViewModel(Scanner_Lib _scanner) : base()

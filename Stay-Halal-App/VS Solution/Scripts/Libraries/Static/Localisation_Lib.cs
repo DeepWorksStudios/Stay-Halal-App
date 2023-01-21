@@ -43,7 +43,7 @@ public static class Localisation_Lib
     public const string ContactDesc = "Sollte es zu Fehlern innerhalb der App kommen oder Produkte geben die sich nicht in unserer Datenbank befinden, können Sie uns gerne über die folgenden Wege kontaktieren:";
     public const string ContactEmail = "kontakt@stayhalal.de";
     public const string ContactSocialMedia = "Social Media";
-    public const string ContactSocialMediaDesc = "Social Media Inhalt";
+    public const string ContactSocialMediaDesc = "Möchten Sie einen tieferen Einblick in unsere Arbeit werfen, dann besuchen Sie uns doch gerne auf unseren Social Media Plattformen, um stets auf dem neusten Stand zu sein.";
     public const string ContactWebsite = "Website";
     public const string ContactFacebook = "Facebook";
     public const string ContactInstagram = "Instagram";
@@ -91,11 +91,11 @@ public static class Localisation_Lib
     public const string Justin_Name = "Justin Szymikowski";
     public const string Justin_Desc = "Data Scientist, Product Specialist";
     public const string Shoaib_Name = "Shoaib Banai";
-    public const string Shoaib_Desc = "UI Designer, Programmer Assistent, Text Writer";
+    public const string Shoaib_Desc = "UI Designer, Programmer Assistent";
     public const string Amjad_Name = "Amjad Morad";
     public const string Amjad_Desc = "UI Concept Designer, Programmer Assistent";
     public const string David_Name = "David Rudnik";
-    public const string David_Desc = "Documention, Data Scientist, UI Concept Designer";
+    public const string David_Desc = "Documention, UI Concept Designer";
     public const string Leon_Name = "Leon Schmitz";
     public const string Leon_Desc = "Text Writer, UI Concept Designer";
     #endregion

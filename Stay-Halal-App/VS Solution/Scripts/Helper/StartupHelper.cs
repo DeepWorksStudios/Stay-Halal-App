@@ -11,8 +11,7 @@ public class StartupHelper
     public StartupHelper(Setting_Lib _lib)
     {
         lib = _lib;
-        DisplayFirstStart();
-        return;
+       
         if (!lib.HasKey)
         {
            DisplayFirstStart();
