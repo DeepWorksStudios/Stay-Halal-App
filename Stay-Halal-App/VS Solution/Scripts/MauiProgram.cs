@@ -11,27 +11,27 @@ namespace Stay_Halal;
 
 public static class MauiProgram
 {
-    public static NavigationHelper navigationHelper { get { return _navigationHelper; } }
-    private static readonly NavigationHelper _navigationHelper = new();
+    public static NavigationHelper NavigationHelper { get { return _NavigationHelper; } }
+    private static readonly NavigationHelper _NavigationHelper = new();
 
     public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
+    {
+        var builder = MauiApp.CreateBuilder();
+        builder
+            .UseMauiApp<App>()
+            .ConfigureFonts(Fonts =>
+            {
+                Fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                Fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+            });
 
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
 
         #region Register Packages
         builder.UseMauiCommunityToolkit();
-		builder.UseBarcodeReader();
+        builder.UseBarcodeReader();
         #endregion
 
         #region Register MVVM Components
@@ -59,7 +59,7 @@ public static class MauiProgram
         builder.Services.AddTransient<ProductDetailView>();
         builder.Services.AddTransient<ProductDetailViewModel>();
 
-     
+
 
         builder.Services.AddTransient<MessagePage>();
         builder.Services.AddTransient<MessageViewModel>();
@@ -73,12 +73,11 @@ public static class MauiProgram
         builder.Services.AddSingleton<Scanner_Lib>();
         #endregion
 
-
         #region Register Helper
         builder.Services.AddSingleton<NavigationHelper>();
         builder.Services.AddSingleton<StartupHelper>();
         #endregion
 
         return builder.Build();
-	}
+    }
 }

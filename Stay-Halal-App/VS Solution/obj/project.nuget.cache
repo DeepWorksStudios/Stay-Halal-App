@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wuyeS++dTXxzYRpZDvTR09WDwuRMnHPeqMrg5aQHUOtfGbqOmxWpBJLE6pn0PFWueGlj12DJC63ipMWXq01tcQ==",
+  "dgSpecHash": "ijU4Po265Q+CiVl+9AcBAblTmH4kvhfhCyiej4FDSfnom6hg3wi1uierMoCbnePPbhd3yq35+0f7dplljTbkag==",
   "success": true,
   "projectFilePath": "D:\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
   "expectedPackageFiles": [
@@ -120,6 +120,7 @@
     "C:\\Users\\deepw\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\zxing.net.maui\\0.3.0-preview.1\\zxing.net.maui.0.3.0-preview.1.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\zxing.net.maui.controls\\0.3.0-preview.1\\zxing.net.maui.controls.0.3.0-preview.1.nupkg.sha512",
+    "C:\\Users\\deepw\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.0\\microsoft.netcore.app.crossgen2.win-x64.7.0.0.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.0\\microsoft.aspnetcore.app.runtime.win-x64.7.0.0.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.0.nupkg.sha512",

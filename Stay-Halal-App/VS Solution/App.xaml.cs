@@ -13,13 +13,13 @@ public partial class App : Application
 
 
 
-        MainPage = new AppShell(new AppShellViewModel(MauiProgram.navigationHelper));
+        MainPage = new AppShell(new AppShellViewModel(MauiProgram.NavigationHelper));
 
     }
     protected override void OnStart()
     {
         base.OnStart();
-        MauiProgram.navigationHelper.Init();
+        MauiProgram.NavigationHelper.Init();
         ServiceHelper.GetService<StartupHelper>().Check();
     }
 

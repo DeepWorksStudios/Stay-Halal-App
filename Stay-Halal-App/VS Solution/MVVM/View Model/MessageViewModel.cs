@@ -40,7 +40,7 @@ public partial class MessageViewModel : BaseViewModel
     [RelayCommand]
     async void OnComfirm()
     {
-        if (!Model.Unlook) MauiProgram.navigationHelper.Continue(1); else MauiProgram.navigationHelper.Unlook();
+        if (!Model.Unlook) MauiProgram.NavigationHelper.Continue(1); else MauiProgram.NavigationHelper.Unlook();
         await Shell.Current.GoToAsync(Model.TargetRoute);
     }
 
@@ -72,7 +72,7 @@ public partial class MessageViewModel : BaseViewModel
         string path = Shell.Current.CurrentState.Location.ToString() + "/MessagePage";
         Debug.WriteLine(path);
 
-        if (ButtonEnabled) MauiProgram.navigationHelper.Look(path);
+        if (ButtonEnabled) MauiProgram.NavigationHelper.Look(path);
 
         switch (Theme_Lib.CurrentTheme)
         {

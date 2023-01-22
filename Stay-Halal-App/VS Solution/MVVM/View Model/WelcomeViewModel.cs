@@ -50,7 +50,7 @@ public partial class WelcomeViewModel : BaseViewModel
     {
         setting_lib.Comfirm_Key();
 
-        MauiProgram.navigationHelper.Unlook();
+        MauiProgram.NavigationHelper.Unlook();
         var route = $"//MainMenu";
         await Shell.Current.GoToAsync(route); //await Shell.Current.fly;
     }

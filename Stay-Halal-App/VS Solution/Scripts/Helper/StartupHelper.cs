@@ -46,7 +46,7 @@ public class StartupHelper
 #endif
         
         await Shell.Current.GoToAsync(route);
-        MauiProgram.navigationHelper.Look(route);
+        MauiProgram.NavigationHelper.Look(route);
 
     }
 
