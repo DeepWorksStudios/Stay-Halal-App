@@ -47,7 +47,7 @@
 
 
 
-                    <BoxView
+                    <BoxView Color="{Binding Theme.FourthColor}"
                         Grid.Row="1"
                         Grid.ColumnSpan="10"
                         Style="{StaticResource boxView_Format}" />
@@ -132,7 +132,7 @@
 
                     </ListView>
 
-                    <BoxView
+                    <BoxView Color="{Binding Theme.FourthColor}"
                         Grid.Row="1"
                         Grid.ColumnSpan="10"
                         Style="{StaticResource boxView_Format}" />

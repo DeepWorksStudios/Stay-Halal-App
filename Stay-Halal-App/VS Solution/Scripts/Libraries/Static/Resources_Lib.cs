@@ -62,12 +62,39 @@ public static class Resources_Lib
     #endregion
     #region Scanner
     public static MessageModel ScannerFail = new MessageModel("Product Unbekannt", "das product kennt die db nicht", "unkown_light.svg", "unkown_dark.svg", false, "", "../..");
+    public static MessageModel NoInput = new MessageModel("Kein Barcode ID", "Die Eingabe war leer", "unkown_light.svg", "unkown_dark.svg", false, "", "../..");
+
     #endregion
     #region FAQ
-    public static QAModel Qestion_1a = new QAModel() { QestionTitle = "Nutzer Standort relevant?", QestionDescription = "Kann ich die App nur in Deutschland nutzen?", AwnserTitle = "Nur in Deutschland sinnvoll?", AwnserDescription = "Nein, der Standort des Nutzers spielt überhaupt keine Rolle. Sie können unabhängig ihres Standortes von unserer App profitieren, und jederzeit Produkte mit unserer App nach islamischen Prinzipien überprüfen lassen. Der Standort spielt dabei überhaupt keine Rolle." };
-    public static QAModel Qestion_1b = new QAModel() { QestionTitle = "App auch ohne Internetverbindung?", QestionDescription = "Ja, die App kann auch ohne Interverbindung genutzt werden, aber ...", AwnserTitle = "Funktioniert die App auch ohne Internetverbindung?", AwnserDescription = "Ja, die App kann auch ohne eine aktive Interverbindung genutzt werden, wenn Sie in den Einstellungen 'Data - Caching' aktiviert haben und die App einmalig mit einer aktiven Internetverbindung geladen haben. Hierbei werden jegliche Produkt für weitere Nutzungen lokal auf ihr Endgerät gespeichert, sodass keine aktive Internetverbindung mehr von Nöten ist, jedoch ist eine ständige Internetverbindung empfohlen wenn Sie auf dem aktuellsten Stand unserer Lebensmitteldatenbank sein möchten." };
-    public static QAModel Qestion_1c = new QAModel() { QestionTitle = "Wie genau ist die App?", QestionDescription = "Unsere Arbeit ist von höchster Qualität, jedoch ...", AwnserTitle = "Wie genau ist die App?", AwnserDescription = "Natürlich können wir Ihnen keine hundertprozentige Garantie geben, dass die App komplett Fehler frei ist. Wir sind ständig daran bemüht keine Fehler einzubauen. Unser Team hat ein hohes Qualitätsstandard um Fehler zu vermeiden. Sollte es dennoch zu Fehlern kommen, können Sie uns diesen gerne über das Kontaktformular melden, damit wir diesen so schnell wie Möglich beheben können." };
-    public static QAModel Qestion_1d = new QAModel() { QestionTitle = "Weitere Infos zu Halal-Lebensmitteln?", QestionDescription = "Es gibt viele Quelle, doch wir ...", AwnserTitle = "Wo finde ich weitere Infos zu Halal-Lebensmitteln?", AwnserDescription = "Wir beziehen unsere Information aus einem zertifizierten Institut, welches sich mit dem Thema Halal beschäftigt. Dort finden Sie weitere Informationen rund um das Thema Halal: https://halalpi.com/" };
+    public static QAModel Qestion_1a = new QAModel()
+    {
+        QestionTitle = "Nutzer Standort relevant?",
+        QestionDescription = "Kann ich die App nur in Deutschland nutzen?",
+        AwnserTitle = "Nein, der Standort des Nutzers spielt überhaupt keine Rolle. Sie können unabhängig...",
+        AwnserDescription = "Nein, der Standort des Nutzers spielt überhaupt keine Rolle. Sie können unabhängig ihres Standortes von unserer App profitieren, und jederzeit Produkte mit unserer App nach islamischen Prinzipien überprüfen lassen. Der Standort spielt dabei überhaupt keine Rolle."
+    };
+    public static QAModel Qestion_1b = new QAModel()
+    {
+        QestionTitle = "App auch ohne Internetverbindung?",
+        QestionDescription = "Kann die App kann auch ohne Interverbindung genutzt werden?",
+        AwnserTitle = "Ja, die App kann auch ohne eine aktive Interverbindung genutzt werden, wenn Sie in...",
+        AwnserDescription = "Ja, die App kann auch ohne eine aktive Interverbindung genutzt werden, wenn Sie in den Einstellungen 'Data - Caching' aktiviert haben und die App einmalig mit einer aktiven Internetverbindung geladen haben. Hierbei werden jegliche Produkt für weitere Nutzungen lokal auf ihr Endgerät gespeichert, sodass keine aktive Internetverbindung mehr von Nöten ist, jedoch ist eine ständige Internetverbindung empfohlen wenn Sie auf dem aktuellsten Stand unserer Lebensmitteldatenbank sein möchten."
+    };
+    public static QAModel Qestion_1c = new QAModel()
+    {
+        QestionTitle = "Wie genau ist die App?",
+        QestionDescription = "Wie genau ist die App und was tue ich wenn es zu Fehlern kommt?",
+        AwnserTitle = "Natürlich können wir Ihnen keine hundertprozentige Garantie geben, dass die App komplett Fehler frei ist...",
+        AwnserDescription = "Natürlich können wir Ihnen keine hundertprozentige Garantie geben, dass die App komplett Fehler frei ist. Wir sind ständig daran bemüht keine Fehler einzubauen. Unser Team hat ein hohes Qualitätsstandard um Fehler zu vermeiden. Sollte es dennoch zu Fehlern kommen, können Sie uns diesen gerne über das Kontaktformular melden, damit wir diesen so schnell wie Möglich beheben können."
+    };
+    public static QAModel Qestion_1d = new QAModel()
+    {
+        QestionTitle = "Weitere Infos zu Halal-Lebensmitteln?",
+        QestionDescription = "Wo finde ich weitere Infos zu Halal-Lebensmitteln?",
+        AwnserTitle = "Es gibt viele Quelle, doch wir beziehen unsere Information aus einem zertifizierten...",
+        AwnserDescription = "Es gibt viele Quelle, doch wir beziehen unsere Information aus einem zertifizierten Institut, welches sich mit dem Thema Halal beschäftigt. Dort finden Sie weitere Informationen rund um das Thema Halal: https://halalpi.com/"
+    };
+
     #endregion
     #endregion
     #region Navigation

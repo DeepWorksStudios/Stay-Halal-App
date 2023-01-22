@@ -8,141 +8,141 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Stay_Halal
-build_property.ProjectDir = D:\Work Files\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\
+build_property.ProjectDir = D:\DeepWorks Studios\Projects\StayHalal\Stay-Halal-App\VS Solution\
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/App.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/AppShell.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/BarcodeScannerView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/BarcodeScannerView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.BarcodeScannerView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\BarcodeScannerView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\BarcodeScannerView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/Cell/TopBanner.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/Cell/TopBanner.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.Cell.TopBanner.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\Cell\TopBanner.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\Cell\TopBanner.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/ContactView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/ContactView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.ContactView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\ContactView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\ContactView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/InfoView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/InfoView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.InfoView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\InfoView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\InfoView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/MainMenuView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/MainMenuView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.MainMenuView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\MainMenuView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\MainMenuView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/ManualInputView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/ManualInputView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.ManualInputView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\ManualInputView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\ManualInputView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/MessagePage.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/MessagePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.MessagePage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\MessagePage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\MessagePage.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/ProductDetailView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/ProductDetailView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.ProductDetailView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\ProductDetailView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\ProductDetailView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/SettingView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/SettingView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.SettingView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\SettingView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\SettingView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/WelcomeView.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/MVVM/View/WelcomeView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.MVVM.View.WelcomeView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\WelcomeView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\WelcomeView.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/BannerStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/BannerStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.BannerStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\BannerStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\BannerStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/Colors.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/GenericStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/GenericStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.GenericStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\GenericStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\GenericStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/HelpStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/HelpStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.HelpStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\HelpStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\HelpStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/InfoStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/InfoStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.InfoStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\InfoStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\InfoStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/MenuStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/MenuStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.MenuStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\MenuStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\MenuStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/MessageStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/MessageStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.MessageStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\MessageStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\MessageStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/PaperStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/PaperStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.PaperStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\PaperStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\PaperStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/SettingStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/SettingStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.SettingStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\SettingStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\SettingStyles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/Styles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/Work Files/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/WelcomeStyles.xaml]
+[D:/DeepWorks Studios/Projects/StayHalal/Stay-Halal-App/VS Solution/Resources/Styles/WelcomeStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Stay_Halal.Resources.Styles.WelcomeStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\WelcomeStyles.xaml

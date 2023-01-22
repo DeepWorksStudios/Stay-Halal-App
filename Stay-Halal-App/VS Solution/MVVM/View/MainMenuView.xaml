@@ -68,7 +68,7 @@
 
 
                                 <TextCell
-                                    Detail="{Binding QestionDescription}"
+                                    Detail="{Binding AwnserTitle}"
                                     DetailColor="{Binding Theme.SecondTextColor}"
                                     Text="{Binding QestionTitle}"
                                     TextColor="{Binding Theme.MainTextColor}" />

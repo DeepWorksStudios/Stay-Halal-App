@@ -12,7 +12,7 @@
 
 
 
-    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='100,*', Default='100,*'}">
+    <Grid ColumnDefinitions="*" RowDefinitions="{OnIdiom Phone='125,*', Default='100,*'}">
 
 
         <cells:TopBanner x:Name="Top_Bar" />

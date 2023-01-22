@@ -38,12 +38,13 @@ public partial class ManualInputViewModel : BaseViewModel
     private void OnConfirmInput()
     {
         if (!canScan) return;
+        canScan = false;
         scanner.ScanProduct(ManualInputValue);
     }
     #endregion
 
-    Scanner_Lib scanner;
-    public bool canScan = true;
+    private Scanner_Lib scanner;
+    private bool canScan;
 
     public void OnAppearing()
     { ManualInputValue = Localisation_Lib.empty; canScan = true; }

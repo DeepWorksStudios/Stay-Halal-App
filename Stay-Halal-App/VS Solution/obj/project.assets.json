@@ -30793,20 +30793,20 @@
   },
   "packageFolders": {
     "C:\\Users\\deepw\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work Files\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
+      "projectUniqueName": "D:\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
       "projectName": "Stay Halal",
-      "projectPath": "D:\\Work Files\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
+      "projectPath": "D:\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
       "packagesPath": "C:\\Users\\deepw\\.nuget\\packages\\",
-      "outputPath": "D:\\Work Files\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\obj\\",
+      "outputPath": "D:\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\deepw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30822,8 +30822,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/7whNswMEO38Oh25SJcT3dYf9fxsziluDM4e9CsRiqmET9jIksM/api": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0-android33.0": {

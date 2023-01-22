@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kd0aoFKbAQ+dtkhrr00rzvT0aK3VCgHtUZDcJ+RtS6cCQBENGIWkiIZF55XtKsXPMbB6hoWxMpKdIy2272vmjA==",
+  "dgSpecHash": "wuyeS++dTXxzYRpZDvTR09WDwuRMnHPeqMrg5aQHUOtfGbqOmxWpBJLE6pn0PFWueGlj12DJC63ipMWXq01tcQ==",
   "success": true,
-  "projectFilePath": "D:\\Work Files\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
+  "projectFilePath": "D:\\DeepWorks Studios\\Projects\\StayHalal\\Stay-Halal-App\\VS Solution\\Stay Halal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deepw\\.nuget\\packages\\communitytoolkit.maui\\3.1.0\\communitytoolkit.maui.3.1.0.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\communitytoolkit.maui.core\\3.1.0\\communitytoolkit.maui.core.3.1.0.nupkg.sha512",
@@ -22,7 +22,7 @@
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.58\\microsoft.maui.graphics.win2d.winui.desktop.7.0.58.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221116.1\\microsoft.windowsappsdk.1.2.221116.1.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\deepw\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

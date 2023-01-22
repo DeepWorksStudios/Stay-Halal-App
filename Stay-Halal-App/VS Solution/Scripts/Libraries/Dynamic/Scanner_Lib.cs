@@ -23,12 +23,25 @@ public class Scanner_Lib
 
         Device.BeginInvokeOnMainThread(async () =>
         {
-
-            ProductModel detail = db.GetProduct(input);
-
-
             string route;
             Dictionary<string, object> parameters;
+            ProductModel detail = db.GetProduct(input);
+
+            if (string.IsNullOrEmpty(input)|| string.IsNullOrWhiteSpace(input))
+            {
+                System.Diagnostics.Debug.WriteLine("no input");
+
+                route = $"{nameof(MessagePage)}";
+                parameters = new() { ["Model"] = Resources_Lib.NoInput };
+
+                await Shell.Current.GoToAsync(route, parameters);
+                return;
+            }
+
+   
+
+
+            
 
             if (detail == null)
             {
@@ -36,19 +49,20 @@ public class Scanner_Lib
 
                 route = $"{nameof(MessagePage)}";
                 parameters = new() { ["Model"] = Resources_Lib.ScannerFail };
-
+                await Shell.Current.GoToAsync(route, parameters);
+                return;
             }
 
-            else
-            {
+         
 
                 System.Diagnostics.Debug.WriteLine("got product");
 
                 route = $"//MainMenu/MainMenuView/{nameof(ProductDetailView)}";
                 parameters = new() { ["Model"] = detail };
-            }
-
+            
             await Shell.Current.GoToAsync(route, parameters);
+            
+
         });
     }
 }

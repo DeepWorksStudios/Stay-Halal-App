@@ -48,7 +48,7 @@
 
                                 <Label Style="{StaticResource small_label_Setting}" Text="{Binding DefaultTheme_Text}" />
 
-                                <BoxView
+                                <BoxView 
                                     Grid.Row="1"
                                     Grid.ColumnSpan="1"
                                     Style="{StaticResource underline_Setting}"
@@ -96,7 +96,7 @@
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <BoxView
+                    <BoxView Color="{Binding Theme.FourthColor}"
                         Grid.Row="1"
                         Grid.ColumnSpan="10"
                         Style="{StaticResource boxView_Setting}" />
