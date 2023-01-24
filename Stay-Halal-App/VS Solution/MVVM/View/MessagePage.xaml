@@ -3,12 +3,12 @@
     x:Class="Stay_Halal.MVVM.View.MessagePage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-        xmlns:cells="clr-namespace:Stay_Halal.Cells.Common"
     xmlns:viewmodel="clr-namespace:Stay_Halal.MVVM.ViewModel"
     Title="{Binding Title}"
-    Background="{Binding Theme.BackgroundGradient}"
-    x:DataType="viewmodel:MessageViewModel">
+    x:DataType="viewmodel:MessageViewModel"
+    Background="{Binding Theme.BackgroundGradient}">
 
 
 
@@ -16,7 +16,7 @@
 
 
         <cells:TopBanner x:Name="Top_Bar" />
-        
+
         <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
 
             <VerticalStackLayout
@@ -27,19 +27,26 @@
                 <VerticalStackLayout Spacing="20">
 
                     <Grid Padding="2" ColumnDefinitions="8,*,75,8">
-                        <Label Grid.Column="1" Text="{Binding Title}"     Style="{StaticResource labelTitle_Message}"  TextColor="{Binding Theme.MainTextColor}" />
+                        <Label
+                            Grid.Column="1"
+                            Style="{StaticResource labelTitle_Message}"
+                            Text="{Binding Title}"
+                            TextColor="{Binding Theme.MainTextColor}" />
 
                         <Image
                             Grid.Column="2"
-                     
-                            Source="{Binding Image}"    Style="{StaticResource Image_Message}" />
+                            Source="{Binding Image}"
+                            Style="{StaticResource Image_Message}" />
                     </Grid>
 
                     <VerticalStackLayout Spacing="10">
 
                         <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
-                            <Label  Style="{StaticResource label_Message}" Text="{Binding Message}"  TextColor="{Binding Theme.MainTextColor}"/>
+                            <Label
+                                Style="{StaticResource label_Message}"
+                                Text="{Binding Message}"
+                                TextColor="{Binding Theme.MainTextColor}" />
 
                         </Frame>
 
@@ -48,7 +55,7 @@
                             IsVisible="{Binding Error}"
                             Style="{StaticResource errorEntry_Message}"
                             Text="{Binding ErrorMessage}"
-                             TextColor="{Binding Theme.MainTextColor}">
+                            TextColor="{Binding Theme.MainTextColor}">
 
                             <Editor.Behaviors>
                                 <toolkit:EventToCommandBehavior Command="{Binding EntryTextChangedCommand}" EventName="Completed" />
@@ -64,11 +71,11 @@
 
                     <Button
                         Background="{Binding Theme.BackgroundButtonGradient}"
-                        TextColor="{Binding Theme.MainTextColor}"
                         Command="{Binding ComfirmCommand}"
                         IsEnabled="{Binding ButtonEnabled}"
                         IsVisible="{Binding ButtonEnabled}"
-                        Text="{Binding ButtonText}" />
+                        Text="{Binding ButtonText}"
+                        TextColor="{Binding Theme.MainTextColor}" />
                 </Frame>
 
             </VerticalStackLayout>

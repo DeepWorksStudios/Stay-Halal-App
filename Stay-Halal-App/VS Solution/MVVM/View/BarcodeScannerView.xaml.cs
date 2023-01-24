@@ -8,9 +8,13 @@ namespace Stay_Halal.MVVM.View;
 
 public partial class BarcodeScannerView : ContentPage
 {
+    #region Private Data
     private BarcodeScannerViewModel ViewModel { get; set; }
-    bool canScan = true;
+    private bool canScan = true;
+    private Color red = Color.Parse("#FF0000"), green = Color.Parse("#00FF00");
+    #endregion
 
+    #region Constructor/Destructor
     public BarcodeScannerView(BarcodeScannerViewModel vm)
 	{
 		InitializeComponent();
@@ -20,8 +24,6 @@ public partial class BarcodeScannerView : ContentPage
 
         Top_Bar.ViewModel.SetupTheme(Resources_Lib.HeaderTheme);
 
-        
-
         cameraBarcodeReaderView.Options = new BarcodeReaderOptions
         {
             Formats = BarcodeFormats.All,
@@ -29,7 +31,9 @@ public partial class BarcodeScannerView : ContentPage
             Multiple = true
         };
     }
+    #endregion
 
+    #region Protected Calls
     protected override void OnAppearing()
     {
         base.OnAppearing();
@@ -40,26 +44,20 @@ public partial class BarcodeScannerView : ContentPage
         cameraBarcodeReaderView.CameraLocation = CameraLocation.Rear;
         canScan = true;
 
-        ViewModel.FrameColor = Color.Parse("#FF0000");
+        ViewModel.FrameColor =red;
     }
+    #endregion
 
-    protected override void OnDisappearing()
-    {
-        base.OnDisappearing();
-
-
-    }
+    #region Private Calls
     private void cameraBarcodeReaderView_BarcodesDetected(object sender, ZXing.Net.Maui.BarcodeDetectionEventArgs e)
     {
         if (!canScan) return;
+
         canScan = false;
 
-        ViewModel.FrameColor = Color.Parse("#00FF00");
-
-        string value = e.Results[0].Value;
-        ViewModel.OnConfirmInput(value);
-
-       
-           
+        ViewModel.FrameColor = green;
+        ViewModel.OnConfirmInput(e.Results[0].Value);
+ 
     }
+    #endregion
 }

@@ -9,24 +9,24 @@ public delegate void ThemeEvent(ThemeModel theme);
 public class ThemeModel
 {
     #region Private Data
-    private AppTheme themeTyp;
+    private readonly AppTheme themeTyp;
 
 
-    private Color mainColor;
-    private Color secondColor;
-    private Color thirdColor;
-    private Color fourthColor;
+    private readonly Color mainColor;
+    private readonly Color secondColor;
+    private readonly Color thirdColor;
+    private readonly Color fourthColor;
 
-    private Color mainTextColor;
-    private Color secondTextColor;
-    private Color disabledColor;
-    private Color selectedColor;
-    private Color unselectedColor;
+    private readonly Color mainTextColor;
+    private readonly Color secondTextColor;
+    private readonly Color disabledColor;
+    private readonly Color selectedColor;
+    private readonly Color unselectedColor;
 
-    private LinearGradientBrush backgroundGradient;
-    private LinearGradientBrush backgroundGradientv2;
-    private LinearGradientBrush backgroundIconGradient;
-    private LinearGradientBrush backgroundButtonGradient;
+    private readonly LinearGradientBrush backgroundGradient;
+    private readonly LinearGradientBrush backgroundGradientv2;
+    private readonly LinearGradientBrush backgroundIconGradient;
+    private readonly LinearGradientBrush backgroundButtonGradient;
     #endregion
 
     #region Public Data

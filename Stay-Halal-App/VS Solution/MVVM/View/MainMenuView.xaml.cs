@@ -5,9 +5,11 @@ namespace Stay_Halal.MVVM.View;
 
 public partial class MainMenuView : ContentPage
 {
+    #region Private Data
+    private MainMenuViewModel ViewModel;
+    #endregion
 
-    MainMenuViewModel ViewModel;
-
+    #region Constructor/Destructor
     public MainMenuView(MainMenuViewModel vm)
 	{
 		InitializeComponent();
@@ -16,10 +18,12 @@ public partial class MainMenuView : ContentPage
         ViewModel= vm;
         Top_Bar.ViewModel.SetupTheme(Resources_Lib.HeaderTheme);
     }
+    #endregion
 
- 
+    #region Private Calls
     private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
     {
         ViewModel.OnOpenFAQ(e.ItemIndex);
     }
+    #endregion
 }

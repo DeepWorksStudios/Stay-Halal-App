@@ -11,7 +11,7 @@ public partial class SettingViewModel : BaseViewModel
 {
 
     #region Private Data
-    private Setting_Lib setting_lib;
+    private readonly Setting_Lib setting_lib;
     private SettingModel setting_data;
     private Color selectedColor, unselectedColor;
     #endregion
@@ -71,14 +71,14 @@ public partial class SettingViewModel : BaseViewModel
     private void SetupText()
     {
 
-        Title = Localisation_Lib.ViewTitle_Einstellung;
-        Sonstiges_Text = Localisation_Lib.SettingSonstigeTitle;
-        Theme_Text = Localisation_Lib.SettingThemeTitle;
+        Title = Lokalisation_Lib.ViewTitle_Einstellung;
+        Sonstiges_Text = Lokalisation_Lib.SettingSonstigeTitle;
+        Theme_Text = Lokalisation_Lib.SettingThemeTitle;
 
-        DataCaching_Text = Localisation_Lib.SettingCachingTitle;
-        DefaultTheme_Text = Localisation_Lib.SettingDefaultThemeTitle;
-        DarkTheme_Text = Localisation_Lib.SettingDarkThemeTitle;
-        LightTheme_Text = Localisation_Lib.SettingLightThemeTitle;
+        DataCaching_Text = Lokalisation_Lib.SettingCachingTitle;
+        DefaultTheme_Text = Lokalisation_Lib.SettingDefaultThemeTitle;
+        DarkTheme_Text = Lokalisation_Lib.SettingDarkThemeTitle;
+        LightTheme_Text = Lokalisation_Lib.SettingLightThemeTitle;
     }
     private void SetupData()
     {

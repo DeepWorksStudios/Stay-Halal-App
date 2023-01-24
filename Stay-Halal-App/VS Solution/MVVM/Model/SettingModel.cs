@@ -2,7 +2,7 @@
 
 public enum Language { Deutsch, English};
 
-public delegate void Updated_Settings(SettingModel _data);
+public delegate void Updated_Settings(SettingModel Data);
 
 
 public class SettingModel

@@ -28,7 +28,7 @@ public partial class MainMenuViewModel : BaseViewModel
     #endregion
 
     #region Private Data
-    private List<QAModel> qestiondata = new List<QAModel>
+    private readonly List<QAModel> qestiondata = new()
     {
         
     };
@@ -48,10 +48,10 @@ public partial class MainMenuViewModel : BaseViewModel
     #region Constructor/Destructor
     public MainMenuViewModel() : base()
     {
-        Title = Localisation_Lib.ViewTitle_HauptMenü;
-        FaqTitel = Localisation_Lib.MainMenuFaqTitle;
-        FaqDesc = Localisation_Lib.MainMenuFaqDesc;
-        ProductButtonText = Localisation_Lib.MainMenuProductButton;
+        Title = Lokalisation_Lib.ViewTitle_HauptMenü;
+        FaqTitel = Lokalisation_Lib.MainMenuFaqTitle;
+        FaqDesc = Lokalisation_Lib.MainMenuFaqDesc;
+        ProductButtonText = Lokalisation_Lib.MainMenuProductButton;
 
 
         qestiondata.Add(Resources_Lib.Qestion_1a);
@@ -99,7 +99,14 @@ public partial class MainMenuViewModel : BaseViewModel
     #region Public Calls
     public async void OnOpenFAQ(int i)
     {
-        MessageModel customMsg = new MessageModel(Qestions[i].QestionDescription, Qestions[i].AwnserDescription, Resources_Lib.MainMenu_FAQ_ImageLight, Resources_Lib.MainMenu_FAQ_ImageDark, false, Localisation_Lib.empty, "../..");
+        MessageModel customMsg = new(
+            Qestions[i].QestionDescription,
+            Qestions[i].AwnserDescription,
+            Resources_Lib.MainMenu_FAQ_ImageLight,
+            Resources_Lib.MainMenu_FAQ_ImageDark,
+            false,
+            Lokalisation_Lib.empty,
+            "../..");
 
         string route = $"{nameof(MessagePage)}";
         Dictionary<string, object> parameters = new() { ["Model"] = customMsg };

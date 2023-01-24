@@ -5,7 +5,8 @@ namespace Stay_Halal.MVVM.View;
 
 public partial class ProductDetailView : ContentPage
 {
-	public ProductDetailView(ProductDetailViewModel vm)
+    #region Constructor/Destructor
+    public ProductDetailView(ProductDetailViewModel vm)
 	{
 		InitializeComponent();
 
@@ -13,4 +14,5 @@ public partial class ProductDetailView : ContentPage
 
         Top_Bar.ViewModel.SetupTheme(Resources_Lib.HeaderTheme);
     }
+    #endregion
 }

@@ -5,11 +5,13 @@ namespace Stay_Halal.MVVM.View;
 
 public partial class SettingView : ContentPage
 {
-	public SettingView(SettingViewModel vm)
+    #region Constructor/Destructor
+    public SettingView(SettingViewModel vm)
 	{
 		InitializeComponent();
         BindingContext = vm;
 
         Top_Bar.ViewModel.SetupTheme(Resources_Lib.HeaderTheme);
     }
+    #endregion
 }

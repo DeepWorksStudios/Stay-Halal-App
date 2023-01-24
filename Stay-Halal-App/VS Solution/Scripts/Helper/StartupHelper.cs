@@ -1,13 +1,17 @@
 ﻿
 using Stay_Halal.Scripts.Libraries.Dynamic;
-using System.Diagnostics;
+
 
 namespace Stay_Halal.Scripts.Helper;
 
 public class StartupHelper
 {
+    #region Private Data
     private readonly Setting_Lib lib;
+    private bool input = false;
+    #endregion
 
+    #region Constructor/Destructor
     public StartupHelper(Setting_Lib _lib)
     {
         lib = _lib;
@@ -17,15 +21,19 @@ public class StartupHelper
            DisplayFirstStart();
         }
     }
+    #endregion
 
+    #region Public Calls
     public void Check()
     {
         if (!lib.HasKey)
         {
-           DisplayFirstStart();
+            DisplayFirstStart();
         }
     }
-    bool input=false;
+    #endregion
+
+    #region Private Calls
     private async void DisplayFirstStart()
     {
         if (input) return;
@@ -35,19 +43,13 @@ public class StartupHelper
 
         string route;
         string path;
-#if ANDROID
+
         route = $"//WelcomeFlyout";
-        path = route;          
         input = false;
-#else
-        route = $"WelcomePage";
-        path  = Shell.Current.CurrentState.Location.ToString() + "/WelcomeView";
-        
-#endif
         
         await Shell.Current.GoToAsync(route);
         MauiProgram.NavigationHelper.Look(route);
 
     }
-
+    #endregion
 }

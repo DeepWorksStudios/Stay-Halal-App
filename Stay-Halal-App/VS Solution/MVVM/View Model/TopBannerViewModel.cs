@@ -17,19 +17,6 @@ public partial class TopBannerViewModel : BaseViewModel
     string image;
     #endregion
 
-    #region Constructor/Destructor
-    public TopBannerViewModel()
-    {
-      
-    }
-
-    ~TopBannerViewModel()
-    {
-   
-    }
-    #endregion
-
-
     #region Public Calls
     public void SetupTheme(TopBannerModel _data)
     {

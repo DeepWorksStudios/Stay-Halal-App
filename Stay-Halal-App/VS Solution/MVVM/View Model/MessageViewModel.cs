@@ -74,35 +74,15 @@ public partial class MessageViewModel : BaseViewModel
 
         if (ButtonEnabled) MauiProgram.NavigationHelper.Look(path);
 
-        switch (Theme_Lib.CurrentTheme)
+        Image = Theme_Lib.CurrentTheme switch
         {
-            case AppTheme.Unspecified:
-                Image = Model.Image_Light;
-                break;
-            case AppTheme.Light:
-                Image = Model.Image_Light;
-                break;
-            case AppTheme.Dark:
-                Image = Model.Image_Dark;
-                break;
-            default:
-                Image = Model.Image_Light;
-                break;
-        }
-
+            AppTheme.Unspecified => Model.Image_Light,
+            AppTheme.Light => Model.Image_Light,
+            AppTheme.Dark => Model.Image_Dark,
+            _ => Model.Image_Light,
+        };
     }
  
-    #endregion
-
-    #region Constructor/Destructor
-    public MessageViewModel()
-    {
-      
-    }
-    ~MessageViewModel()
-    {
-       
-    }
     #endregion
 
     #region Protected Calls

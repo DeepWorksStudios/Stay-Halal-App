@@ -22,20 +22,13 @@ public class InhaltsstoffModel
     {
         get
         {
-            switch (Type)
+            return Type switch
             {
-                case Inhalt_Type.Halal:
-
-                    return Color.Parse("#009B54");
-
-                case Inhalt_Type.Haram:
-                    return Color.Parse("#CE0C1F");
-
-                case Inhalt_Type.Unknown:
-                    return Color.Parse("#FF9B54");
-
-                default: return Color.Parse("#FF9B54");
-            }
+                Inhalt_Type.Halal => Color.Parse("#009B54"),
+                Inhalt_Type.Haram => Color.Parse("#CE0C1F"),
+                Inhalt_Type.Unknown => Color.Parse("#FF9B54"),
+                _ => Color.Parse("#FF9B54"),
+            };
         }
     }
 

@@ -35,10 +35,11 @@
                 </HorizontalStackLayout>
 
 
-                <BoxView Color="{Binding Theme.FourthColor}"
+                <BoxView
                     Grid.Row="1"
                     Grid.ColumnSpan="10"
-                    Style="{StaticResource boxView_Format}" />
+                    Style="{StaticResource boxView_Format}"
+                    Color="{Binding Theme.FourthColor}" />
 
                 <Frame Background="{Binding Theme.BackgroundGradientv2}">
                     <Label
@@ -52,7 +53,6 @@
                         toolkit:SetFocusOnEntryCompletedBehavior.NextElement="{x:Reference Execute_Button}"
                         HeightRequest="60"
                         Keyboard="Numeric"
-                       
                         Placeholder="{Binding ManualInputPlaceHolder}"
                         PlaceholderColor="{Binding Theme.MainTextColor}"
                         Text="{Binding ManualInputValue, Mode=TwoWay}"

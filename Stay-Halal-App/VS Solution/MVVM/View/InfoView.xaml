@@ -47,10 +47,11 @@
 
 
 
-                    <BoxView Color="{Binding Theme.FourthColor}"
+                    <BoxView
                         Grid.Row="1"
                         Grid.ColumnSpan="10"
-                        Style="{StaticResource boxView_Format}" />
+                        Style="{StaticResource boxView_Format}"
+                        Color="{Binding Theme.FourthColor}" />
 
                 </VerticalStackLayout>
 
@@ -132,10 +133,11 @@
 
                     </ListView>
 
-                    <BoxView Color="{Binding Theme.FourthColor}"
+                    <BoxView
                         Grid.Row="1"
                         Grid.ColumnSpan="10"
-                        Style="{StaticResource boxView_Format}" />
+                        Style="{StaticResource boxView_Format}"
+                        Color="{Binding Theme.FourthColor}" />
 
                     <Image Source="{Binding AppLogo}" />
 

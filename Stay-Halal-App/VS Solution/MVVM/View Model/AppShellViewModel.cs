@@ -75,14 +75,14 @@ public partial class AppShellViewModel : BaseViewModel
     {
         navigationHelper = _navigationHelper;
 
-        mainMenu_Text = Localisation_Lib.FlyoutMenuItem_HauptMenü;
-        productMenu_Text = Localisation_Lib.FlyoutMenuItem_ProductScanner;
-        settingMenu_Text = Localisation_Lib.FlyoutMenuItem_Einstellung;
-        contactMenu_Text = Localisation_Lib.FlyoutMenuItem_Kontakt;
-        infoMenu_Text = Localisation_Lib.FlyoutMenuItem_Info;
+        mainMenu_Text = Lokalisation_Lib.FlyoutMenuItem_HauptMenü;
+        productMenu_Text = Lokalisation_Lib.FlyoutMenuItem_ProductScanner;
+        settingMenu_Text = Lokalisation_Lib.FlyoutMenuItem_Einstellung;
+        contactMenu_Text = Lokalisation_Lib.FlyoutMenuItem_Kontakt;
+        infoMenu_Text = Lokalisation_Lib.FlyoutMenuItem_Info;
 
-        barScannerMenu_Text = Localisation_Lib.MenuBarItem_BarCodeScanner;
-        manualInputMenu_Text = Localisation_Lib.MenuBarItem_ManualInput;
+        barScannerMenu_Text = Lokalisation_Lib.MenuBarItem_BarCodeScanner;
+        manualInputMenu_Text = Lokalisation_Lib.MenuBarItem_ManualInput;
 
              
     }

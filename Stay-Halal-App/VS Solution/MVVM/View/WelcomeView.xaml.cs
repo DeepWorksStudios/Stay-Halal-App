@@ -5,7 +5,8 @@ namespace Stay_Halal.MVVM.View;
 
 public partial class WelcomeView : ContentPage
 {
-	public WelcomeView(WelcomeViewModel vm)
+    #region Constructor/Destructor
+    public WelcomeView(WelcomeViewModel vm)
 	{
 		InitializeComponent();
 
@@ -13,4 +14,5 @@ public partial class WelcomeView : ContentPage
 
         Top_Bar.ViewModel.SetupTheme(Resources_Lib.HeaderTheme);
     }
+    #endregion
 }

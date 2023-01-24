@@ -63,121 +63,17 @@ public partial class ProductDetailViewModel : BaseViewModel
 
     #endregion
 
-
-    private void UpdateView()
-    {
-        ProductBarcodeID = Model.Barcode;
-        ProductHersteller = Model.Hersteller;
-        ProductName = Model.Title;
-
-        Inhaltstoffe.Clear();
-
-        bool result = false;
-        resultValue = Inhalt_Type.Halal;
-      
-        for(int i=0;i < Model.Inhaltsstoffe.Length;i++)
-        {
-            
-         
-
-            
-              
-
-            Inhaltstoffe.Add(Model.Inhaltsstoffe[i]);
-
-            if (result) continue;
-
-            if (Model.Inhaltsstoffe[i].Type == Inhalt_Type.Unknown) resultValue = Inhalt_Type.Unknown;
-            if (Model.Inhaltsstoffe[i].Type == Inhalt_Type.Haram)
-            {
-                resultValue = Inhalt_Type.Haram;
-                result=true;
-            }
-                
-        }
-
-        switch (resultValue)
-        {
-            case Inhalt_Type.Halal:
-                ProductRatingText = Localisation_Lib.ProductErgebnissHalal;
-                ProductRatingColor = Color.Parse("#009B54");
-                break;
-            case Inhalt_Type.Haram:
-                ProductRatingText=Localisation_Lib.ProductErgebnissHaram;
-                ProductRatingColor = Color.Parse("#CE0C1F");
-                break;
-            case Inhalt_Type.Unknown:
-                ProductRatingText = Localisation_Lib.ProductErgebnissUnbekannt;
-                ProductRatingColor = Color.Parse("#FF9B54");
-                break;
-        }
-
-        switch (Theme.ThemeTyp)
-        {
-            case AppTheme.Unspecified:
-                ProductIcon = Resources_Lib.Product_DetailIcon_ImageLight;
-                InhaltsstoffeIcon = Resources_Lib.Product_InhaltIcon_ImageLight;
-
-                switch (resultValue)
-                {
-                    case Inhalt_Type.Halal:
-                        ProductRatingIcon = Resources_Lib.Product_RataingHalalIcon_ImageLight;
-                        break;
-                    case Inhalt_Type.Haram:
-                        ProductRatingIcon = Resources_Lib.Product_RataingHaramIcon_ImageLight;
-                        break;
-                    case Inhalt_Type.Unknown:
-                        ProductRatingIcon = Resources_Lib.Product_RataingUnkownIcon_ImageLight;
-                        break;
-                }
-                break;
-            case AppTheme.Light:
-                ProductIcon = Resources_Lib.Product_DetailIcon_ImageLight;
-                InhaltsstoffeIcon = Resources_Lib.Product_InhaltIcon_ImageLight;
-
-                switch (resultValue)
-                {
-                    case Inhalt_Type.Halal:
-                        ProductRatingIcon = Resources_Lib.Product_RataingHalalIcon_ImageLight;
-                        break;
-                    case Inhalt_Type.Haram:
-                        ProductRatingIcon = Resources_Lib.Product_RataingHaramIcon_ImageLight;
-                        break;
-                    case Inhalt_Type.Unknown:
-                        ProductRatingIcon = Resources_Lib.Product_RataingUnkownIcon_ImageLight;
-                        break;
-                }
-                break;
-            case AppTheme.Dark:
-                ProductIcon = Resources_Lib.Product_DetailIcon_ImageDark;
-                InhaltsstoffeIcon = Resources_Lib.Product_InhaltIcon_ImageDark;
-
-                switch (resultValue)
-                {
-                    case Inhalt_Type.Halal:
-                        ProductRatingIcon = Resources_Lib.Product_RataingHalalIcon_ImageDark;
-                        break;
-                    case Inhalt_Type.Haram:
-                        ProductRatingIcon = Resources_Lib.Product_RataingHaramIcon_ImageDark;
-                        break;
-                    case Inhalt_Type.Unknown:
-                        ProductRatingIcon = Resources_Lib.Product_RataingUnkownIcon_ImageDark;
-                        break;
-                }
-                break;
-        }
-
-    }
-
+    #region Constructor/Destructor
     public ProductDetailViewModel() : base()
     {
 
-        Title = Localisation_Lib.ViewTitle_Product;
+        Title = Lokalisation_Lib.ViewTitle_Product;
 
-        ProductTitel = Localisation_Lib.ProductTitle;
-        InhaltsstoffeTitel = Localisation_Lib.ProductInhaltstoffeTitel;
-        InhaltsstoffeDesc = Localisation_Lib.ProductInhaltstoffeDesc;
+        ProductTitel = Lokalisation_Lib.ProductTitle;
+        InhaltsstoffeTitel = Lokalisation_Lib.ProductInhaltstoffeTitel;
+        InhaltsstoffeDesc = Lokalisation_Lib.ProductInhaltstoffeDesc;
     }
+    #endregion
 
     #region Protected Calls
 
@@ -243,6 +139,113 @@ public partial class ProductDetailViewModel : BaseViewModel
         }
     }
 
+    #endregion
+
+    #region Private Calls
+    private void UpdateView()
+    {
+        ProductBarcodeID = Model.Barcode;
+        ProductHersteller = Model.Hersteller;
+        ProductName = Model.Title;
+
+        Inhaltstoffe.Clear();
+
+        bool result = false;
+        resultValue = Inhalt_Type.Halal;
+
+        for (int i = 0; i < Model.Inhaltsstoffe.Length; i++)
+        {
+
+
+
+
+
+
+            Inhaltstoffe.Add(Model.Inhaltsstoffe[i]);
+
+            if (result) continue;
+
+            if (Model.Inhaltsstoffe[i].Type == Inhalt_Type.Unknown) resultValue = Inhalt_Type.Unknown;
+            if (Model.Inhaltsstoffe[i].Type == Inhalt_Type.Haram)
+            {
+                resultValue = Inhalt_Type.Haram;
+                result = true;
+            }
+
+        }
+
+        switch (resultValue)
+        {
+            case Inhalt_Type.Halal:
+                ProductRatingText = Lokalisation_Lib.ProductErgebnissHalal;
+                ProductRatingColor = Color.Parse("#009B54");
+                break;
+            case Inhalt_Type.Haram:
+                ProductRatingText = Lokalisation_Lib.ProductErgebnissHaram;
+                ProductRatingColor = Color.Parse("#CE0C1F");
+                break;
+            case Inhalt_Type.Unknown:
+                ProductRatingText = Lokalisation_Lib.ProductErgebnissUnbekannt;
+                ProductRatingColor = Color.Parse("#FF9B54");
+                break;
+        }
+
+        switch (Theme.ThemeTyp)
+        {
+            case AppTheme.Unspecified:
+                ProductIcon = Resources_Lib.Product_DetailIcon_ImageLight;
+                InhaltsstoffeIcon = Resources_Lib.Product_InhaltIcon_ImageLight;
+
+                switch (resultValue)
+                {
+                    case Inhalt_Type.Halal:
+                        ProductRatingIcon = Resources_Lib.Product_RataingHalalIcon_ImageLight;
+                        break;
+                    case Inhalt_Type.Haram:
+                        ProductRatingIcon = Resources_Lib.Product_RataingHaramIcon_ImageLight;
+                        break;
+                    case Inhalt_Type.Unknown:
+                        ProductRatingIcon = Resources_Lib.Product_RataingUnkownIcon_ImageLight;
+                        break;
+                }
+                break;
+            case AppTheme.Light:
+                ProductIcon = Resources_Lib.Product_DetailIcon_ImageLight;
+                InhaltsstoffeIcon = Resources_Lib.Product_InhaltIcon_ImageLight;
+
+                switch (resultValue)
+                {
+                    case Inhalt_Type.Halal:
+                        ProductRatingIcon = Resources_Lib.Product_RataingHalalIcon_ImageLight;
+                        break;
+                    case Inhalt_Type.Haram:
+                        ProductRatingIcon = Resources_Lib.Product_RataingHaramIcon_ImageLight;
+                        break;
+                    case Inhalt_Type.Unknown:
+                        ProductRatingIcon = Resources_Lib.Product_RataingUnkownIcon_ImageLight;
+                        break;
+                }
+                break;
+            case AppTheme.Dark:
+                ProductIcon = Resources_Lib.Product_DetailIcon_ImageDark;
+                InhaltsstoffeIcon = Resources_Lib.Product_InhaltIcon_ImageDark;
+
+                switch (resultValue)
+                {
+                    case Inhalt_Type.Halal:
+                        ProductRatingIcon = Resources_Lib.Product_RataingHalalIcon_ImageDark;
+                        break;
+                    case Inhalt_Type.Haram:
+                        ProductRatingIcon = Resources_Lib.Product_RataingHaramIcon_ImageDark;
+                        break;
+                    case Inhalt_Type.Unknown:
+                        ProductRatingIcon = Resources_Lib.Product_RataingUnkownIcon_ImageDark;
+                        break;
+                }
+                break;
+        }
+
+    }
     #endregion
 }
 

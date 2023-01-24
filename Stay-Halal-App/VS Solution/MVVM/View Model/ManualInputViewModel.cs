@@ -12,6 +12,10 @@ namespace Stay_Halal.MVVM.ViewModel;
 
 public partial class ManualInputViewModel : BaseViewModel
 {
+    #region Private Data
+    private readonly Scanner_Lib scanner;
+    private bool canScan;
+    #endregion
 
     #region Observable Data 
     [ObservableProperty]
@@ -39,26 +43,25 @@ public partial class ManualInputViewModel : BaseViewModel
     {
         if (!canScan) return;
         canScan = false;
-        scanner.ScanProduct(ManualInputValue);
+        scanner.ScanProdukt(ManualInputValue);
     }
     #endregion
-
-    private Scanner_Lib scanner;
-    private bool canScan;
-
-    public void OnAppearing()
-    { ManualInputValue = Localisation_Lib.empty; canScan = true; }
 
     #region Constructor/Destructor
     public ManualInputViewModel(Scanner_Lib _scanner) : base()
     {
-        Title = Localisation_Lib.ViewTitle_ManuelInput;
+        Title = Lokalisation_Lib.ViewTitle_ManuelInput;
         scanner = _scanner;
-        ManualInputPlaceHolder = Localisation_Lib.ManualInputPlaceHolder;
-        ManualInputTitel = Localisation_Lib.ManualInputTitle;
-        ManualInputDesc = Localisation_Lib.ManualInputDesc;
-       ManualInputComfirmButton = Localisation_Lib.ManualInputComfirmButton;
+        ManualInputPlaceHolder = Lokalisation_Lib.ManualInputPlaceHolder;
+        ManualInputTitel = Lokalisation_Lib.ManualInputTitle;
+        ManualInputDesc = Lokalisation_Lib.ManualInputDesc;
+       ManualInputComfirmButton = Lokalisation_Lib.ManualInputComfirmButton;
     }
+    #endregion
+
+    #region Public Calls
+    public void OnAppearing()
+    { ManualInputValue = Lokalisation_Lib.empty; canScan = true; }
     #endregion
 
     #region Protected Calls

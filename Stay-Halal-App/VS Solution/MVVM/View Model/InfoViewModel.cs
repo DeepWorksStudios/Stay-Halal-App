@@ -41,12 +41,12 @@ public partial class InfoViewModel : BaseViewModel
     public InfoViewModel() : base()
     {
 
-        Title = Localisation_Lib.ViewTitle_Info;
-        AppTitle = Localisation_Lib.InfoAppTitle;
-        AppDesc = Localisation_Lib.InfoAppDesc;
+        Title = Lokalisation_Lib.ViewTitle_Info;
+        AppTitle = Lokalisation_Lib.InfoAppTitle;
+        AppDesc = Lokalisation_Lib.InfoAppDesc;
 
-        TeamTitle = Localisation_Lib.InfoTeamTitle;
-        TeamDesc = Localisation_Lib.InfoTeamDesc;
+        TeamTitle = Lokalisation_Lib.InfoTeamTitle;
+        TeamDesc = Lokalisation_Lib.InfoTeamDesc;
 
        
 
@@ -58,7 +58,7 @@ public partial class InfoViewModel : BaseViewModel
     #endregion
 
     #region Private Data
-    private List<TeamMemberModel> team = new List<TeamMemberModel>
+    private readonly List<TeamMemberModel> team = new()
     {
         Resources_Lib.Sliem,
         Resources_Lib.Justin,

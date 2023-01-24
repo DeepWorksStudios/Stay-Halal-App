@@ -5,9 +5,11 @@ namespace Stay_Halal.MVVM.View;
 
 public partial class ManualInputView : ContentPage
 {
+    #region Private Data
     private ManualInputViewModel ViewModel { get; set; }
-   
+    #endregion
 
+    #region Constructor/Destructor
     public ManualInputView(ManualInputViewModel vm)
 	{
 		InitializeComponent();
@@ -16,23 +18,14 @@ public partial class ManualInputView : ContentPage
         ViewModel = vm;
         Top_Bar.ViewModel.SetupTheme(Resources_Lib.HeaderTheme);
     }
+    #endregion
 
+    #region Protected Calls
     protected override void OnAppearing()
     {
         base.OnAppearing();
 
         ViewModel.OnAppearing();
-      
-
-       
     }
-
-    protected override void OnDisappearing()
-    {
-        base.OnDisappearing();
-
-
-    }
-
-    
+    #endregion
 }

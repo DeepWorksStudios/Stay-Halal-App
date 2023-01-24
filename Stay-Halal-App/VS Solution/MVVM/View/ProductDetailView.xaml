@@ -143,10 +143,11 @@
 
                     </VerticalStackLayout>
 
-                    <BoxView  Color="{Binding Theme.FourthColor}"
+                    <BoxView
                         Grid.Row="1"
                         Grid.ColumnSpan="10"
-                        Style="{StaticResource boxView_Format}" />
+                        Style="{StaticResource boxView_Format}"
+                        Color="{Binding Theme.FourthColor}" />
 
 
 
@@ -181,52 +182,46 @@
                             ItemsSource="{Binding Inhaltstoffe}"
                             RowHeight="80"
                             SelectionMode="None"
-                          
-                            
-                          SeparatorColor="{Binding Theme.FourthColor}"
+                            SeparatorColor="{Binding Theme.FourthColor}"
                             VerticalScrollBarVisibility="Always">
 
                             <ListView.ItemTemplate>
                                 <DataTemplate x:DataType="model:InhaltsstoffModel">
 
                                     <ViewCell>
-                                    
-                                        <Frame   Background="{Binding Theme.BackgroundIconGradient}" CornerRadius="10">
-                                            <Grid 
-                                           
-                                          
-                                          
-                                            ColumnSpacing="10">
-                                            <Grid.RowDefinitions>
-                                                <RowDefinition Height="Auto" />
-                                                <RowDefinition Height="Auto" />
-                                            </Grid.RowDefinitions>
-                                            <Grid.ColumnDefinitions>
 
-                                                <ColumnDefinition Width="Auto" />
-                                            </Grid.ColumnDefinitions>
+                                        <Frame Background="{Binding Theme.BackgroundIconGradient}" CornerRadius="10">
+                                            <Grid ColumnSpacing="10">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
 
 
-                                           
-                                                
-                                          
-                                            <Label
-                                                Grid.Row="1"
-                                                Grid.Column="1"
-                                                FontAttributes="Italic"
-                                                Text="{Binding TypeText}"
-                                                BackgroundColor="{Binding TypeColor}"
-                                                TextColor="{Binding Theme.SecondTextColor}" />
-                                            <Label
-                                                Grid.Row="0"
-                                                Grid.Column="1"
-                                                FontAttributes="Bold"
-                                                Text="{Binding Name}"
-                                                  BackgroundColor="{Binding TypeColor}"
-                                                TextColor="{Binding Theme.MainTextColor}"
-                                                VerticalOptions="End" />
 
-                                        </Grid>
+
+
+                                                <Label
+                                                    Grid.Row="1"
+                                                    Grid.Column="1"
+                                                    BackgroundColor="{Binding TypeColor}"
+                                                    FontAttributes="Italic"
+                                                    Text="{Binding TypeText}"
+                                                    TextColor="{Binding Theme.SecondTextColor}" />
+                                                <Label
+                                                    Grid.Row="0"
+                                                    Grid.Column="1"
+                                                    BackgroundColor="{Binding TypeColor}"
+                                                    FontAttributes="Bold"
+                                                    Text="{Binding Name}"
+                                                    TextColor="{Binding Theme.MainTextColor}"
+                                                    VerticalOptions="End" />
+
+                                            </Grid>
                                         </Frame>
                                     </ViewCell>
 
@@ -238,10 +233,11 @@
                         </ListView>
                     </Frame>
 
-                    <BoxView Color="{Binding Theme.FourthColor}"
+                    <BoxView
                         Grid.Row="1"
                         Grid.ColumnSpan="10"
-                        Style="{StaticResource boxView_Format}" />
+                        Style="{StaticResource boxView_Format}"
+                        Color="{Binding Theme.FourthColor}" />
 
 
 

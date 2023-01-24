@@ -1,20 +1,12 @@
-﻿using CommunityToolkit.Maui.Behaviors;
-using CommunityToolkit.Maui.Converters;
-using CommunityToolkit.Maui.Core;
-using Stay_Halal.MVVM.Model;
-using Microsoft.Maui.ApplicationModel;
-using System;
-using System.Collections.Generic;
+﻿using Stay_Halal.MVVM.Model;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Stay_Halal.Scripts.Libraries.Dynamic;
 public class Theme_Lib
 {
     #region Private Data
-    private static List<Color> _randomeColorList = new List<Color>()
+    private static readonly List<Color> _randomeColorList = new()
         {
             Colors.AliceBlue, Colors.AntiqueWhite, Colors.Aqua,
             Colors.Aquamarine, Colors.Chocolate, Colors.Red,
@@ -23,7 +15,7 @@ public class Theme_Lib
             Colors.DarkGoldenrod,Colors.DarkMagenta
 };
 
-    private static ThemeModel lightTheme = new ThemeModel(AppTheme.Light,
+    private static readonly ThemeModel lightTheme = new(AppTheme.Light,
                                                        "#40D690",
                                                          "#9AD870",
                                                          "#D8B100",
@@ -35,7 +27,7 @@ public class Theme_Lib
                                                           "#A2ACAD");
 
 
-    private static ThemeModel darkTheme = new ThemeModel(AppTheme.Dark,
+    private static readonly ThemeModel darkTheme = new(AppTheme.Dark,
                                                           "#305559",
                                                           "#7FB77E",
                                                           "#ADCC94",

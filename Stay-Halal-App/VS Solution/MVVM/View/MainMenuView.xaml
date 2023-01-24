@@ -15,74 +15,74 @@
         <ScrollView Grid.Row="1" Margin="{OnIdiom Phone=15, Default=25}">
 
             <VerticalStackLayout
-            Grid.Row="1"
-            Padding="8.5"
-            Spacing="30">
+                Grid.Row="1"
+                Padding="8.5"
+                Spacing="30">
 
 
 
-            <VerticalStackLayout Spacing="15">
-                <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+                <VerticalStackLayout Spacing="15">
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
-                    <Button
-                        Background="{Binding Theme.BackgroundButtonGradient}"
-                        Command="{Binding ProductCommand}"
-                        HeightRequest="60"
-                        Text="{Binding ProductButtonText}"
-                        TextColor="{Binding Theme.MainTextColor}" />
-                </Frame>
+                        <Button
+                            Background="{Binding Theme.BackgroundButtonGradient}"
+                            Command="{Binding ProductCommand}"
+                            HeightRequest="60"
+                            Text="{Binding ProductButtonText}"
+                            TextColor="{Binding Theme.MainTextColor}" />
+                    </Frame>
 
-                <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
+                    <HorizontalStackLayout Style="{StaticResource horizontStack_Info}">
 
-                    <Label
-                        Style="{StaticResource labelTitle_Info}"
-                        Text="{Binding FaqTitel}"
-                        TextColor="{Binding Theme.MainTextColor}" />
+                        <Label
+                            Style="{StaticResource labelTitle_Info}"
+                            Text="{Binding FaqTitel}"
+                            TextColor="{Binding Theme.MainTextColor}" />
 
-                    <Image Source="{Binding FaqIcon}" Style="{StaticResource Image_Info}" />
+                        <Image Source="{Binding FaqIcon}" Style="{StaticResource Image_Info}" />
 
-                </HorizontalStackLayout>
+                    </HorizontalStackLayout>
 
-                <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
+                    <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
-                    <Label
-                        Style="{StaticResource labelMessege_Info}"
-                        Text="{Binding FaqDesc}"
-                        TextColor="{Binding Theme.MainTextColor}" />
+                        <Label
+                            Style="{StaticResource labelMessege_Info}"
+                            Text="{Binding FaqDesc}"
+                            TextColor="{Binding Theme.MainTextColor}" />
 
-                </Frame>
+                    </Frame>
 
-                <Frame Background="{Binding Theme.BackgroundGradientv2}" CornerRadius="25">
-                    <ListView
-                        HeightRequest="250"
-                        HorizontalScrollBarVisibility="Always"
-                        ItemTapped="ListView_ItemTapped"
-                        ItemsSource="{Binding Qestions}"
-                        RowHeight="80"
-                        SeparatorColor="{Binding Theme.SecondColor}"
-                        VerticalScrollBarVisibility="Always">
+                    <Frame Background="{Binding Theme.BackgroundGradientv2}" CornerRadius="25">
+                        <ListView
+                            HeightRequest="250"
+                            HorizontalScrollBarVisibility="Always"
+                            ItemTapped="ListView_ItemTapped"
+                            ItemsSource="{Binding Qestions}"
+                            RowHeight="80"
+                            SeparatorColor="{Binding Theme.SecondColor}"
+                            VerticalScrollBarVisibility="Always">
 
-                        <ListView.ItemTemplate>
-                            <DataTemplate x:DataType="model:QAModel">
-
-
-
-                                <TextCell
-                                    Detail="{Binding AwnserTitle}"
-                                    DetailColor="{Binding Theme.SecondTextColor}"
-                                    Text="{Binding QestionTitle}"
-                                    TextColor="{Binding Theme.MainTextColor}" />
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-
-
-                    </ListView>
-                </Frame>
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="model:QAModel">
 
 
 
+                                    <TextCell
+                                        Detail="{Binding AwnserTitle}"
+                                        DetailColor="{Binding Theme.SecondTextColor}"
+                                        Text="{Binding QestionTitle}"
+                                        TextColor="{Binding Theme.MainTextColor}" />
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+
+
+                        </ListView>
+                    </Frame>
+
+
+
+                </VerticalStackLayout>
             </VerticalStackLayout>
-        </VerticalStackLayout>
         </ScrollView>
 
     </Grid>

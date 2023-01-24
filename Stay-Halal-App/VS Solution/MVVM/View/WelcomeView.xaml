@@ -95,10 +95,10 @@
                     <Frame BorderColor="{Binding Theme.FourthColor}" Style="{StaticResource frame_Info}">
 
                         <Button
-                            TextColor="{Binding Theme.MainTextColor}"
                             Background="{Binding Theme.BackgroundButtonGradient}"
                             Command="{Binding ConfirmCommand}"
-                            Text="{Binding ConfirmButtonTitle}" />
+                            Text="{Binding ConfirmButtonTitle}"
+                            TextColor="{Binding Theme.MainTextColor}" />
                     </Frame>
 
                 </VerticalStackLayout>

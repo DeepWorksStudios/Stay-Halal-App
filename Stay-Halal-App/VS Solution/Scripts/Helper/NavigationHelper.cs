@@ -1,19 +1,18 @@
-﻿
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace Stay_Halal.Scripts.Helper;
 
 public class NavigationHelper
 {
-    Shell shell;
-    bool canContinue = false,unlooked=true,init=false;       
-    int times=0;
-    int steps = 0,completedSteps=0;
-    string route = "";
-
-
-    string[] reRouting;
+    #region Private Data
+    private Shell shell;
+    private bool canContinue = false,unlooked=true,init=false;
+    private int times=0;
+    private int steps = 0,completedSteps=0;
+    private string route = "";
+    private string[] reRouting;
+    private bool desteniArrive;
+    #endregion
 
     #region Constructor/Destructor
     public void Init()
@@ -37,13 +36,35 @@ public class NavigationHelper
     }
     #endregion
 
-    bool desteniArrive;
-    async void GoHome()
+    #region Public Calls
+    public void Look(string _route)
     {
-       
-        var route = $"//MainMenu";
-        await Shell.Current.GoToAsync(route); //await Shell.Current.fly;
+        Shell.Current.FlyoutIsPresented = false;
+        Shell.Current.FlyoutBehavior = FlyoutBehavior.Disabled;
+        Debug.WriteLine("Look");
+        route = _route;
+        unlooked = false;
     }
+    public void Unlook()
+    {
+        Shell.Current.FlyoutBehavior = FlyoutBehavior.Flyout;
+        Debug.WriteLine("Unlook");
+        route = "";
+        unlooked = true;
+    }
+
+    public void Continue(int _times)
+    {
+
+
+        Debug.WriteLine("Continue: " + _times);
+        canContinue = true;
+        times = _times;
+        steps = 0;
+    }
+    #endregion
+
+    #region Private Calls
     private void Current_Navigating(object sender, ShellNavigatingEventArgs e)
     {
         Debug.WriteLine("Navigating");
@@ -93,14 +114,14 @@ public class NavigationHelper
 
      
         int amount = Math.Abs(e.Previous.Location.ToString().Split('/').Length - e.Current.Location.ToString().Split('/').Length);
-        string[] locArray = e.Previous.Location.ToString().Split('/');
+       
         
         if(steps > (completedSteps+1))
             completedSteps = steps;
 
         int leftover = times - completedSteps;
 
-        int maxLength = locArray.Length - leftover;
+      
 
         Debug.WriteLine("LeftOverToContinue = " + leftover);
     
@@ -131,39 +152,17 @@ public class NavigationHelper
 
 
     }
-
-
-
-    public void Look(string _route)
-    {
-        Shell.Current.FlyoutIsPresented = false;
-        Shell.Current.FlyoutBehavior = FlyoutBehavior.Disabled;
-        Debug.WriteLine("Look");
-        route = _route;
-        unlooked=false;   
-    }
-    public void Unlook()
-    {   
-        Shell.Current.FlyoutBehavior = FlyoutBehavior.Flyout;
-        Debug.WriteLine("Unlook");
-        route = "";
-        unlooked = true;
-    }
-
-    public void Continue(int _times)
+    private async void GoHome()
     {
 
-
-        Debug.WriteLine("Continue: "+_times);
-        canContinue = true;
-        times= _times;
-        steps = 0;
+        var route = $"//MainMenu";
+        await Shell.Current.GoToAsync(route); //await Shell.Current.fly;
     }
-
     private async void GoTO(string path)
     {
         Unlook();
         await Shell.Current.GoToAsync(path);
         Look(path);
     }
+    #endregion
 }

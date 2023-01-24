@@ -1,8 +1,4 @@
-﻿
-
-using Stay_Halal.MVVM.Model;
-using Stay_Halal.Scripts.Libraries.Static;
-
+﻿using Stay_Halal.MVVM.Model;
 
 namespace Stay_Halal.Scripts.Libraries.Dynamic;
 
@@ -10,7 +6,7 @@ public class Setting_Lib
 {
 
     #region Private Data
-    private SettingModel setting_Data;
+    private readonly SettingModel setting_Data;
     private bool hasKey = false;
     #endregion
 
@@ -57,9 +53,11 @@ public class Setting_Lib
     }
     private static SettingModel Get_Preferences()
     {
-        SettingModel settingModel = new();
-        settingModel.DataCaching = Preferences.Get("sh_datacache", true);
-        settingModel.Theme = (AppTheme)Preferences.Get("sh_theme", 0);
+        SettingModel settingModel = new()
+        {
+            DataCaching = Preferences.Get("sh_datacache", true),
+            Theme = (AppTheme)Preferences.Get("sh_theme", 0)
+        };
         return settingModel;
     }
     #endregion

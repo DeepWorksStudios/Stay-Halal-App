@@ -56,7 +56,7 @@ public partial class ContactViewModel : BaseViewModel
     [RelayCommand]
     private void OnEntryTextChanged()
     {
-        ContactEmail = Localisation_Lib.ContactEmail;
+        ContactEmail = Lokalisation_Lib.ContactEmail;
     }
 
     [RelayCommand]
@@ -81,18 +81,18 @@ public partial class ContactViewModel : BaseViewModel
     #region Constructor/Destructor
     public ContactViewModel() : base()
     {
-        Title = Localisation_Lib.ViewTitle_Contact;
+        Title = Lokalisation_Lib.ViewTitle_Contact;
 
-        ContactTitle= Localisation_Lib.ContactTitle;
-        ContactDesc = Localisation_Lib.ContactDesc;
-        ContactEmail = Localisation_Lib.ContactEmail;
+        ContactTitle= Lokalisation_Lib.ContactTitle;
+        ContactDesc = Lokalisation_Lib.ContactDesc;
+        ContactEmail = Lokalisation_Lib.ContactEmail;
 
-        SocailMediaTitle = Localisation_Lib.ContactSocialMedia;
-        WebsiteTitle = Localisation_Lib.ContactWebsite;
-        FacebookTitle = Localisation_Lib.ContactFacebook;
-        InstagramTitle = Localisation_Lib.ContactInstagram;
+        SocailMediaTitle = Lokalisation_Lib.ContactSocialMedia;
+        WebsiteTitle = Lokalisation_Lib.ContactWebsite;
+        FacebookTitle = Lokalisation_Lib.ContactFacebook;
+        InstagramTitle = Lokalisation_Lib.ContactInstagram;
 
-        SocailMediaDesc = Localisation_Lib.ContactSocialMediaDesc;
+        SocailMediaDesc = Lokalisation_Lib.ContactSocialMediaDesc;
     }
     #endregion
 

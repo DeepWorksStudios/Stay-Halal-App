@@ -1,9 +1,7 @@
 ﻿
 
 using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
-using Stay_Halal.MVVM.Model;
-using Stay_Halal.MVVM.View;
+
 using Stay_Halal.Scripts.Libraries.Dynamic;
 using Stay_Halal.Scripts.Libraries.Static;
 
@@ -11,29 +9,36 @@ namespace Stay_Halal.MVVM.ViewModel;
 
 public partial class BarcodeScannerViewModel : BaseViewModel
 {
+    #region Private Data
+    private readonly Scanner_Lib scanner;
+    #endregion
+
+    #region Observable Data
     [ObservableProperty]
     private Color frameColor;
 
-    Scanner_Lib scanner;
 
     [ObservableProperty]
     private string id;
+    #endregion
 
-
-    public void OnConfirmInput(string input)
-    {
-        scanner.ScanProduct(input);
-    }
-    
-
+    #region Constructor/Destructor
     public BarcodeScannerViewModel(Scanner_Lib _scanner) : base()
     {
         scanner = _scanner;
       
-        Title = Localisation_Lib.ViewTitle_BarcodeScanner;
+        Title = Lokalisation_Lib.ViewTitle_BarcodeScanner;
 
         FrameColor = Color.Parse("#FF0000");
  
     }
+    #endregion
+
+    #region Public Calls
+    public void OnConfirmInput(string input)
+    {
+        scanner.ScanProdukt(input);
+    }
+    #endregion
 }
 

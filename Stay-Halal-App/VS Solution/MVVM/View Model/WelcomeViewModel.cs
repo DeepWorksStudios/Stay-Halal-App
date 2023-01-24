@@ -61,14 +61,14 @@ public partial class WelcomeViewModel : BaseViewModel
     {
         setting_lib = _setting_Lib;
 
-        Title = Localisation_Lib.ViewTitle_Welcome;
+        Title = Lokalisation_Lib.ViewTitle_Welcome;
 
-        WelcomeTitle = Localisation_Lib.WelcomeTitle;
-        WelcomeDesc = Localisation_Lib.WelcomeDesc;
-        InfoTitle = Localisation_Lib.WelcomeInfoTitle;
-        InfoDesc = Localisation_Lib.WelcomeInfoDesc;
+        WelcomeTitle = Lokalisation_Lib.WelcomeTitle;
+        WelcomeDesc = Lokalisation_Lib.WelcomeDesc;
+        InfoTitle = Lokalisation_Lib.WelcomeInfoTitle;
+        InfoDesc = Lokalisation_Lib.WelcomeInfoDesc;
 
-        ConfirmButtonTitle = Localisation_Lib.WelcomeButtonTitle;
+        ConfirmButtonTitle = Lokalisation_Lib.WelcomeButtonTitle;
     }
     #endregion
 
